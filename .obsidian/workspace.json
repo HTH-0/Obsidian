@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "34bab0259b05ba7f",
+        "id": "1834352cff57ce37",
         "type": "tabs",
         "children": [
           {
-            "id": "f7d855b44a074b30",
+            "id": "c9a7835960833a4f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "무제 5.md",
-                "mode": "source",
-                "source": false
+                "path": "MYSQL"
               },
               "icon": "lucide-file",
-              "title": "무제 5"
+              "title": "MYSQL"
             }
           }
         ]
@@ -198,16 +196,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f7d855b44a074b30",
+  "active": "4a155403c166ade4",
   "lastOpenFiles": [
-    "무제 3.md",
-    "무제 1.md",
-    "무제.md",
-    "무제 5.md",
-    "무제 2.md",
-    "무제 4.md",
-    "VSCODE/환영합니다!.md",
+    "VSCODE/JAVASCRIPT/JAVASCRIPT.md",
+    "VSCODE/JAVASCRIPT",
+    "VSCODE/CSS/CSS.md",
+    "VSCODE/CSS",
+    "PROJECT/PROJECT.md",
+    "PROJECT",
+    "VSCODE/HTML/HTML.md",
+    "VSCODE/HTML",
+    "VSCODE/VSCODE.md",
     "VSCODE",
+    "개발/VSCODE/무제.md",
+    "MYSQL/VSCODE/VSCODE.md",
+    "MYSQL/VSCODE",
+    "개발/Untitled.md",
+    "개발/Untitled 1.md",
+    "무제 4.md",
+    "MYSQL/MYSQL/MYSQL.md",
+    "MYSQL/MYSQL",
+    "MYSQL/MYSQL.md",
+    "MYSQL",
+    "무제 2.md",
+    "무제 5.md",
+    "Tags/무제.md",
+    "무제 1.md",
+    "무제 3.md",
+    "무제.md",
+    "VSCODE/환영합니다!.md",
     "Tags/Tags.md",
     "Tags",
     "무제",

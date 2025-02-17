@@ -36,9 +36,14 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "//무제",
-    "//VSCODE",
     "/",
-    "//Tags"
+    "//folder1",
+    "//개발/개발/VSCODE",
+    "//개발",
+    "//MYSQL/MYSQL/VSCODE",
+    "//VSCODE/VSCODE/HTML",
+    "//MYSQL/MYSQL/MYSQL",
+    "//PROJECT"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
