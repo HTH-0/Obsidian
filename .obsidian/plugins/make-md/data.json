@@ -43,8 +43,10 @@
     "//MYSQL/MYSQL/VSCODE",
     "//MYSQL/MYSQL/MYSQL",
     "//VSCODE/VSCODE/HTML/VSCODE/CSS",
+    "//VSCODE/VSCODE/HTML/VSCODE/HTML/logo",
     "//VSCODE",
-    "//VSCODE/VSCODE/HTML/VSCODE/HTML/logo"
+    "//MYSQL",
+    "//VSCODE/VSCODE/JAVASCRIPT"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
