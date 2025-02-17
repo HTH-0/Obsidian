@@ -1,0 +1,335 @@
+main {
+    max-width: 1260px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* 1 메인 네비 */
+.main-nav {
+    display: block;
+}
+
+/* 2 메인메뉴 */
+.main-nav>.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0;
+    font-size: 9px;
+}
+
+.main-nav>.main-menu>.menu-left>li::before {
+    content: ">";
+    padding: 0 10px;
+}
+
+.main-nav>.main-menu ul li a {
+    color: gray;
+}
+
+.main-nav>.main-menu ul li a:hover {
+    color: black;
+}
+
+.main-nav>.main-menu>.menu-left>li:first-child::before {
+    content: none;
+}
+
+.main-nav>.main-menu>.menu-right>li::before {
+    content: "|";
+    padding: 0 10px;
+}
+
+.main-nav>.main-menu>.menu-right>li:first-child::before {
+    content: none;
+}
+
+.main-nav>.main-menu ul {
+    display: flex;
+}
+
+
+/* 2 메인 네임 */
+.main-name {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.main-name>span {
+    font-size: 20px;
+}
+
+.main-name>button {
+    border: none;
+    background-color: white;
+}
+
+.main-name>span:nth-child(3) { 
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 1 메인 컨텐츠 */
+.main-contents {}
+
+.main-contents>.contents-nav {
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contents-nav>.con-left {
+    display: flex;
+    font-size: 9px;
+}
+
+.contents-nav>.con-left>li:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 35px;
+    border: 1px solid gainsboro;
+    border-bottom: none;
+    border-top: none;
+    padding: 2px 20px 0px 19px;
+    gap: 13px;
+}
+
+.contents-nav>.con-left>li:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 30px;
+    border: 1px solid gainsboro;
+    border-left: none;
+    margin-top: auto;
+    transition: .6s;
+    perspective: 1000px;
+    position: relative;
+    transform-style: preserve-3d;
+}
+/* compare/상품비교 rotate */
+.contents-nav>.con-left>li:last-child>a{
+    backface-visibility: hidden;
+    display: flex;
+    position: absolute;
+}
+.contents-nav>.con-left>li>a.back{
+    transform: rotateX(180deg);
+}
+.contents-nav>.con-left>li:nth-child(2):hover{
+    transform: rotateX(180deg);
+}
+
+.contents-nav>.con-right {
+    display: flex;
+    font-size: 11px;
+    gap: 10px;
+    transition: .6s;
+}
+.contents-nav>.con-right>ul{
+    display: flex;
+    font-size: 11px;
+    gap: 13px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+.contents-nav>.con-right>ul>li{
+    transition: 1s;
+}
+/* 햄버거 호버 시 rotate */
+.contents-nav>.con-right>ul>li:hover{
+    transform: rotateX(360deg);
+}
+.contents-nav>.con-right>ul>li>a{
+    color: gray;
+}
+.contents-nav>.con-right>li>a {
+    color: gray;
+}
+
+.contents-nav>.con-right>li:nth-child(4)::after {
+    content: "|";
+    margin-left: 10px;
+}
+
+@media(max-width:850px) {
+    .contents-nav>.con-right>li {
+        display: none;
+    }
+}
+
+.contents-nav>.con-right>li>a:hover {
+    color: black;
+}
+
+/* 상품 */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-list>.product {
+    /* 화면 4분할에 마진만큼 뺀 수치 >> 4개가 된다 */
+    flex-basis: calc(25% - 10px);
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin: 5px;
+    margin-top: 30px;
+}
+
+.product-list>.product>div:first-child {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+.product-list>.product>div>img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: 1px solid gainsboro;
+    ;
+    transition: .5s;
+}
+
+.product-list>.product>div>.product-mark {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    padding: 5px 10px;
+}
+
+.product-list>.product>div>.product-mark>li {
+    z-index: 100;
+    height: 10px;
+    list-style: none;
+    font-size: 8px;
+    text-align: center;
+}
+
+.product-list>.product>div>img:hover {
+    scale: 1.1;
+}
+
+.product-list>.product>div>img:hover~.product-mark {
+    display: flex;
+}
+
+.product-list>.product>.product-spec>li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+/* 페이지 리스트 */
+.main-pagelist {
+    
+    
+}
+
+.main-pagelist>ul {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* 사이드 메뉴바 */
+.side-nav {
+    position: fixed;
+    align-items: center;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.side-nav ul{
+    list-style: none;
+    height: 40px;
+    display: flex;
+    transition: .5s;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    
+}
+
+.side-nav ul li {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-nav ul li:nth-child(1) {
+    width: 50px;
+    height: 40px;
+}
+
+.side-nav ul li:nth-child(2) {
+    width: 100px;
+    height: 40px;
+}
+
+.side-nav ul:hover{
+    transform: translateX(-100px);
+}
+.side-nav>div{
+    list-style: none;
+    width: 150px;
+    height: 40px;
+}
+.side-nav>div>li{
+    width: 50px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.side-nav ul li a{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(220, 220, 220, 0.192);
+}
+.side-nav ul li a:hover{
+    color: black;
+    font-weight: bold;
+}
+@media(max-width: 750px){
+    .side-nav{
+        display:none;
+    }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .status-block{
+            width: 500px;
+            height: 50px;
+            border: 1px solid gainsboro;
+            padding: 5px;
+            margin-top: 10px;
+        }
+        .gauge{
+            width: 0px;
+            height: 48px;
+            background-color: orange;
+            transition: .5s;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="poppy.bark()">짖어!</button>
+    <button onclick="poppy.toString()  ">확인</button>
+
+    <button onclick="myCar.accel()">가속</button>
+    <button onclick="myCar.break()">감속</button>
+    <button onclick="myCar.status()">상태확인</button>
+
+    <div class="status-block">
+        <div class="gauge"></div>
+    </div>
+
+    <script>
+        // object(사물) < 객체
+        // 객체의 구성요소
+        // 속성(객체의 고유 data - 저장대상) / 기능
+
+        const poppy = {
+            //속성
+            name : "뽀삐",
+            breed : "포메라니안",
+            age : 1,
+            birth : "2025-01-01",
+
+            //기능
+            bark:function(){
+                alert(this.name + " 이(가) 짖습니다.");
+            },
+            toString:function(){
+                alert(`이름:${this.name}\n나이:${this.age}\n견종:${this.breed}`);
+            }
+        }
+        poppy.name="티모";
+        
+        // 
+        const gaugeEl = document.querySelector('.gauge');
+        const myCar = {
+            //속성
+            owner : "홍길동",
+            ctg : "세단",
+            fueltype : "가솔린",
+            speed : 0,
+            fuelamount : 100,
+            max_speed : 200,
+            min_speed : 0,
+            fuelamount : 100,
+            //기능
+            accel : function(){
+
+                if((this.speed + 10) > this.max_speed){
+                    this.speed = this.max_speed;
+                    gaugeEl.style.width=`${this.speed * 2}px`;
+                    alert(`최대 속도입니다. 현재속도 : ${this.max_speed}`)
+                }
+                
+                this.speed = this.speed + 10;
+                gaugeEl.style.width = `${this.speed}px`;
+                console.log(`accel,${this.owner}님의 차량 현재속도 : ${this.speed}`);
+                
+            },
+            break : function(){
+
+                if((this.speed - 10) > this.min_speed){
+                    this.speed = this.min_speed;
+                    // gaugeEl.style.width=`${this.speed * 2}px`;
+                    alert(`최대 속도입니다. 현재속도 : ${this.min_speed}`)
+                }
+
+                this.speed -= 10;
+                gaugeEl.style.width = `${this.speed}px`;
+                console.log(`break,${this.owner}님의 차량 현재속도 : ${this.speed}`);
+            },
+            status : function(){
+                alert(`소유자:${this.owner}\n차종:${this.ctg}\n현재속도:${this.speed}\n연료량:${this.fuelamount}`);
+            }   
+        }
+        console.log(myCar);
+        
+    </script>
+</body>
+</html>

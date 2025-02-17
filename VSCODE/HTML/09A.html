@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin:0;
+            padding:0;
+            position: relative;
+        }
+        header{
+            position:fixed;
+            left:0;
+            top:0;
+            width:100%;
+            height:50px;
+            border:1px solid;
+            background-color: white;
+            z-index:5;
+        }
+        main{
+            position: relative;
+            top : 120px;
+
+        }
+    </style>
+</head>
+
+<body> 
+
+
+    <!-- .wrapper>header^main>section*3^footer -->
+    <div class="wrapper">
+        
+        <header style="height:100px; border:1px solid; display:flex; justify-content: center; align-items: center; gap:15px;">
+            <a href="#html">HTML</a>
+            <a href="#css">CSS</a>
+            <a href="#js">JS</a>
+        </header>
+    
+    </div>
+    <main>
+        <section>
+            <!-- HTML -->
+             <a name="html"></a>
+             <h1>HTML</h1>
+            HTML 을 작성하려면 문서타입이라는 것이 반드시 필요합니다.
+            문서 타입을 DTD 라고 하며,
+                DTD(DOCTYPE or Document type Definition)는 DTD는 HTML 문서의 반드시 최상 위에 위치해야 합니다.
+            이러한 문서형 정의로 HTML5, HTML4, XHTML 세가지 문서 유형이 존재하며 기술한 유형에 따라 마크업 문서의 요소와
+             속성(attribute) 등을 처리하는 기준이 되고 이것은 또한 유효성 검사에 이용된다.
+            
+            
+                문서형(DTD) 정의를 생략하는 경우 웹 브라우저가 표준모드가 아니라 비표준모드(Quirks mode)로 렌더링되어 크로
+                스 브라우징에 어려움을 겪을 수 있습니다.
+            
+            
+        
+            DOCTYPE 의 버전별선언(HTML5, HTML4, XHTML)에 따라서 HTML 은 지원하는 태그가 조금씩 다릅니다.
+            그리고 DOCTYPE 태그가 아니라 선언문으로서의 역할이기 때문에 HTML문서 최상위에 위치하는 것입니다.
+            또한 DOCTYPE 종료하는 태그가 없는 것이 특징이며 
+            
+            아래 문서가 기본 HTML5 문서타입입니다.
+        </section>
+        <section>
+            <!-- CSS -->
+             <a name="css"></a>
+             <h1>CSS</h1>
+            CSS에는 크게 두 가지 박스(블록 박스와 인라인 박스) 유형이 있습니다. 이러한 특성은 박스가 페이지 대열 측면 및 
+            페이지의 다른 박스와 관련하여 박스의 작동 방식을 나타냅니다.
+
+            박스가 블록으로 정의되면 다음과 같은 방식으로 동작합니다.
+            
+            박스는 인라인 방향으로 연장되어 상위 콘테이너에서 사용 가능한 공간을 채웁니다. 대부분은 경우 이것은 박스가 
+            사용 가능한 공간을 100%로 채우면서 상위 콘테이너 너비만큼 된다는 의미입니다.
+            박스는 새 줄로 행갈이를 합니다.
+            width와 height 속성은 존중됩니다.
+            패딩과 여백, 테두리로 인해 다른 요소들이 박스로부터 밀려납니다.
+            여러분이 디스플레이 유형은 인라인으로 변경하지 않는 한 머리글와 같은 요소는 모두 기본값으로 외부 디스플레이
+             유형을 block 사용합니다.
+            
+            박스의 외부 디스플레이 유형이 inline일 경우:
+            
+            박스는 새 줄로 행갈이를 하지 않습니다.
+            width와 height 속성은 적용되지 않습니다.
+            패딩과 여백, 테두리는 다른 인라인 박스들이 당 박스로부터 멀어지지게 하지 않습니다.
+        </section>
+        <section>
+            <!-- JAVAScript -->
+             <a name="js"></a>
+             <h1>JS</h1>
+            JavaScript (JS)는 가벼운, 인터프리터 혹은 just-in-time 컴파일 프로그래밍 언어로, 일급 함수를 지원합니다.
+             웹 페이지를 위한 스크립트 언어로 잘 알려져 있지만, 
+            Node.js, Apache CouchDB, Adobe Acrobat처럼 많은 비 브라우저 환경에서도 사용하고 있습니다.
+             JavaScript는 프로토타입 기반, 다중 패러다임, 단일 스레드, 동적 언어로, 객체지향형, 명령형, 선언형(함
+             수형 프로그래밍 등) 스타일을 지원합니다.
+            JavaScript의 동적 기능에는 런타임 객체 구성, 변수 매개변수 목록, 함수 변수, (eval을 통한) 동적 스크립트 생성,
+             (for...in 및 Object 유틸리티를 통한) 객체 검사 그리고 소스 코드 복구(JavaScript 함수는 소스 텍스트를
+              저장하고 toString()을 통해 다시 찾을 수 있습니다.)가 있습니다.
+        </section>
+    </main>
+    <footer></footer>
+
+
+
+</body>
+</html>

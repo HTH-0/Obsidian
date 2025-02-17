@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        nav {
+            height: 80px;
+            border: 1px solid;
+        }
+
+        nav>.main-menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        nav>.main-menu>li {
+            background-color: orange;
+            color: white;
+            text-align: center;
+            border: 1px solid;
+            min-width: 120px;
+            max-width: 150px;
+            width: 100%;
+            height: 45px;
+            line-height: 45px;
+        }
+        nav>.main-menu>li>a{
+            display: block;
+        }
+        nav>.main-menu>li>.sub-menu{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background-color: skyblue;
+            display: none;
+        }
+        nav>.main-menu>li:hover>.sub-menu{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="top-header"></div>
+            <nav>
+                <ul class="main-menu"></ul>
+            </nav>
+        </header>
+        <footer>
+            <!-- on submit="return false"  :  서버에 내용을 전송하지 않는다 -->
+            <form name="navForm" onsubmit="return false">
+                <input type="text" name="menuname">
+                <a href="javascript:void(0)" class="nav-btn">메인메뉴 만들기</a>
+            </form>
+            <form name="modeForm" onsubmit="return false">
+                <!-- <input type="text" name="setViewMode"> -->
+                <select name="setViewMode" id="">
+                    <option value="mobile">모바일</option>
+                    <option value="desktop">데스크탑</option>
+                </select>
+                <a href="javascript:void(0)" class="view-mode-btn">가로/세로형 변환</a>
+            </form>
+            <form name="submenuForm" onsubmit="return false">
+                <input type="text" name="mainname" placeholder="메인 메뉴명을 입력하세요">
+                <input type="text" name="subname" placeholder="서브 메뉴명을 입력하세요">
+                <a href="javascript:void(0)" class="sub-menu-btn">NAV-서브메뉴 만들기</a>
+            </form>
+        </footer>
+    </div>
+
+
+    <script>
+        const mainMenuEl = document.querySelector('.main-menu');        /// main-menu 라는 클래스를 찾고 mainMenu에 연결
+        // const settings = prompt('NAV 메뉴를 입력하세요. 띄어쓰기로 구분됩니다.')        // 프롬프트 띄우기
+        const navBtn = document.querySelector('.nav-btn');          // nav-btn 클래스 찾고 연결
+
+        // ---------------메인메뉴 만들기
+        navBtn.addEventListener('click', () => {// 이벤트 추가
+            const form = document.navForm;  // 해당 이름의 form을 찾고 form에 연결
+            const settings = form.menuname.value;       // menuname이라는 이름을 가진 입력 요소의 값을 settings 변수에 저장하는 코드
+
+
+            const menu_arr = settings.split(' ');// 띄어쓰기를 기준으로 배열을 만든다.
+            console.log(menu_arr);          // 중간점검
+
+            // 기존 자식 노드 (li) 제거
+            while (mainMenuEl.firstChild) {           //firstChild이 없어질 때 까지 반복
+                mainMenuEl.removeChild(mainMenuEl.firstchild);
+            }
+
+            // 새로운 자식 노드(li) 추가 (for문을 이용)
+            //     for(i=0; i<menu_arr.length; i++){           // 반복문 (배열의 길이만큼 반복)
+            //     const liEl = document.createElement(`li`);  // li 요소를 새로 만든다
+            //     liEl.innerHTML = menu_arr[i];           // li에 배열의 값을 덮어쓰기 한다.
+            //     mainMenuEl.appendChild(liEl);       // mainMenu에 li 요소를 추가한다.
+            // }
+            // 새로운 자식 노드 추가 (배열함수를 이용)
+            menu_arr.forEach((str) => {
+                const liEl = document.createElement(`li`);  // li 요소를 새로 만든다
+                const aEl = document.createElement(`a`);    // a 태그 만든다
+                aEl.setAttribute('href', 'javascript:void(0)');  //a요소의 href를 java~로 설정한다.
+                aEl.innerHTML = str;    // li에 배열의 값을 덮어쓰기 한다.
+
+
+                liEl.appendChild(aEl);   // li에 a(자식) 추가
+                mainMenuEl.appendChild(liEl);   // mainMenu에 li 요소를 추가한다.
+            });
+        });
+        // [중요] 배열함수 / 노드CRUD / 이벤트 / 동기&비동기 
+
+        // -------------------뷰 모드 버튼 만들기
+        const ViewModeBtnEl = document.querySelector('.view-mode-btn');
+        ViewModeBtnEl.addEventListener('click', () => {
+
+            const form = document.modeForm;     // modeForm 이름으로 된 요소를 form에 연결
+            const modeOption = form.setViewMode.value; // set~~이라는 이름을 가진 입력 요소의 값을 modeOption 변수에 저장하는 코드
+            console.log('modeOption', modeOption);// 옵션이 잘 적용되는지 중간점검
+
+
+            const wrapperEl = document.querySelector('.wrapper');
+            // 옵션이 모바일 일 때,
+            if (modeOption === "mobile") {//옵션값, 자료형이 모바일로 되어있다면
+                wrapperEl.style.width = "380px";
+                wrapperEl.style.margin = "0 auto";
+            }
+            // 옵션이 데스크탑 일 때,
+            else if (modeOption === "desktop") {
+                wrapperEl.style.width = "100%";
+                wrapperEl.style.margin = "0 auto";
+            }
+        });
+
+        // --------------- 서브메뉴 만들기
+        const SubMenuBtnEl = document.querySelector('.sub-menu-btn');
+        SubMenuBtnEl.addEventListener('click', () => {
+
+            const form = document.submenuForm;
+            const mainname = form.mainname.value;
+            const subname = form.subname.value;
+
+            console.log(mainname, subname);
+
+            //
+            // const liEl = document.createElement('li');
+
+            // 메인메뉴 찾기
+            const mainMenuLiEls = document.querySelectorAll('.main-menu>li>a');    // 메인메뉴의 모든 li 들을 가져온다,   Els>> 여러개의 요소를 다룰때 뒤에 s 붙임.
+            // console.log(mainMenuLiEls);// 중간점검
+
+            mainMenuLiEls.forEach((el) => {
+                if(el.textContent.trim() === mainname) {
+                    console.log('find!!', el);
+                    const liEl = el.parentNode;
+                    console.log(liEl);
+
+                    // 서브메뉴 만들기
+                    const submenuArr = subname.split(' ');//서브메뉴가 공백을 기준으로 배열로 저장
+                    // ul, li, a 태그 생성
+                    const ulEl = document.createElement('ul');
+                    ulEl.classList.add('sub-menu');  // ul태그에 클래스를 추가해준다.
+
+                    submenuArr.forEach(str => {
+                        const newLi = document.createElement('li');
+                        const newA = document.createElement('a');
+                        newA.setAttribute('href','javascript:void(0)');
+                        newA.innerHTML=str;
+
+                        newLi.appendChild(newA);
+                        ulEl.appendChild(newLi);
+                    });
+                    liEl.appendChild(ulEl);
+                }
+            });
+
+
+        });
+
+    </script>
+</body>
+
+</html>

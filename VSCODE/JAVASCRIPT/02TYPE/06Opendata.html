@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/중구맛집.js"></script>
+</head>
+
+<body>
+
+    <script>
+        // 중구맛집 
+        // console.log("전체 데이터 : ",중구맛집);
+
+        // 배열 OBJ 만 추출
+        const 중구맛집_data = 중구맛집.data;                    // 중구맛집.js 에서 data의 하위 항목을 가져와서 쓰기 때문 (status, total 안씀)
+        // console.log("중구맛집_data : ",중구맛집_data);
+
+        //FD_CS(음식 카테고리)가 '한식'인 맛집만 추출
+
+        let 중구한식 = 중구맛집_data.filter((item) => { return item.FD_CS == "한식"; });
+        console.log(중구한식);
+
+        // 상호명(BZ_NM)과 메뉴(MNU), 주소(GNG_CS)만 추출해서 새로운 배열로 재구성
+        const new중구맛집 = 중구맛집_data.map((item) => {
+            // return [item.BZ_NM, item.MNU, item.GNG_CS];                                  // 배열로 반환된다.  >> 속성 이름 누락, 값이 중요
+            return { "BZ_NM": item.BZ_NM, "MNU": item.MNU, "GNG_CS": item.GNG_CS }               // 객체로 반환된다. 특수코드가 없다면 "" 생략해도 된다. >> 값을 이름으로 쉽게 접근하고 싶을 때 
+        });
+        console.log(new중구맛집);
+
+        // new중구맛집에서 MNU 의 값을 메뉴명 : 가격(숫자)으로 분리
+
+        const new2중구맛집 = new중구맛집.map((item) => {
+            // br 태그 제거
+            let br_arr= item.MNU.replaceAll('<br />',"\n"); 
+            // return {
+            //     // 정규 표현식 /<br \/>    <br /> 태그를 다 지운다,   /g  해당되는 모든 태그
+            //     BZ_NM: item.BZ_NM,
+            //     MNU: item.MNU.replace(/<br \/>/g, ""),                             // replace('원본문자열', "바꿀문자열")
+            //     GNG_CS: item.GNG_CS
+            // };
+            // \n을 기준으로 배열로 자르기
+            let menu_arr = br_arr.split("\n");
+            // console.log(menu_arr);
+            // 잘린 배열의 재구성
+            menu_arr.map((menu) => {
+                menu.trim();        // 앞뒤 공백 제거
+                // console.log(menu)
+                let splited_space = menu.trim().split(' ');
+                console.log(splited_space)
+
+                //가격에 '원' 제거, ',' 제거, number 형변환
+                splited_space.map((menu_2)=>{
+                    console.log("정규표현식 확인", menu_2.match(/^\d/))
+                })
+            });
+        });
+    </script>
+</body>
+
+</html>

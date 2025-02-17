@@ -13,10 +13,10 @@
             "state": {
               "type": "mk-space",
               "state": {
-                "path": "MYSQL"
+                "path": "PROJECT/화면구현/css"
               },
               "icon": "lucide-file",
-              "title": "MYSQL"
+              "title": "css"
             }
           }
         ]
@@ -73,7 +73,7 @@
             }
           },
           {
-            "id": "4a155403c166ade4",
+            "id": "ca7b38359b7d9683",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -87,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 286.5
   },
   "right": {
     "id": "7efbba99388bfd36",
@@ -182,7 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,38 +196,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4a155403c166ade4",
+  "active": "ca7b38359b7d9683",
   "lastOpenFiles": [
-    "VSCODE/JAVASCRIPT/JAVASCRIPT.md",
-    "VSCODE/JAVASCRIPT",
-    "VSCODE/CSS/CSS.md",
-    "VSCODE/CSS",
+    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/04조/css/04.css",
+    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/04조/css/03.css",
+    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/04조/css/02.css",
+    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/04조/css/01.css",
+    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/03조/css/04.css",
+    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/03조/css/03.css",
+    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/03조/css/02.css",
+    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/03조/css/01.css",
+    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/02조/css/04.css",
+    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/02조/css/03.css",
+    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/02조/css/02.css",
+    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/04조/README.md",
+    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/03조/README.md",
+    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/02조/README.md",
+    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/01조/README.md",
+    "VSCODE/HTML/logo/naver.png",
+    "VSCODE/HTML/logo/mainlogo.png",
+    "VSCODE/HTML/logo/kakao.png",
+    "VSCODE/HTML/logo/facebook.png",
+    "VSCODE/HTML/logo/google.png",
+    "VSCODE/HTML/logo/05check.svg",
+    "VSCODE/HTML/logo/apple.png",
+    "VSCODE/HTML/images/home.svg",
+    "VSCODE/HTML/images/test.jpg",
+    "VSCODE/HTML/images/emotion.svg",
+    "VSCODE/02CSS/05LAYOUT/폴리파크LAYOUT/04조/README.md",
+    "VSCODE/02CSS/05LAYOUT/폴리파크LAYOUT/03조/README.md",
+    "VSCODE/02CSS/05LAYOUT/폴리파크LAYOUT/02조/README.md",
+    "VSCODE/02CSS/05LAYOUT/폴리파크LAYOUT/01조/README.md",
     "PROJECT/PROJECT.md",
-    "PROJECT",
+    "PROJECT/화면구현/artshub_login.md",
+    "PROJECT/화면구현/artshub_header.md",
+    "PROJECT/화면구현/artshub_funding.md",
+    "PROJECT/화면구현/Untitled.md",
+    "PROJECT/화면구현/artshub_footer.md",
+    "VSCODE/JAVASCRIPT/JAVASCRIPT.md",
+    "VSCODE/CSS/CSS.md",
     "VSCODE/HTML/HTML.md",
-    "VSCODE/HTML",
     "VSCODE/VSCODE.md",
-    "VSCODE",
     "개발/VSCODE/무제.md",
     "MYSQL/VSCODE/VSCODE.md",
-    "MYSQL/VSCODE",
     "개발/Untitled.md",
     "개발/Untitled 1.md",
     "무제 4.md",
     "MYSQL/MYSQL/MYSQL.md",
-    "MYSQL/MYSQL",
-    "MYSQL/MYSQL.md",
-    "MYSQL",
-    "무제 2.md",
-    "무제 5.md",
-    "Tags/무제.md",
-    "무제 1.md",
-    "무제 3.md",
-    "무제.md",
-    "VSCODE/환영합니다!.md",
-    "Tags/Tags.md",
-    "Tags",
-    "무제",
-    "환영합니다!.md"
+    "MYSQL/MYSQL.md"
   ]
 }

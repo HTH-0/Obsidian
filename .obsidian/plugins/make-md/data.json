@@ -41,9 +41,10 @@
     "//개발/개발/VSCODE",
     "//개발",
     "//MYSQL/MYSQL/VSCODE",
-    "//VSCODE/VSCODE/HTML",
     "//MYSQL/MYSQL/MYSQL",
-    "//PROJECT"
+    "//VSCODE/VSCODE/HTML/VSCODE/CSS",
+    "//VSCODE",
+    "//VSCODE/VSCODE/HTML/VSCODE/HTML/logo"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -78,7 +79,7 @@
   "enableDefaultSpaces": true,
   "showSpacePinIcon": true,
   "experimental": false,
-  "systemName": "Mysql",
+  "systemName": "개발공부",
   "defaultSpaceTemplate": "",
   "selectedKit": "default",
   "actionMaxSteps": 100,

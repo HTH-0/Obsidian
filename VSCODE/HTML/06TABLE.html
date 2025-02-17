@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=0, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- table 기본 -->
+    <table border="1" width="400px" height="300px">
+        <tr>
+            <th>열이름1</th>
+            <th>열이름2</th>
+            <th>열이름3</th>
+        </tr>
+        <tr>
+            <td>값1</td>
+            <td>값2</td>
+            <td>값3</td>
+        </tr>
+        <tr>
+            <td>값1</td>
+            <td>값2</td>
+            <td>값3</td>
+        </tr>
+    </table>
+    <hr>
+    <!-- rowspan : 행병합 -->
+
+    <!-- table>tr*5>td*4  5행 4열 테이블-->
+    <style>
+        .tbl_rowspan td {
+            width: 35px;
+            height: 35px;
+            border: 1px solid;
+            text-align: center;
+        }
+    </style>
+    <caption>행병합</caption>
+    <table class="tbl_rowspan">
+        <tr>
+            <td rowspan="2">1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <!-- <td>5</td> -->
+            <td rowspan="2">6</td>
+            <td>7</td>
+            <td rowspan="4">8</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <!-- <td>10</td> -->
+            <td>11</td>
+            <!-- <td>12</td> -->
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <!-- <td>16</td> -->
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <!-- <td>20</td> -->
+        </tr>
+        <hr>
+        <!-- rowspan : 열병합 -->
+        <!-- table>tr*5>td*4  5행 4열 테이블-->
+        <style>
+            .tbl_colspan td {
+                width: 35px;
+                height: 35px;
+                border: 1px solid;
+                text-align: center;
+            }
+        </style>
+        <caption>열병합</caption>
+        <table class="tbl_colspan">
+            <tr>
+                <td colspan="2">1</td>
+                <!-- <td>2</td> -->
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td colspan="3">6</td>
+                <!-- <td>7</td> -->
+                <!-- <td>8</td> -->
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td colspan="4">13</td>
+                <!-- <td>14</td> -->
+                <!-- <td>15</td> -->
+                <!-- <td>16</td> -->
+            </tr>
+            <tr>
+                <td colspan="3">17</td>
+                <!-- <td>18</td> -->
+                <!-- <td>19</td> -->
+                <td>20</td>
+            </tr>
+        </table>
+        <hr>
+        <!-- 표예제 연습 -->
+        <!-- table>tr*6>td*10 -->
+        <style>
+            .tbl_prac1 td {
+                width: 120px;
+                height: 30px;
+                border: 1px solid;
+                text-align: center;
+            }
+        </style>
+        <table class="tbl_prac1">
+            <tr>
+                <td colspan="6">한국의 차</td>
+                <!-- <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> -->
+            </tr>
+            <tr>
+                <td rowspan="6">뿌리차</td>
+                <td>인삼차</td>
+                <td rowspan="9">과일차</td>
+                <td>수정과</td>
+                <td rowspan="5">잎차</td>
+                <td>뽕잎차</td>
+            </tr>
+            <tr>
+                <!-- <td></td> -->
+                <td>당귀차</td>
+                <!-- <td></td> -->
+                <td>유자차</td>
+                <!-- <td></td> -->
+                <td>감잎차</td>
+            </tr>
+            <tr>
+                <!-- <td></td> -->
+                <td>생강차</td>
+                <!-- <td></td> -->
+                <td>구기자차</td>
+                <!-- <td></td> -->
+                <td>솔잎차</td>
+            </tr>
+            <tr>
+                <!-- <td></td> -->
+                <td>칡차</td>
+                <!-- <td></td> -->
+                <td>대추차</td>
+                <!-- <td></td> -->
+                <td>극화차</td>
+            </tr>
+            <tr>
+                <!-- <td></td> -->
+                <td>둥굴레차</td>
+                <!-- <td></td> -->
+                <td>매실차</td>
+                <!-- <td></td> -->
+                <td>이슬차</td>
+            </tr>
+            <tr>
+                <!-- <td></td> -->
+                <td>마차</td>
+                <!-- <td></td> -->
+                <td>메실차</td>
+                <td rowspan="4">기타</td>
+                <td>두충차</td>
+            </tr>
+            <tr>
+                <td rowspan="3">곡물차</td>
+                <td>보리차</td>
+                <!-- <td></td> -->
+                <td>모과차</td>
+                <!-- <td></td> -->
+                <td>영지버섯차</td>
+            </tr>
+            <tr>
+                <!-- <td></td> -->
+                <td>옥수수차</td>
+                <!-- <td></td> -->
+                <td>산수유차</td>
+                <!-- <td></td> -->
+                <td>귤강차</td>
+            </tr>
+            <tr>
+                <!-- <td></td> -->
+                <td>현미차</td>
+                <!-- <td></td> -->
+                <td>탕자차</td>
+                <!-- <td></td> -->
+                <td>쌍화차</td>
+            </tr>
+        </table>
+        <hr>
+        <style>
+            .tbl_prac2 td {
+                width: 35px;
+                height: 35px;
+                border: 1px solid;
+                text-align: center;
+            }
+        </style>
+        <table class="tbl_prac2">
+            <tr>
+                <td></td>
+                <td>페이스북</td>
+                <td>카카오스토리</td>
+                <td>밴드</td>
+                <td>인스타그램</td>
+                <td>트위터</td>
+            </tr>
+            <tr>
+                <td>2015년</td>
+                <td>77.1</td>
+                <td>58.3</td>
+                <td>32.4</td>
+                <td>16.7</td>
+                <td>22.1</td>
+            </tr>
+            <tr>
+                <td>2016년</td>
+                <td>73.8</td>
+                <td>51.0</td>
+                <td>41.0</td>
+                <td>28.1</td>
+                <td>14.7</td>
+            </tr>
+        </table>
+
+        <hr>
+       
+</body>
+
+</html>

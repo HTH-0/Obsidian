@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 300px;
+            height: 200px;
+            border: 1px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d1"></div>
+    <hr>
+    <div class="d2"></div>
+    <hr>
+    <div class="d3"></div>
+
+    <script>
+        const d1El = document.querySelector('.d1');
+        var cnt = 0;
+        d1El.addEventListener('click', (e) => {
+            // console.log('clicked...');
+            console.log('clicked...', e.target);
+            d1El.innerHTML = `<h1>${++cnt}</h1>`;
+        });
+
+        // 클로저 이용 상태 관리
+        function clickHandler() {
+            let cnt = 0;
+            function addCnt(node) {
+                cnt++;
+                node.innerHTML = `<h2>클로저 내 CNT : ${cnt}</h2>`;
+                console.log("clicked...", cnt);
+            }
+            return addCnt;
+        }
+        const addCnt = clickHandler();
+        const d2El = document.querySelector('.d2');
+        d2El.addEventListener('click', () => {
+            addCnt(d2El);
+        });
+
+
+
+        const d3El = document.querySelector('.d3');
+        // mouseEnter
+        d3El.addEventListener('mouseenter', () => {
+            d3El.innerHTML = `<h1>mouseEnter</h1>`
+        });
+        // mouseOver
+        d3El.addEventListener('mouseover', () => {
+            d3El.innerHTML = `<h1>mouseOver</h1>`
+        });
+        // mouseLeave
+        d3El.addEventListener('mouseleave', () => {
+            d3El.innerHTML = `<h1>mouseLeave</h1>`
+        });
+        // click
+        d3El.addEventListener('click', () => {
+            d3El.innerHTML = `<h1>click</h1>`
+        });
+        // dblclick
+        d3El.addEventListener('dblclick', () => {
+            d3El.innerHTML = `<h1>dblclick</h1>`
+        });
+        // contextmenu
+        d3El.addEventListener('contextmenu', () => {
+            d3El.innerHTML = `<h1>마우스_우클릭</h1>`
+        });
+
+    </script>
+</body>
+
+</html>

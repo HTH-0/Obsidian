@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* 전체 선택자 */
+        * {
+            box-sizing: border-box;
+        }
+
+        /* 요소 선택자 */
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        /* 자식 선택자 : > */
+
+        /* 헤더 영역 */
+        .wrapper{}
+        .wrapper > header{}
+        .wrapper > header > .topheader{}
+        .wrapper > header > nav{}
+        /* 메인 영역 */
+        .wrapper > main{}
+        .wrapper > main > section{}
+        /* 푸터 영역 */
+        .wrapper > footer{}
+
+        /* 자손 선택자 */
+        .wrapper header{}
+        .wrapper main{}
+        .wrapper footer{}
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>HEADER</h1>
+            <div class="top-header">TOP HEADER</div>
+            <nav>NAV</nav>
+        </header>
+        <main>MAIN
+            
+            <section>SEC1</section>
+            <section>SEC2</section>
+            <section>SEC3</section>
+        </main>
+        <footer>FOOTER</footer>
+    </div>
+</body>
+
+</html>

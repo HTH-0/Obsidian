@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+    }
+
+    div {
+        width: 300px;
+        height: 300px;
+        background-color: orange;
+    }
+
+    .d1 {
+        /* top, right, bottom, left: 10px */
+        /* margin: 10px; */
+
+        /* top, bottom: 20px, left, right: 40px */
+        /* margin: 20px 40px; */
+
+        /* top:10px, right, left:20px, bottom:30px */
+        /* margin: 10px 20px 30px; */
+
+        /* top:10px, right:20px, bottom:30px, left:40px */
+        /* margin: 10px 20px 30px 40px; */
+
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        margin-right: 40px;
+    }
+
+    .d2 {
+        margin: 0 auto;
+    }
+    .parent{
+        width: 80vw;
+        height: 250px;
+        margin: 20px auto;
+    }
+    .son{
+        background-color: royalblue;
+        width: 150px;
+        height: 150px;
+    }
+    /* position + margin */
+    /* 나머지 공간이 전부 margin, 방향 커스텀 가능, son 추가시에 불편함 */
+    .parent1{
+        position: relative;
+    }
+    .son1{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    /* display flex */
+    /* 주로 사용 */
+    .parent2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<body>
+
+    <div class="d1">HELLOWORLD</div>
+    <div class="d2">HELLOWORLD</div>
+
+    <div class="parent parent1">
+        <div class="son son1"></div>
+    </div>
+    <div class="parent parent2">
+        <div class="son son2"></div>
+    </div>
+
+
+
+</body>
+
+</html>

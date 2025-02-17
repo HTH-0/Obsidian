@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        a{
+            text-decoration: none;
+            color:black
+        }
+        .btn {
+            /* block 태그전환 */
+            display:block;
+            /* 가로 세로 */
+            /* width:100px; */
+            min-width: 80px;
+            max-width: 150px;
+            width : auto;
+            height:35px;
+            /* 테두리 */
+            border : none;
+            border-radius: 12px;
+            /* 글자 크기 */
+            font-size : .9rem;
+            font-weight: 600;
+            /* 그림자 */
+            box-shadow: 5px 5px 5px lightgray;
+            /* 배치(가운데) */
+            display : flex;
+            justify-content: center;
+            align-items: center;
+            /* 여백 */
+            margin : 10px;
+            /* 글자색 */
+            color : white;
+        }
+        .btn-primary{
+            background-color: royalblue;
+        }
+        .btn-secondary{
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="./02BASIC.html" class="btn btn-secondary">TEST1</a>
+    <a href="https://naver.com"class="btn btn-primary">NAVER</a>
+    <a href="https://naver.com" target="_blank">네이버_새탭열기</a>
+    <hr>
+    <div>
+        <a href="02BASIC.html" target="frm1">02BASIC.html으로 이동</a>
+        <a href="https://www.daum.net" target="frm1">다음으로 이동</a>
+    </div>
+    <iframe name="frm1" src="" frameborder="0" width="400px" height="400px" style="border: 2px solid #000;">
+        
+    </iframe>
+</body>
+
+</html>

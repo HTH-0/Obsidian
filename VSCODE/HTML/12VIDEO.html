@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body{
+            margin : 0;
+        }
+        .bg-video{
+            position : absolute;
+            left : 0;
+            top : 0;
+            width : 100vw;
+            height : 100vh;
+            z-index : -1;
+            opacity : .8;
+        }
+        .bg-video>video{
+            width : 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        body::-wrbkit-scrollbar{
+            display:none;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="bg-video">
+
+        <video controls autoplay muted loop>
+            <source src="./video/castle.mp4" type="video/mp4">
+        </video>
+        
+    </div>
+
+
+</body>
+
+</html>

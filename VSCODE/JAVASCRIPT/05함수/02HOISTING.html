@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        // 호이스팅(HOISTING)
+        // 변수와 함수의 선언이 코드 실행 전에 메모리에 미리 저장되는 현상
+        // function 예약어 사용 시 호이스팅 처리됨
+        // var 예약어 사용 시 호이스팅 처리됨
+
+        // console.log('a',a);     //var 예약어라서 a가 호이스팅되어 undefined형태로 출력된다.
+        // var a = 10;         
+        // console.log('a',a);
+
+        // console.log('b',b);     // let으로 정의되어 호이스팅x 값이 정의되지 않아서 오류
+        // let b = 20;
+        // console.log('b',b);
+
+        // 변수 호이스팅 확인
+        // hello1();                   //정의된 것 처럼 실행가능
+        // function hello1(){
+        //     console.log('hello1 world');
+        // }
+
+        // hello2();                   // const로 정의되어 호이스팅 xx 에러뜸
+        // const hello2 = () => {
+        //     console.log("hello2 world")
+        // }
+
+        // var 변수는 사용을 지양한다.
+        // function은 목적에 따라서 사용 여부를 결정한다.
+        // function은 이름 부여도 가능.(익명 or 이름 부여된 함수 선택 가능)
+        // 화살표함수(()=>{})는 익명 함수로 처리된다.
+    </script>
+</body>
+</html>

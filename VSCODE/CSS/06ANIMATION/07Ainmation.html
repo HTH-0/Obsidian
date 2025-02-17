@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        /* 스크롤 바 안보이게 하기 */
+        body::-webkit-scrollbar{
+            display: none;
+        }
+
+        div {
+            width: 400px;
+            height: 40px;
+            background-color: orange;
+            color: white;
+            text-align: center;
+            line-height: 40px;
+            border: 1px solid black;
+        }
+        
+        div:nth-child(1) {
+            animation-name: moving1;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-duration: 1s;
+        }
+        
+        div:nth-child(2) {
+            position: relative;
+            animation-name: moving2;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-duration: 1s;
+        }
+
+        @keyframes moving1 {
+            from {
+                margin-left: 100%;
+            }
+
+            to {
+                margin-left: 0;
+            }
+        }
+        @keyframes moving2{
+            from{
+                top:100vw;
+            }
+            to{
+                top:0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>HELLOWORLD</div>
+    <div>HELLOWORLD</div>
+</body>
+
+</html>

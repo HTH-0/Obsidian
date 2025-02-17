@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    /* common 설정 */
+    *{
+        font-size: .9 rem;
+    }
+    a {
+        /* 하이퍼링크 밑줄 없애기 */
+        text-decoration: none;
+        /* 색 검정색 */
+        color: black;
+        border: 1px solid gray;
+        display: block;
+        height: 100%;
+        line-height: 35px;
+        text-align: center;
+        width: 100%;
+        max-width: 80px;
+        font-size: .8rem;
+    }
+
+    body {
+        /* 여백 없애기 */
+        margin: 0;
+        padding: 0;
+    }
+
+    form {
+        width: 380px;
+        border: 1px solid gray;
+        margin: 50px auto;
+        /* padding: 10px; */
+    }
+
+    form>.row {
+        margin: 10px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 5px;
+        height: 35px;
+    }
+
+    form>.row>label {
+        display: block;
+        min-width: 120px;
+        /* border: 1px solid; */
+        height: 100%;
+        line-height: 35px;
+    }
+
+    form>.row>input[type="text"],
+    form>.row>input[type="password"],
+    form>.row>select {
+        width: 100%;
+        height: 100%;
+        outline: none;
+        border-radius: 0;
+        border: 1px solid gray;
+    }
+
+    form>.row.header{
+        height: 15px;
+        border:1px solid;
+        margin: 0;
+        background-color: black;
+    }
+    form>.row.title{
+        font-size: 1.5rem;
+        text-align: center;
+        justify-content: center;
+    }
+    form>.row.line{
+        border : 1px solid gray;
+        height :1px;
+        background-color: gray;
+        margin: 100px 0;
+        margin-bottom: 25px;
+    }
+    form>.row.agreement{
+        height: 15px;
+    }
+    form>.row.agreement>label{
+        height: 100%;
+        line-height: 15px;
+    }
+    form>.row.btn-group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form>.row.row.btn-group>button,
+    form>.row.row.btn-group>input[type="submit"]{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        border:1px solid gray;
+        outline:none;
+        cursor: pointer;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- form           : 사용자로부터 특정 정보를 받아 서버로 전달하는데 사용되는 태그
+    action Attribute    : 전달받는 서버로 URI
+    method Attribute    : 서버로 요청하는 방식
+        -GET            : 사용자 요청 정보를 Query String으로 전달(Default)
+        -POST           : 사용자 요청 정보를 REquest body(Payload)로 전달
+        -PUT            : 
+        -PATCH          : 
+        -DELETE         :
+        -->
+    <form action="/test.jsp" method="get">
+        <div class="row header">
+            <!-- 헤더(검정색) -->
+        </div>
+        <div class="row title">
+            <!-- title -->
+            <h4>회원가입</h4>
+        </div>
+        <hr>
+            <div class="line"></div>
+        <div class="row">
+            <!-- 라벨을 생성 : 상호작용 없는 텍스트 -->
+            <label for="">아이디</label>
+            <!-- 텍스트 입력이 가능한 박스 생성 -->
+            <input type="text" name="userid">
+            <!-- 눌러도 상호작용 하지 않는 하이퍼링크 -->
+            <a href="javascript:void(0)">중복확인</a>
+        </div>
+        <div class="row">
+            <label for="">비밀번호</label>
+            <input type="password" name="password">
+        </div>
+        <div class="row">
+            <label for=""></label>
+            <input type="password" name="re-password" placeholder="비밀번호 재확인">
+        </div>
+        <div class="row">
+            <label for="">이름</label>
+            <input type="text" name="username">
+        </div>
+        <div class="row">
+            <label for="">주소</label>
+            <input type="text" name="zipcode">
+        </div>
+        <div class="row">
+            <label for=""></label>
+            <input type="text" name="addr1">
+        </div>
+        <div class="row">
+            <label for=""></label>
+            <input type="text" name="addr2">
+        </div>
+        <div class="row">
+            <label for="">휴대전화</label>
+            <!-- 010 으로 보이는 드롭다운 생성 -->
+            <select name="phone1">
+                <option value="010">010</option>
+            </select>
+            <input type="text">
+            <input type="text">
+        </div>
+        <div class="row">
+            <label for="">전화번호</label>
+            <select name="phone2">
+                <option value="">053</option>
+            </select>
+            <input type="text">
+            <input type="text">
+        </div>
+        <div class="row">
+            <label for="">이메일</label>
+            <input type="text">
+            <select name="email">
+                <option value="">naver.com</option>
+                <option value="">daum.net</option>
+                <option value="">gmail.com</option>
+            </select>
+        </div>
+        <div class="row"><label for="">생년월일</label>
+            <!-- radio : 체크박스 생성 -->
+            <!-- name 통일하고 value 값을 다르게 설정 -->
+            <input type="radio" name="calender" value="1"> 양
+            <input type="radio" name="calender" value="0"> 음
+        </div>
+        <div class="row">
+            <select>
+                <option value="">2025</option>
+            </select>
+            <select>
+                <option value="">9</option>
+            </select>
+            <select>
+                <option value="">18</option>
+            </select>
+        </div>
+        <hr>
+        <div class="row agreement">
+            <!-- 체크박스 생성 -->
+            <input type="checkbox" name="email-recv">
+            <label for="">이메일을 수신합니다</label>
+        </div>
+        <div class="row agreement">
+            <input type="checkbox" name="sms-recv">
+            <label for="">SMS을 수신합니다</label>
+        </div>
+        <div class="row btn-group">
+            <input type="submit" value="가입취소">
+            <button>회원가입</button>
+        </div>
+
+    </form>
+
+
+
+
+</body>
+
+</html>

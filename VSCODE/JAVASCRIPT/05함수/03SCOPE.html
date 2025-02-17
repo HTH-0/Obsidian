@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+
+        // 스코프(SCOPE)
+        // 변수나 함수가 접근할 수 있는 범위
+        // 전역 스코프(Global) , 지역 스코프(Local)
+        
+        // 전역 스코프 : 모든 지역에서 접근 가능
+
+        // 지역 스코프 : 특정 영역({})에서만 접근 가능
+        //  - 함수 스코프 : 함수 내에서 선언된 변수는 함수 내에서만 접근 가능(var)
+        //  - 블록 스코프 : 블록 내부에서만 접근 가능 (ex. if, for, while, object ...)(let,const)
+        //  - 렉시컬(Lexical)스코프 : 변수를 선언한 위치에 따라 스코프가 결정
+
+        // 전역 스코프
+        // var g_val = "전역변수 확인";
+
+        // function a() {
+        //     console.log('a func()..',g_val);
+        // }
+        // a();
+        // if(true){
+        //     console.log('if..',g_val);
+        // }
+        // console.log({key1:g_val});
+
+        // 함수 스코프 내의 지역변수
+        // f1();
+        // f2();
+        // function f1(){
+        //     var f1_v = 'f1_val';
+        //     console.log('f1_v',f1_v)
+        // }  
+        // function f2(){
+        //     var f2_v = 'f2_val';
+        //     console.log('f2_v',f2_v)
+        // }
+        // console.log(f1_v);          // 함수 내에서 변수 처리했기 떄문에 에러뜸.
+
+        // 블록 스코프 내의 지역변수 - let, const(상수)
+        // if(true){
+        //     let v_1 = "블럭 내에 사용되는 지역변수";
+        //     console.log(v_1);
+        //     var v_2 = "블럭 내에 사용한 var 변수"
+        // }
+        // console.log('v_2',v_2);  // 호이스팅처리 되어 출력됨
+        // console.log(v_1);  // 에러뜸
+
+        // 렉시컬 스코프(화살표 함수) 확인 - this
+        // const f1 = ()=> {
+        //     console.log('f1...',this); // 상위 스코프(window객체)의 'this'를 가져옴
+        // }
+        // f1();
+        
+        // 렉시컬 스코프(object내의 기능에서의) 확인 -this
+
+        const person={
+            name : "홍길동",
+            age : 15,
+            addr : "대구",
+            getName : function(){
+                console.log(this);
+            },
+            getAge : ()=>{
+                console.log(this);
+            }
+        }
+        console.log('person',person);
+        person.getName();
+        person.getAge();
+    </script>
+</body>
+</html>
