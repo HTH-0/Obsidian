@@ -11,12 +11,14 @@
             "id": "76be1b79918270e9",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "/"
+                "file": "무제 1.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Vault"
+              "title": "무제 1"
             }
           }
         ]
@@ -87,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "7efbba99388bfd36",
@@ -103,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "무제 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "무제 1 의 백링크"
             }
           },
           {
@@ -121,11 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "무제 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "무제 1 의 나가는 링크"
             }
           },
           {
@@ -149,12 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "무제 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "무제 1 의 개요"
             }
           },
           {
@@ -182,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,11 +202,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "889c114cb576137e",
+  "active": "76be1b79918270e9",
   "lastOpenFiles": [
-    "Tags",
     "무제.md",
     "무제 1.md",
+    "Tags",
     "무제 2.md",
     "무제",
     "환영합니다!.md"

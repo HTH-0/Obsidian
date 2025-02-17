@@ -35,8 +35,9 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "//Tags",
-    "/"
+    "/",
+    "//무제",
+    "//Tags"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
