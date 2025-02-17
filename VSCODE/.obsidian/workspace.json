@@ -1,22 +1,36 @@
 {
   "main": {
-    "id": "59cfa5f7f399eb9e",
+    "id": "40d8d5dd6c85173b",
     "type": "split",
     "children": [
       {
-        "id": "34bab0259b05ba7f",
+        "id": "608f62d43617818a",
         "type": "tabs",
         "children": [
           {
-            "id": "f7d855b44a074b30",
+            "id": "9dfb7262d84dd04f",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "/"
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Vault"
+              "title": "새 탭"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3edfbe4b3a5f7eb9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b4a5cfbbea4d92ca",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
             }
           }
         ]
@@ -25,15 +39,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "fbcd87db752e5373",
+    "id": "c4a2a06eca35f06d",
     "type": "split",
     "children": [
       {
-        "id": "56f58a4fd35eead5",
+        "id": "090bb8f1d0950829",
         "type": "tabs",
         "children": [
           {
-            "id": "b32213294ddcf8d5",
+            "id": "eabdc4a45e644a73",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -46,7 +60,7 @@
             }
           },
           {
-            "id": "34e0fcdbd3594cbe",
+            "id": "0e5b06b17f654fe7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -63,7 +77,7 @@
             }
           },
           {
-            "id": "582ba044507784d9",
+            "id": "d2bd5c36f7a0d47e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -71,34 +85,23 @@
               "icon": "lucide-bookmark",
               "title": "북마크"
             }
-          },
-          {
-            "id": "889c114cb576137e",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "7efbba99388bfd36",
+    "id": "1c4d7d460b7e3e18",
     "type": "split",
     "children": [
       {
-        "id": "c177dbf9e5cf6dcd",
+        "id": "15f9e8aeb5cdc762",
         "type": "tabs",
         "children": [
           {
-            "id": "c061c0860a6a902a",
+            "id": "33f762d1b07b2c3a",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -116,7 +119,7 @@
             }
           },
           {
-            "id": "7c43eea85186a09a",
+            "id": "65db232a1f4e869c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -129,7 +132,7 @@
             }
           },
           {
-            "id": "69f292698301f9cd",
+            "id": "6e72521c271731b4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -144,41 +147,21 @@
             }
           },
           {
-            "id": "e0f3f2c69f783691",
+            "id": "ff5026c462151a56",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "환영합니다!.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
-            }
-          },
-          {
-            "id": "8103dd704b4a9801",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "c3a1224eb9d29b03",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "title": "환영합니다! 의 개요"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,21 +175,11 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "remotely-save:Remotely Save": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f7d855b44a074b30",
+  "active": "eabdc4a45e644a73",
   "lastOpenFiles": [
-    "VSCODE/환영합니다!.md",
-    "VSCODE",
-    "무제 1.md",
-    "무제.md",
-    "Tags/Tags.md",
-    "Tags",
-    "무제 2.md",
-    "무제",
     "환영합니다!.md"
   ]
 }
