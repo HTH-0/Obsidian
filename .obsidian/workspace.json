@@ -11,12 +11,10 @@
             "id": "f7d855b44a074b30",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "/"
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Vault"
+              "title": "새 탭"
             }
           }
         ]
@@ -73,7 +71,7 @@
             }
           },
           {
-            "id": "889c114cb576137e",
+            "id": "4a155403c166ade4",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -163,8 +161,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화돼있지 않음"
             }
           },
           {
@@ -173,8 +171,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화돼있지 않음"
             }
           }
         ],
@@ -197,12 +195,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f7d855b44a074b30",
+  "active": "582ba044507784d9",
   "lastOpenFiles": [
+    "무제.md",
     "VSCODE/환영합니다!.md",
     "VSCODE",
     "무제 1.md",
-    "무제.md",
     "Tags/Tags.md",
     "Tags",
     "무제 2.md",
