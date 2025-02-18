@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ball {
+            /* 뷰포트를 기준으로 width가 설정되게 */
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border: 1px solid;
+            min-width: 50px;
+            min-height: 50px;
+            border-radius: 50%;
+            transition: 1s;
+        }
+
+        .ball-1280px {
+            border: 5px solid;
+            width: 300px;
+            height: 300px;
+            background-color: green;
+        }
+
+        .ball-768px {
+            border: 3px solid;
+            width: 200px;
+            height: 200px;
+            background-color: skyblue;
+        }
+
+        .ball-480px {
+            border: 1px solid;
+            width: 100px;
+            height: 100px;
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+
+<html>
+
+<body>
+
+    <div class="ball ball-1280px"></div>
+
+
+
+
+    <script>
+
+
+        // Load 이벤트
+        // DOMContentLoaded : 최초 Document 로드 시 1회 동작(HTML이 전부 파싱된 이후 DOM객체가 완성되고 다시 실행)
+        // load : 최초 Document 로드 시 1회 동작(모든 리소스가 완전히 로드된 이후 실행)
+
+        const ballEl = document.querySelector('.ball');
+        window.addEventListener('DOMContentLoaded', () => {
+
+            const flexibleBall = () => {
+                const width = window.innerWidth;
+                if (width < 768) {
+                    // 모바일 처리
+                    ballEl.className = 'ball ball-480px'
+                } else if (width < 1280) {
+                    // 태블릿
+                    ballEl.className = 'ball ball-768px'
+                } else {
+                    // 데스크탑
+                    ballEl.className = 'ball ball-1280px'
+                }
+            };
+            flexibleBall();
+
+            window.addEventListener('resize', () => {
+                //창 전체 크기 : outer, 보이는 창 크기 :inner
+                // console.log('외부 크기 변화 width확인',window.outerWidth);
+                // console.log('외부 크기 변화 height확인',window.outerHeight);
+                // console.log('외부 크기 변화 width확인',window.innerWidth);
+                // console.log('외부 크기 변화 height확인',window.innerHeight);
+              
+                flexibleBall();
+            });
+        });
+    </script>
+</body>
+
+</html>

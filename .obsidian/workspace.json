@@ -11,10 +11,12 @@
             "id": "c288f0f6877b1309",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "mk-space",
+              "state": {
+                "path": "VSCODE"
+              },
+              "icon": "lucide-file",
+              "title": "VSCODE"
             }
           }
         ]
@@ -194,8 +196,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c288f0f6877b1309",
+  "active": "1983b95c745c75d9",
   "lastOpenFiles": [
+    "VSCODE/JAVASCRIPT/06이벤트/11DomLoad.html",
+    "VSCODE/JAVASCRIPT/06이벤트/10Resize.html",
+    "VSCODE/JAVASCRIPT/06이벤트/09스크롤.html",
+    "VSCODE/JAVASCRIPT/06이벤트/08표만들기.html",
+    "VSCODE/JAVASCRIPT/06이벤트/07체크이벤트.html",
+    "VSCODE/JAVASCRIPT/06이벤트/06타자연습.html",
+    "VSCODE/JAVASCRIPT/06이벤트/05채팅창.html",
+    "VSCODE/JAVASCRIPT/06이벤트/04키보드.html",
+    "해보고 싶은 것/95타자연습.html",
+    "해보고 싶은 것/프로젝트.md",
+    "해보고 싶은 것/타자 배경.png",
+    "해보고 싶은 것/해보고 싶은 것.md",
+    "MYSQL/연산자.md",
+    "해보고 싶은 것",
     "국비/화면설계/화면설계.md",
     "국비/응용 SW 기초/응용 SW 기초.md",
     "국비/MYSQL/MYSQL.md",
@@ -206,33 +222,20 @@
     "VSCODE/HTML/HTML.md",
     "MYSQL/mysql 기본 조작.md",
     "MYSQL/SELECT.md",
-    "MYSQL/연산자.md",
     "국비/VSCODE/VSCODE.md",
     "국비/LINUX/LINUX.md",
     "국비/GIT/GIT.md",
     "정처산기.md",
     "국비수업",
-    "새 폴더",
     "PROJECT/화면구현/화면구현.md",
     "PROJECT/PROJECT.md",
     "정처산기/정처산기.md",
-    "국비/VSCODE/vscode.txt",
-    "국비/VSCODE/Selector.txt",
-    "국비/VSCODE/rebase 충돌 해결법.txt",
-    "국비/VSCODE/html(video~).txt",
-    "국비/VSCODE/html(form).txt",
-    "국비/VSCODE/CSS.txt",
-    "국비/VSCODE/css-Selector.txt",
-    "국비/VSCODE/css-position.txt",
     "국비/응용 SW 기초/정리.png",
     "VSCODE/CSS/07MQ/07MQ.md",
     "VSCODE/CSS/06ANIMATION/06ANIMATION.md",
     "VSCODE/CSS/05LAYOUT/05LAYOUT.md",
     "VSCODE/CSS/04POSITION/04POSITION.md",
     "VSCODE/CSS/03SELECTOR/03SELECTOR.md",
-    "VSCODE/CSS/02Box/02Box.md",
-    "VSCODE/CSS/01Basic/01Basic.md",
-    "VSCODE/JAVASCRIPT/06이벤트/06이벤트.md",
     "VSCODE/HTML/logo/naver.png",
     "VSCODE/HTML/logo/mainlogo.png",
     "VSCODE/HTML/logo/kakao.png",
@@ -240,7 +243,6 @@
     "VSCODE/HTML/logo/google.png",
     "VSCODE/HTML/logo/05check.svg",
     "VSCODE/HTML/logo/apple.png",
-    "VSCODE/HTML/images/home.svg",
-    "VSCODE/HTML/images/test.jpg"
+    "VSCODE/HTML/images/home.svg"
   ]
 }

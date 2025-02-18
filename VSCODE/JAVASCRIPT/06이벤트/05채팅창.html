@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    KEYDOWN : <input id="input2"><br>
+    <p id="p2"></p>
+    <hr>
+
+
+    <script>
+        const KEYDOWNEl = document.querySelector('#input2');
+        const p2El = document.querySelector('#p2');
+        KEYDOWNEl.addEventListener('keyup',(e)=>{
+            console.log('keyup',e);
+            console.log('keyup',e.key);
+            console.log('keyup',e.keyCode);
+            // p2El.innerHTML=e.key+ " " + e.keyCode;
+
+            if(e.keyCode === 13){
+                const text = KEYDOWNEl.value;
+                const newEl = document.createElement('div');
+                newEl.innerHTML = text;
+                p2El.prepend(newEl);
+                KEYDOWNEl.value="";
+            }
+        });
+    </script>
+</body>
+</html>

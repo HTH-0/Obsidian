@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            max-width: 1280px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .input-container input {
+            width: 200px;
+            height: 20px;
+        }
+
+        .input-container button {
+            width: 100px;
+        }
+
+        .table-container {
+            width: 500px;
+            height: 500px;
+            border: 1px solid;
+        }
+
+        table {
+            border: 1px solid;
+            /* width: 100px;
+            height: 100px; */
+        }
+
+        tr {
+            width: 100px;
+        }
+
+        td {
+            border: 1px solid gainsboro;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="input-container">
+        <div>
+            <input type="text" id="col" placeholder="a값(열)을 입력하세요">
+            <label for="col"></label>
+            <input type="text" id="row" placeholder="b값(행)을 입력하세요">
+            <label for="row"></label>
+        </div>
+        <button onclick="makeTable()">테이블 만들기</button>
+    </div>
+    <div id="table-container"></div>
+
+    <!-- table>tr*a>tr*b를 이용할 생각 -->
+
+
+    <script>
+        function makeTable() {
+            // input 안에 입력값을 추출해낸다. (a,b)
+            const colInput = document.getElementById('col').value;
+            const rowInput = document.getElementById('row').value;
+            // 중간점검
+            console.log(colInput);
+            console.log(rowInput);
+            let tbl = '<table>';
+            // <table></table> 안에 tr개만큼 생성
+            for (let i = 0; i < colInput; i++) {
+                tbl += '<tr>';
+                //<tr> 안에 b개만큼 <td> 생성
+                for (let j = 0; j < rowInput; j++) {
+                    tbl += '<td class="TD">'+ '</td>';
+                }
+                tbl += '</tr>';
+            }
+            tbl += '</table>'
+            console.log(tbl);
+
+            // 완성된 값 테이블컨테이너에 출력
+            // const tblContainer = document.querySelector('.table-container');
+            document.getElementById('table-container').innerHTML = tbl;
+
+            //tbl로 만든 table 내용물을 가져온다.
+            const tds = document.querySelectorAll('.TD');
+            // 다 가져와야 해서 all, all을 쓰면 배열이 아니라 forEach 써야한다
+            tds.forEach((td) => {
+                td.addEventListener('mouseenter', (e) => {
+                    td.style.backgroundColor = "lightgray";
+                });
+                td.addEventListener('mouseleave', (e) => {
+                    td.style.backgroundColor = "white";
+                });
+                td.addEventListener('click', () => {
+                    td.style.backgroundColor = "black"
+                });
+            });
+        }
+    </script>
+</body>
+
+</html>

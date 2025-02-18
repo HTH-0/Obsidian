@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&" />
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+
+        .container {
+            width: 800px;
+            margin: 100px auto;
+            border: 1px solid;
+        }
+
+
+        .container>div li {
+            text-align: center;
+            list-style: none;
+            justify-content: left;
+            background-color: rgb(0, 0, 123);
+            color: white;
+        }
+
+        .container>#target-text {
+            font-size: 1.5rem;
+            text-align: left;
+        }
+
+        .container>input[type="text"] {
+            width: 100%;
+            height: 35px;
+            font-size: 1.2rem;
+        }
+
+        .container>#result {
+            font-size: 1.5rem;
+            text-align: left;
+            min-height: 30px;
+        }
+        .container>#percentage{
+            border: 1px solid;
+            width: 500px;
+            padding: 2px;
+            height: 22px;
+            position: relative;
+        }
+        .container>#percentage span{
+            position: absolute;
+            /* left: calc(100% - 25px); */
+            left: 0;
+            transition: 1s;
+        }
+        .valid {
+            color: green;
+        }
+
+        .invalid {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div><li>타자연습</li></div>
+        <div id="target-text">묻고 더블로 가!</div>
+        <div id="result">입력된 값이 올바른지 여부를 확인하는 부분입니다.</div>
+        <input type="text" id="input-text" placeholder="위 문장을 입력하세요">
+        <div id="percentage">
+            <span class="material-symbols-outlined">savings</span>
+        </div>
+    </div>
+
+
+    <script>
+
+        // 요소 찾기
+        const targetTextEl = document.querySelector('#target-text')
+        const inputEl = document.querySelector('#input-text')
+        const resultEl = document.querySelector('#result')
+
+        // 문장 배열
+        const texts = [
+            "묻고 더블로 가!",
+            "꼭 그렇게 다 가져가야만 속이 후련했냐",
+            "신에게는 아직 열두척의 배가 남아있사옵니다",
+            "아직 한 발 남았다"
+        ]
+        
+        // 문장 랜덤 배치
+        let textsIdx = parseInt(Math.random() * 100) % texts.length;
+        console.log(textsIdx);
+        targetTextEl.innerHTML = texts[textsIdx];
+        // 하나씩 확인
+        inputEl.addEventListener('input', (e) => {
+            // 일치여부 체크
+            const text = texts[textsIdx];
+
+            // 일치하는 문자 개수 저장
+            let validCnt = 0;
+            // result에 입력한 내용 표시(good : green, bad : red)
+            let resultHTML = '';
+            const inputedValue = inputEl.value;
+            for (let i = 0; i < inputedValue.length; i++) {
+                // console.log(`input ${i}`,'event.data',e.data);
+                if (i >= text.length) {
+                    resultHTML += `<span class="invalid">${inputedValue[i]}</span>`;
+                } else if (text[i] !== inputedValue[i]) {
+                    resultHTML += `<span class="invalid">${inputedValue[i]}</span>`;
+                }
+                else {
+                    resultHTML += `<span class="valid">${inputedValue[i]}</span>`;
+                    validCnt++;
+                }
+
+            };
+            // 입력한 값의 일치 여부 확인
+            resultEl.innerHTML = resultHTML;
+
+            const progressPercent = (validCnt / text.length) * 100;
+            const progressIconEl = document.querySelector('#percentage span');
+            if(progressPercent !== 100){
+                progressIconEl.style.left = `${progressPercent}%`;
+            }else if(progressPercent == 100){
+                progressIconEl.style.left = `calc(${progressPercent}% - 25px)`;
+            }
+
+            // 문장 전체 일치 여부
+            if (text === inputedValue) {
+
+                setTimeout(() => {
+                    inputEl.disabled = true;
+
+                    while(true){
+                        tmp = parseInt(Math.random() * 100) % texts.length;
+                        if(tmp!==textsIdx){
+                            textsIdx = tmp;
+                            break;
+                        }
+                    }
+
+
+                    // textsIdx = (textsIdx + 1 >= texts.length) ? 0 : textsIdx + 1;
+                    // let textsIdx = parseInt(Math.random() * 100) % texts.length;
+
+                    targetTextEl.innerHTML = texts[textsIdx];
+                    inputEl.value = "";
+                    resultEl.innerHTML = "";
+
+                    inputEl.disabled = false;
+                    inputEl.focus();
+
+                    progressIconEl.style.left = `0`;
+                }, 1000);
+
+            };
+
+
+        });
+        // 조합된 문장 일치여부
+        // inputEl.addEventListener('compositionupdate',(e)=> {
+        // console.log('compositionupdate',e.data);
+        //     console.log('inputedValue',e.data);
+        // });
+    </script>
+</body>
+
+</html>
