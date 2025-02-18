@@ -73,7 +73,7 @@
             }
           },
           {
-            "id": "1983b95c745c75d9",
+            "id": "75249957db89d929",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -196,8 +196,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1983b95c745c75d9",
+  "active": "c288f0f6877b1309",
   "lastOpenFiles": [
+    "해보고 싶은 것/제목 없음.png",
+    "해보고 싶은 것/타자 참고 2.png",
     "VSCODE/JAVASCRIPT/06이벤트/11DomLoad.html",
     "VSCODE/JAVASCRIPT/06이벤트/10Resize.html",
     "VSCODE/JAVASCRIPT/06이벤트/09스크롤.html",
@@ -226,7 +228,6 @@
     "국비/LINUX/LINUX.md",
     "국비/GIT/GIT.md",
     "정처산기.md",
-    "국비수업",
     "PROJECT/화면구현/화면구현.md",
     "PROJECT/PROJECT.md",
     "정처산기/정처산기.md",
@@ -242,7 +243,6 @@
     "VSCODE/HTML/logo/facebook.png",
     "VSCODE/HTML/logo/google.png",
     "VSCODE/HTML/logo/05check.svg",
-    "VSCODE/HTML/logo/apple.png",
-    "VSCODE/HTML/images/home.svg"
+    "VSCODE/HTML/logo/apple.png"
   ]
 }
