@@ -1,0 +1,26 @@
+cd - : 바로 직전의 경로
+
+ls(List) : 파일& 디렉토리 목록 출력 
+	ls -l : 상세보기
+	ls -al : 숨김파일까지 표시
+	ls -Ral : 하위 폴더를 포함해 모든 파일보기
+	ls -ld : 해당 폴더 자체의 내용
+
+clear : 커맨더 창 정리
+
+mkdir(make diretory) : 폴더 만들기
+	ex ) mkdir /home/test1
+	mkdir -p : 하위폴더까지 만들기  ex) mkdir -p /home/a/b/c
+
+man (manual) : 명령어 정보 확인
+touch : 파일 생성, 파일의 시간 변경
+cp(copy) : 파일 복사
+
+mv(move) : 파일 디렉토리 이동(옵션x) > 원본 폴더에 안남음
+
+rm(remove) : 파일/디렉토리 삭제
+
+cat : 문서 전체 출력
+head : 위에서 10줄만 출력
+tail : 아래에서 10줄만 출력
+more : putty 화면 크기를 고려해서 출력

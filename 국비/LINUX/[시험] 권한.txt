@@ -1,0 +1,44 @@
+user10,user20,user30 생성상태에서 진행
+>>
+useradd user10
+useradd user20
+useradd user30
+passwd user10
+1
+1
+passwd user20
+1
+1
+passwd user30
+1
+1
+
+
+1. /perm 디렉토리 생성
+ mkdir /perm
+
+2. /perm 소유자계정 user30, 소유그룹 계정 user20 으로 소유권변경
+chown user30:user20 /perm
+
+3. /perm 디렉토리에 user10 은 접근가능,목록보기가능,파일생성불가 허가권부여
+chmod o+rx,o-w /perm
+
+4. /perm 디렉토리에 user20 은 접근가능,목록보기불가,파일생성가능 허가권부여
+chmod g+wx,g-r /perm
+
+5. /perm 디렉토리에 user30 은 접근불가,목록보기불가,파일생성불가 허가권부여
+chmod u-rwx /perm
+
+6. /perm 디렉토리에 user30 이 test파일을 만들고 그안에 'testfile' 내용을 저장(권한 풀고 진행) 
+chmod u+rwx /perm
+user30에 가서 
+cd /perm
+touch test /perm
+cat > test
+testfile
+^c
+
+7. user30계정으로 /perm/test의 파일의 허가 범위를 다음과 같이 지정
+
+user30:읽기,쓰기 가능, user20:읽기불가 쓰기가능, 나머지계정 :읽기가능 쓰기불가
+chmod u+rw,g-r,g+w,o+r,o-w /perm/test

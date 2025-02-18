@@ -1,0 +1,101 @@
+
+-------------------------------------------------------------
+/etc/login.defs : 보안관련 설정(모든계정적용)
+-------------------------------------------------------------
+MAIL_DIR        /var/spool/mail
+
+PASS_MAX_DAYS   99999		패스워드 최대 사용일
+PASS_MIN_DAYS   0		패스워드 최소 사용일		
+PASS_MIN_LEN    5			패스워드 최소 길이
+PASS_WARN_AGE   7		패스워드 만료 경고일
+
+UID_MIN                   500		UID의 최소 최대 범위
+UID_MAX                 60000
+
+GID_MIN                   500		GID의 최소 최대 범위
+GID_MAX                 60000
+
+CREATE_HOME     yes		홈디렉토리 생성여부
+
+UMASK           077			홈디렉토리의 Umask 값
+USERGROUPS_ENAB yes		사용자 계정 삭제시 그룹 삭제 여부 
+
+ENCRYPT_METHOD SHA512		암호화 기법
+
+CentOS 5.2 = MD5
+CentOS 6.2 = SHA512
+
+---------------------------------------------------------
+/etc/default/useradd : 계정 기본 경로 설정 (모든계정적용)
+---------------------------------------------------------
+
+GROUP=100	그룹지정(100 :UID 와 동일한 GID명)
+HOME=/home	홈디렉토리 위치
+INACTIVE=-1	패스워드 만료후 계정 사용 불가능 되는 날 지정(-1 :사용안함, 0:기간없음[계정정지],1 : 하루,,,,)
+EXPIRE=		계정의 패스워드 만료일(비어있으면 무제한)
+SHELL=/bin/bash	로그인시 사용되는 쉘 경로
+SKEL=/etc/skel	스컬디렉토리 경로
+CREATE_MAIL_SPOOL=yes	메일함 생성여부
+
+
+★★★★ 주의 ★★★★
+
+메일함 생성여부는 /etc/default/useradd 
+메일함 디렉토리설정은 /etc/login.defs
+계정 생성여부는 /etc/login.defs
+계정 홈위치 	/etc/default/useradd
+
+
+
+---------------------------------------------------------
+생성한 계정 정보 저장
+---------------------------------------------------------
+
+1./etc/passwd (계정 기본정보저장) 	
+
+1)      2)3)   4)  5)  6)               7)
+heath:x:503:503:  :/home/heath:/bin/bash
+
+1) 계정명
+2) 패스워드(x-> /etc/shadow에 저장)
+3) UID
+4) GID
+5) Comment
+6) 홈디렉토리 경로
+7) 사용하는 쉘 경로
+
+2./etc/shadow (계정 패스워드 정보저장)
+
+1)      2) 	   3)  4) 5)    6)  7) 8)
+heath:!!/:17216:0:99999:7  :  :  :
+$6	: 해시 알고리즘 종류
+$49Ks.akm 	: Salt값
+$16w98noZ1I6s5naYhVud6LcjSs1qCPN0aLzw/STnoXh0SHhhJciW1QTa1WJqqTwT582483DTXixMBPtGpSmlI.:20101:0:99999:7:::
+	Salt값 + 평문 Password > 해시알고리즘 > 해시값
+
+1)계정명
+2)암호화된 패스워드 저장공간
+3)패스워드 생성날짜(1970.01.01이후)
+4)패스워드 최소사용날짜
+5)패스워드 최대사용날짜
+6)패스워드 만료 경고일 
+7)만료시 비활성화 옵션(-1:미설정, 0:바로만료,1:하루연장)
+8)만료지정일 
+
+패스워드 설정시 !! 부분의 암호화된 패스워드 저장
+
+heath:$6$gAQ20msY$lRejdUefR4ytjO2CjhzcJCX5EQYPk3c.3HpOtyqpCye4C6fo5MbaLZPOwajWhielmTlxUf8dls11.KiGHp5e1/:17216:0:99999:7:::
+
+
+3./etc/group (그룹계정 정보 저장)
+heath:x:503:
+
+4. /home/계정명(사용자의 홈디렉토리 생성 & 기본프로필 환경저장)
+
+.bash_profile	: 로그인쉘 프로필파일	
+.bashrc		: 서브쉘 프로필파일
+.bash_logout	: 로그아웃시 적용할 설정
+.bash_history	: 명령 기록 보존 파일
+
+
+5./var/spool/mail/계정명(사용자 계정의 임시 메일함 생성)

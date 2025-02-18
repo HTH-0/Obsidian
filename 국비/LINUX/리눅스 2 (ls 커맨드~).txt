@@ -1,0 +1,64 @@
+cd - : 바로 직전의 경로
+
+ls(List) : 파일& 디렉토리 목록 출력 
+	ls -l : 상세보기
+	ls -al : 숨김파일까지 표시
+	ls -Ral : 하위 폴더를 포함해 모든 파일보기
+	ls -ld : 해당 폴더 자체의 내용
+
+clear : 커맨더 창 정리
+
+mkdir(make diretory) : 폴더 만들기
+	ex ) mkdir /home/test1
+	mkdir -p : 하위폴더까지 만들기  ex) mkdir -p /home/a/b/c
+
+man (manual) : 명령어 정보 확인
+touch : 파일 생성, 파일의 시간 변경
+cp(copy) : 파일 복사
+
+
+시험
+1-1
+mkdir /final
+
+1-2
+touch 12 34 56
+
+1-3
+touch -t 199901011200 34
+
+1-4
+mkdir /back
+
+1-5
+cp /final/12 /final/56 /back
+
+1-6
+cp -p /final/34 /back
+
+
+2-1
+cp /etc/login.defs /etc/passwd /boot/grub2/grub.cfg /backup
+ls -l /backup
+
+2-2
+mkdir /backup/test
+cd /backup
+cp login.defs test/login
+cp passwd test/pass
+cp grub.cfg test/grub
+ls -l test
+
+2-3
+touch /backup/test1 /backup/test/test2
+ls -l /backup
+
+2-4
+mkdir -p /home/test/c/d
+cp -pr /backup/test /home/test/c/d/linux
+
+2-5
+cp -p /backup/grub.cfg /backup/login.defs /backup/passwd /backup/test1 /home/test/c/d/linux
+
+
+

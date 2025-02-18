@@ -1,0 +1,27 @@
+1 SOURCE_TREE_2 GITHUB REPO 생성(Readme생성체크 해서 main브랜치 생성하기)
+
+2 SourceTree 로 Clone 하기
+
+3 developer branch 생성 후 파일추가(dev.txt) 후 "V0.0 Dev's init" Commit
+
+4 feature/board branch 생성 후 board.txt 파일 생성하고 "V0.1 feature/board init" Commit
+
+5 feature/auth branch 생성 후 auth.txt 파일 생성하고 "V0.1 feature/auth init" Commit
+
+6 developer branch 로 이동 후  Readme.md 수정("V0.1 RebaseMerge") 한 다음 commit
+
+7 feature/board branch 를 developer branch로 rebase 처리(rebase 결과 >> developer보다 feature/board branch 가 위에 있어야함)
+
+8 developer branch 에서 rebase 된 feature/board branch 를 병합
+
+9 feature/auth branch 를 developer branch로 rebase 처리(rebase 결과 >> developer보다 feature/board branch 가 위에 있어야함)
+
+10 developer branch 에서 rebase 된 feature/auth branch 를 병합
+
+11 developer branch 를 main 으로 병합
+
+12 수정사항 전부를 github로 push 
+
+
+
+

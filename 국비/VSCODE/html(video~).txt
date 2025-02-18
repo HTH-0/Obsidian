@@ -1,0 +1,34 @@
+video
+
+
+<video src="">
+</video>
+	기본형
+ 
+<video>
+<source src="" type="">
+</video>
+	여러 개의 파일 형식을 제공가능, 타입 설정 가능
+<video controls>
+	재생 컨트롤 UI(재생, 일시 정지, 볼륨 조절 등)를 제공
+	<video controls autoplay loop muted>
+	자동재생, 반복, 음소거
+
+유튜브 영상 퍼가기
+	예시주소
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/sguxKD2cc0g?si=WBtxn_8mlZFrAgN-"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+	"https://www.youtube.com/embed/sguxKD2cc0g	?  에서  URL에서 매개변수를 전달하기 위한 역할
+	&autoplay=1&mute=1 타이틀 앞에 붙이면 속성추가
+
+비디오 설정
+vw, vh : 뷰포트(viewport)를 기준으로 한 상대적 단위
+
+vw : 현재 화면(브라우저 창)의 너비를 기준으로 백분율
+vh : 현재 화면(브라우저 창)의 높이를 기준으로 백분율
+opacity : .9; 투명도
+body::-wrbkit-scrollbar{display:none;}	: 스크롤 바 숨기기
+

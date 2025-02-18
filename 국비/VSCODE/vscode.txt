@@ -1,0 +1,119 @@
+Visual Studio code
+
+과정 : 폴더 만들고 cmd창에서 code . 입력
+visual studio code 창을 열고
+src 폴더 안에 작업할 폴더, 파일 생성
+
+파일에 !치고 엔터 >> 기본 양식 만들어짐
+
+
+확장 프로그램
+korean : 한국어 패치
+live server :  실시간으로 내용을 확인하기 위해 설치
+auto rename :  html에서 태그를 이루는 쌍이 다 같이 자동으로 바꿔주는 편리한 확장팩
+bracket pair color DLW : 여는 괄호와 닫는 괄호를 같은 색으로 꾸며줘, 코드 블록 시작과 끝이 어딘지를 쉽게 파악할 수 있도록 도와줌
+
+
+
+
+단축키
+Shift Alt F : 정렬기능
+Shift Alt 방향키 : 해당 줄 복사
+
+ul>li*4{LIST$}
+<ul>
+        <li>LIST1</li>
+        <li>LIST1</li>
+        <li>LIST1</li>
+        <li>LIST1</li>
+        <li>LIST1</li>
+</ul>
+
+
+자식요소 선택 : '>'(자식 선택자)
+	ex) div>ul>li
+
+형제노드 : '+'
+	ex) div>ul+ol, div>p+div+span, div>ul>li>a+ul
+
+상위태그로 이동 : '^'
+	ex) div>ul>li^p
+
+
+메뉴구조 만들기
+	div>ul>li>a{MAINMENU $}>ul>li*4{submenu $}
+
+메뉴구조 - 여러개
+ 	div>ul>li*5>a{MAINMENU $}>ul>li*4{SUBMENU $}
+	>>>>li 뒤에 구조가 5번 반복된다
+
+클래스 선택자 : '.' 			: 그룹선택 하기 위해서 사용
+ 	ex) <div class="c1"></div>
+	.c1 >>> <div class="c1"></div>
+
+ID 선택자 : '#'			: 여러 태그 중에서 단일 태그를 사용하기 위해
+	ex) <div id="wrapper"></div>
+	#wrapper
+
+attr 속성추가
+	ex) div>ol[type='I']>li*4{MENU_$}
+		[]안에 속성이 들어갔다.
+		[type='I'] >>> 타입 변경
+
+시작번호 선택
+div>ul>li*8{TEXT $@5}
+문서 전체 구조 emmet 만들기
+.wrapper>header>.top-header+nav^main>section*3^footer
+	이후에 nav 사이에   ul.main-menu>li*4>a{$_mainmenu}+ul>li*5>a{$_submenu}
+
+
+전체 > 헤더 > 탑헤더 >네비 ^ 메인 > 메인내용 ^ 푸터
+
+
+tr 가로 td 세로 !!!!
+<tr> → 테이블의 행(Row)
+<td> → 테이블의 열
+<th> → 테이블의 헤더(제목) 셀
+<th>는 기본적으로 굵게 + 가운데 정렬 적용됨
+일반 데이터 셀은 <td>를 사용
+
+rowspan(행병합)
+<td rowspan="병합할 행 개수">내용</td>
+
+colspan(열병합)
+ <td colspan="병합할 열 개수">내용</td>
+
+		** 주의할점 : 모든 행/열을 병합하면 구조가 바뀜
+			(총 열/행의 갯수가 달라지기 때문)
+
+
+table sementic(구조) 태그
+thead : 테이블 머리말, tbody : 테이블 본문, tfoot : 테이블 꼬리말
+thead >> 본문 위 쪽에 생기는 테이블
+tfoot >> 본문 아래 생기는 테이블
+
+
+
+
+a 태그(하이퍼링크 태그)
+
+<a href="URL">링크 텍스트</a>
+u	"url" 뒤에 target="_blank" >> 새탭으로 열기
+
+iframe 태그
+<iframe src="URL" frameborder="0"></iframe>
+	웹 페이지 내에 다른 웹 페이지나 콘텐츠를 삽입할 때 사용하는 HTML 태그
+	a href="URL"></a>에서 "url" 뒤에 target="프레임이 타겟 할 곳"
+
+
+a 태그로 버튼 모양 만들기
+08A.html
+
+문서 내 위치이동
+"#이동지점"
+ <a href="#html">HTML</a>
+
+이미지 태그
+<img src="이미지 주소" alt="설명글">
+	png : 이미지형태로 저장
+	svg : 코드 형태로 저장 >> 이미지가 안깨짐

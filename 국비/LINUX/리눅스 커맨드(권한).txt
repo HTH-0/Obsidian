@@ -1,0 +1,151 @@
+권한	: 파일/ 디렉토리에 대한 소유/ 허가권
+	소유권 : 허가권을 부여할 수 있는 권한
+		> 사용자 계정, 그룹 계정(권한이 있는 사용자들끼리만 공유하기 위함), 서비스 계정 부여
+	허가권 : 파일/디렉토리에 대한 접근 제한
+
+--------------------------------------------------------------------
+예시)
+drwxr-xr-x.  2 root root      220 10월  2  2020 yum.repos.d
+
+
+d : 파일유형
+rwx r-x r-x	: 허가권
+	rwx (소유자계정용) r-x (그룹계정용) r-x (소유자x 그룹x인 계정용)
+
+root root		: 소유권
+	root (소유한 사용자 계정) root (소유한 그룹 계정)
+-------------------------------------------------------------------
+
+		파일				디렉토리
+r(read) : 읽기	내용보기 : cat,head,tail,more..	폴더 안 목록보기 : ls
+w(write) : 쓰기	내용수정 : vi, >			폴더 내 생성/수정/삭제 : touch, cp, mv, rm ...
+x(excute) : 실행	실행 : ./cmd			폴더 내 진입권한 : cd
+
+
+rwxr-xr-x : Symbolic 방식	> r(4권한) w(2권한) x(1권한)  > 421 41 41 > Numeric방식으로 하면 755가됨 
+755 : Numeric 방식
+ex) r--rw---x : 461,   771 : rwxrwx--x
+
+
+미니문제
+
+rw_r_xr__	-> 654
+rwxr__r_x	-> 745
+r__rwxr__	-> 474
+r_xr__r_x	-> 545
+r__r_x___	-> 450
+
+755	-> rwxr-xr-x
+644	-> rw-r--r--
+701	-> rwx-----x
+542	-> r-xr---w-
+643	-> rw-r---wx
+375	-> -wxrwxr-x
+
+
+
+chown(change owner)
+-> 소유권 변경 명령어
+
+[환경]
+mkdir  -p /chown/a
+touch /chown/b /chown/a/c
+cd /chown
+useradd user10
+
+[실습]		
+chown user1:user1 ./a			- 소유자, 그룹 user1으로 변경
+chown user2 ./a				- 소유자만 user2로 변경
+chown :user3 ./a				- 그룹만 user3으로 변경
+
+chmod
+-> 허가권 변경 명령어
+
+
+
+허가권 부여방식
+
+numeric 
+->숫자 형식으로 부여
+
+확인
+chmod 755 a
+chmod 566 a
+chmod 755 a
+
+symbolic
+->문자 형식으로 부여
+ 		
+symbolic(문자) 방식
+u+,- rwx : 소유권자 권한변경 
+g+,- rwx : 소유그룹 권한 변경
+o+- rwx  : other 권한 변경     
+a +,- rwx  : 모두 권한 변경
+
+[환경]
+useradd user1
+useradd user2
+useradd user3
+passwd user1
+passwd user2
+passwd user3
+mkdir /perm
+
+chmod u+x ./a 			: 소유자에 x권한 추가
+chmod g+wx ./a 			: 그룹에 wx권한 추가
+chmod o+w ./a			: other에 w권한 추가
+chmod u-r,g-w,o-rw ./		: 소유자에 r권한, 그룹에 w권한, other에 rw권한 빼기
+chmod u=r,g=w ./a		: 소유자에 w권한만, 그룹에 w권한만
+chmod a=rx ./a 			: 전체에 rx 권한 추가
+
+chmod 750 /perm			: numeric 방식으로 750권한 부여
+chown user1.user2 /perm		: 소유자 user1, 그룹 user2 권한 부여
+
+
+
+[환경]
+
+cat > /permission/testfile
+This is testfile!
+^C
+
+
+chmod 751 /permission
+chmod 640 /permission/testfile
+chown -R user1.user2 /permission
+
+
+[User별 권한 확인]
+ls -ld /permission 
+
+1. 디렉토리
+user1 접속
+cd 명령어 - ok(x권한)
+touch 명령어 - ok(w권한) 
+ls 명령어 - ok(r권한)
+
+user2 접속
+cd 명령어 - ok
+touch 명령어 - x 
+ls 명령어 - ok
+
+user3 접속
+cd 명령어 - ok
+touch 명령어 - x 
+ls 명령어 - x
+
+권한해제  : chmod 555 /permission
+
+2. 파일
+
+user1 접속
+cat 명령어 - ok
+vi 명령어 - ok 
+
+user2 접속
+cat 명령어 - ok
+vi 명령어 - x
+
+user3 접속
+cat 명령어 - x
+vi 명령어 - x

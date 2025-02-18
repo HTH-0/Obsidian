@@ -1,0 +1,75 @@
+usermod : 사용자 계정정보 변경 명령어
+
+-d 홈디렉토리 설정 	
+-m 홈디렉토리 이동
+
+usermod -u 2000 mod  	-u uid 변경
+usermod -g heath mod	-g 주그룹 변경
+usermod -G test1 mod	-G 보조그룹 변경
+usermod -c linux mod	-c 코멘트 변경
+usermod -s /bin/sh mod	-s 쉘변경
+
+
+
+
+연습 문제
+
+1. test1,test2,test3 계정 생성
+	useradd test1
+	useradd test2
+	useradd test3
+2. test1 의 comment 를 modtest로 변경
+	usermod -c modtest test1
+3. test2 의 주그룹을 test1로, test2의 보조그룹을 test3으로 지정
+	usermod -g test1 -G test3 test2
+4. test1 의 shell을 /bin/ksh 로변경
+	usermod -s /bin/ksh test1
+5. test1의 홈디렉토리를 /test1/home 경로로, test2 홈디렉토리를 /test2/home으로 이동
+	mkdir /test1 /test2
+	usermod -d /test1/home test1
+	usermod -d /test2/home test2
+
+
+
+
+userdel: 계정 삭제 명령어
+	/etc/passwd, /etc/shadow, /etc/group 에는 없어지지만	
+	/var/spool/mail, /home 에는 남아있음
+
+userdel -r 	- 전부 다 삭제
+
+
+>> 
+userdel mod 	-계정삭제
+
+		/etc/passwd		삭제
+		/etc/shadow		삭제
+		/etc/group 		삭제
+		/home/mod		존재
+		/var/spool/mail/mod	존재
+
+
+userdel -r itbank
+
+		/etc/passwd		삭제
+		/etc/shadow		삭제
+		/etc/group 		삭제
+		/home/mod		삭제
+		/var/spool/mail/mod	삭제
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

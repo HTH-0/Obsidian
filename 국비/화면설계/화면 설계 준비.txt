@@ -1,0 +1,16 @@
+유스케이스(usecase 다이어그램, 명세서(최소2개))
+프로토타입(or wireframe)
+최소 4페이지
+
+스토리보드
+- history
+- 개발 동기
+- 조원 소개
+- 메뉴 구조
+- list of screen
+- 화면 흐름도
+- flow chart(1)
+- permission
+- policy
+- 화면 설계
+- 스타일 가이드

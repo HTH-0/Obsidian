@@ -1,0 +1,78 @@
+
+	
+
+
+
+window > show view > other 
+git repository, git staging 탭 생성	git reflog도 있음!!
+
+
+	commit 하기
+
+변경 내용 저장
+> git staging 탭에서 초록색++ 클릭(git add * 커맨드랑 같은 역할) > commit 메세지에 메세지 입력 후 commit
+
+
+	reset 하기
+
+해당 폴더(JAVABOOK) cmd 나 eclipse 폴더 우클릭 > team > show in history에서 확인
+
+history에서 해당 지점 우클릭 > reset hard/soft 가능
+
+
+	**	branch만들기/switch
+
+폴더 > team > switch to 
+
+	branch 병합하기
+
+병합 적용할 branch에서 > 폴더 > team > merge > 병합할 branch선택 > merge
+
+	
+	충돌 상황
+
+index 같은 줄 내용을 master 브랜치에서 수정 후 커밋 > dev 브랜치에서 수정 후 커밋 
+> master로 돌아가서 dev와 병합 > 
+	해결
+내용을 수정하고 저장  // team > merge tool 
+
+
+
+workspace 경로를 새로 추가해서 작업 (workspace2)
+	- file > switch workspace
+
+기본 작업 세팅
+	-tomcat 연결
+	-dynamicweb project생성
+	-Java version 11 버전 설정
+	-servlet.jar, jsp-api.jar 를 lib로 이동
+	-webapp > index.jsp 생성
+
+git 설정
+	- git init
+	- index.jsp에 내용 추가 후 commit 하기 V0.0
+	- branch 생성(dev)
+	- dev branch로 전환 후 index.jsp에 내용 수정 후 commit V0.1
+	- branch 생성 (feature /borad)
+	- feature/borad branch 로 전환 후 index.jsp 에 내용 수정 후 commit V0.2
+	- feature/auth branch 로 전환 후 index.jsp 에 내용 수정 후 commit V0.3
+	- feature/board > dev로 병합 V0.2 dev borad
+	- feature/auth > dev로 병합 V0.2 dev auth
+	- dev > master로 병합 V0.2 master
+	- 과정에서 발생되는 conflict는 적절히 수정해서 merging
+
+
+LOCAL HOST (이클립스)
+GIT REPO				>(PUSH)			 GITHUB REPOSITORY
+	** 깃허브 repository만들때 readme 절대 만들지 말기 >> branch 생겨서 충돌남!!
+
+깃허브 repo 주소로 이클립스 git repository등록
+푸쉬 > git staging 탭에서 push head
+
+
+LOCAL HOST
+GITHUB REPO			>(CLONE)			GIT REPO
+
+eclipse > file > import > git > projects from git > clone uri 
+> destination 에서 directory 경로 지정 주의!! ( workspace안에 remote 파일로 경로지정)
+> 서버 연결(tomcat)

@@ -1,0 +1,31 @@
+form : 사용자로부터 특정 정보를 받아 서버로 전달하는데 사용되는 태그
+	action Attribute : 전달받는 서버로 URI
+	method Attribute : 서버로 요청하는 방식
+        -GET  : 사용자 요청 정보를 Query String으로 전달(Default)
+        -POST : 사용자 요청 정보를 REquest body(Payload)로 전달
+        -PUT  : 
+        -PATCH : 
+        -DELETE :
+
+
+form
+	사용자로부터 입력을 받아 서버로 전송
+<form action=""></form> 기본형
+	action → 데이터를 전송할 서버의 URL
+	method → 데이터를 전송하는 방식 (GET, POST 등
+
+	GET : 기본값, URL에 데이터 포함, ?name=홍길동&email=test@example.com 형식, 보안 낮음 (URL에 노출됨)
+	POST : 숨겨진 방식으로 전송,	 본문(body)에 데이터 포함, 보안 높음 (URL에 보이지 않음)
+<label for="">
+	사용자 입력 필드(<input> 등)와 연결되는 텍스트 라벨
+<label for="">아무거나</label>
+<input type="text">
+	라벨을 클릭하면 해당 입력 필드가 자동으로 포커스됨
+href="javascript:void(0)"
+	javascript: → JavaScript 실행을 의미
+	void(0) → 아무 동작도 하지 않도록 설정
+	사용자가 "중복확인"을 클릭해도 아무 동작도 하지 않음
+
+<span>
+	인라인 요소 : 페이지에서 새로운 줄을 만들지 않고 다른 요소와 같은 줄에 표시
+

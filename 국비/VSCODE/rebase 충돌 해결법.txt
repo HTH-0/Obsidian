@@ -1,0 +1,73 @@
+## 🌟 Rebase 중 충돌 해결 방법 (Sourcetree)
+
+### ✅ **1. Rebase 실행 중 충돌 발생**
+- `main` 브랜치를 Rebase할 때, 변경 사항이 경찰하면 충돌 발생
+- Sourcetree에서 **"Rebase 중 충돌 발생"** 메시지 표시
+- `Rebase 중단`(Abort) / `충돌 해결 후 계속`(Continue) 중 선택 가능
+
+---
+
+### ✅ **2. 충돌 파일 확인 및 해결**
+1. **Sourcetree 왼칸의 "파일 상하" 탭 클릭**
+   - 충돌이 발생한 파일들이 `충돌됨`(Conflicted) 상황으로 표시
+2. **충돌 해결하기**
+   - 충돌된 파일을 더블 클릭하면, 머지 툴(기본적으로 외부 머지 툴)로 열리며 충돌 내용 비교 가능
+   - 또는 파일을 직접 열어간 후, `HEAD` 텍스트와 `incoming change`(Rebase할 `main`의 변경 사항) 바로보기 가능
+
+🔹 **충돌 코드 예시**
+```diff
+<<<<<<< HEAD
+// 내 브랜치(feature)의 코드
+console.log("Hello from feature branch!");
+=======
+console.log("Hello from main branch!");
+>>>>>>> main
+```
+🔹 **해결 후**
+```js
+console.log("Hello from both feature and main branch!");
+```
+
+3. **충돌 해결 후 파일 스테이직**
+   ```sh
+   git add <파일명>
+   ```
+   - 또는 Sourcetree에서 `파일 상하` 탭에서 **스테이직** 버튼 클릭
+
+---
+
+### ✅ **3. Rebase 계속 실행**
+1. **Sourcetree 상단에서** `Rebase 계속 실행`(Continue) 버튼 클릭  
+   - CLI에서는:
+     ```sh
+     git rebase --continue
+     ```
+2. **추가적인 충돌이 있을 경우 복도**  
+   - `파일 수정 → 스테이직 → Rebase 계속` 반복
+
+---
+
+### ✅ **4. 충돌 해결 후 푸시**
+- 로컴 Rebase가 완료되면 웹과 반응을 받기 위해 강제 푸시 필요
+  ```sh
+  git push --force
+  ```
+  - **주의:** 강제 푸시는 웹의 항목 반응을 바꾸는 일이라, 팀원들에게 공유한 후 진행하는 것이 좋음!
+
+---
+
+## **💡 Rebase 중 충돌 해결 시 주의할 점**
+1. **충돌이 많으면 `rebase`보다 `merge`를 고려**  
+   - 충돌이 너무 많으면 `merge`가 더 낫을 수 있음.
+   ```sh
+   git rebase --abort
+   git merge main
+   ```
+2. **이미 웹에 Push한 경우 `force push`필요**  
+   - `git push --force` 사용 전, 팀원에게 알려주기!
+
+---
+
+이제 충돌이 나도 대충하지 않고 해결할 수 있을 거야! 😃  
+더 궁금한 점 있으면 직접 의미해줘~ 🚀
+

@@ -1,0 +1,21 @@
+Server						Client
+	-제공하다						- 요구하는 주체	
+	er : 제공할 수 있는 주체
+
+Server 하드웨어
+Service 소프트웨어
+
+
+DNS Server(컴퓨터)/ Service(프로그램)/ System(환경) > 문자 주소/숫자 주소를 저장하는 서버
+	DN(Domain name) : www.naver.com -  IP 223.130.200.236
+	-> 문자>숫자 : 정매칭, 숫자>문자 : 역매칭
+
+HTTP
+	: Hyper Text Transfer Protocol
+	하이퍼텍스트 형 문서 파일을 전달하기 위해 사용되는 네트워크 프로토콜
+		HTML : Hyper Text Markup Language
+
+1.Dns에 IP주소 요청
+2.Dns로부터 IP주소 받기
+3.Http request
+4.Http responese

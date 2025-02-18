@@ -1,0 +1,26 @@
+환경 
+putty 2개 실행
+한쪽은 ping 127.0.0.1
+한쪽은 ps -elf (ps :  프로세스 상태를 확인하는 명령어)
+	: 현재 실행 중인 프로세스에 대한 자세한 정보를 표시
+
+
+F S UID         PID   PPID  C PRI  NI ADDR SZ WCHAN  STIME TTY          TIME CMD
+
+F : 프로세스의 플래그(프로세스의 상태나 속성)
+S : 프로세스 상태
+UID : 사용자의 ID
+PID : 고유 식별자
+PPID : 부모 프로세스의 ID
+C : CPU 사용률
+PRI : 작업 우선순위 , 낮은 순위부터 먼저 처리 (0이 가장 높음)
+NI : 프로세스의 niceness 값, 낮을수록 우선순위 높음	> NI를 이용하려 PRI 값을 낮추는 방식
+ 등등 
+
+ps -elf |grep ping 
+	ps -elf 에 나오는 출력값 중에서 ping이라는 문자열이 포함된 프로세스 필터링
+
+nice -n -20 명령어
+	NI 값을 -20 해준다
+renice 	>  renice 10 -p 66421
+	실행중인 프로세스 변경 시

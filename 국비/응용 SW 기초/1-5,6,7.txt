@@ -1,0 +1,14 @@
+7 응용(Application)
+6 표현(Presentation)	OS
+5 세션(Session)
+
+4 전송(Transport)
+
+3 네트워크(Network)
+2 데이터링크(Data-link)	Network Device
+1 물리(Physical)
+
+
+응용 > 사용자에 의해 작업물이 나옴
+표현 > 데이터를 어떻게 표현할지 정의함
+세션 > 종단간 세션의 시작과 종료를 정의

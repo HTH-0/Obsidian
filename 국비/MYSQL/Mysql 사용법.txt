@@ -1,0 +1,40 @@
+시작
+
+cmd
+>mysql -u root -p
+>비밀번호 입력
+
+use schema이름;
+	데이터베이스 선택
+
+show tables;
+	데이터베이스 안의 table 항목 보기
+
+select * from 테이블이름;
+
+create database 데이터베이스 이름;
+	db 생성
+
+show databases;
+	db 항목 보기
+
+create table 테이블이름(컬럼이름1 데이터타입(자료형) 제약조건, 컬럼이름2 데이터타입 제약조건, ...);
+	테이블 생성
+
+alter table 테이블이름 add column 칼럼이름 자료형 제약조건 after 위에있을컬럼이름;
+	컬럼 추가
+
+alter table 테이블이름 drop 컬럼이름;
+	컬럼 삭제
+
+alter table 테이블이름 change column 원래컬럼이름 바뀔컬럼이름 자료형 제약조건;
+	컬럼 수정
+
+insert into 테이블이름(컬럼1, 컬럼2, 컬럼3...) values('값1','값2','값3'...); 		*(int 제약조건에선 ' ' 안넣음)*
+	값 삽입
+
+update 테이블이름 set 컬럼1='값1' where 컬럼2='값2';
+	값 수정
+
+delete from 테이블이름 where 컬럼='값';
+	값 삭제

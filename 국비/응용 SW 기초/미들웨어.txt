@@ -1,0 +1,26 @@
+Ware : 제품 
+	Hardware : CPU, RAM, DISK .. 부품
+	Software : Hardware 자원을 이용해서 특정 목적달성을 위해 사용되는 컴퓨터 프로그램
+
+System Software(Operating System) : Hardware/ Application 사이에서 관리하는 역할
+Application : 사용자 요구사항을 만족하는 프로그램
+
+
+
+< Eclipse 초기 세팅 >
+window > preferences > general > workspace > text file encoding: UTF-8 세팅 체크
+preferences에서 files 검색 > CSS Files > Encoding: UTF-8 맞추기
+HTML/JSP 도 동일하게 세팅
+
+< 톰캣 적용 >
+Eclipse > 좌측 상단 File > Other > Server 검색 > Apache 버전9.0 선택
+> 경로: C:\Program Files\Apache Software Foundation (Tomcat 9.0 한번 눌러보기(관리자 실행))
+하단 Overview > Servers > Overview에 Ports > Tomcat admin port : 8091, HTTP/1.1 : 8090 으로 수정
+
+하단 Servers에 Tom~~항목 우클릭 > Start
+
+File > new > dynamic web project
+Project name > src > main > webapp 우클릭 > new > jsp > filename: index
+작성 후 > 좌측 JAVABOOK 우클릭 > run as > run on server
+
+WEB-INF > lib (tomcat 설치파일에 lib 까지 가서 jsp-api, servlet을 복사)

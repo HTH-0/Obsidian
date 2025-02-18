@@ -1,0 +1,21 @@
+Routing Protocol
+  -  Route : 경로
+  -  Router : 경로 안내장치
+  -  Protocol : 통신을 위한 프로그램
+	
+	정적 : 방향을 직접 설정
+		Static
+		Default
+
+	동적 : 스스로 계산(전체 네트워크 정보 필요)
+		
+		AS(Autonomous System) : 자치 시스템 ( 관리자에 의해 관리되는 라우터의 집합/집단)
+			(한 회사나 단체에서 관리하는 라우터 집단)
+		
+		IGP(Interior Gateway Protocol)
+	 		Distance vector : 전체 네트워크 학습 > 최적경로 산출(RIPv2)
+				Hop(장치 단위), Looping 발생 > Hop count 제한(15) > 대규모 네트워크에 안쓰임
+			Link-State : 중심 라우터 선정 > 연결된 모든 라우터로부터 연결 상태 정보를 수신(OSPF)
+		
+		EGP(Exterior -) 
+			BGF

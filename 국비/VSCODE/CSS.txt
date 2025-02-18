@@ -1,0 +1,14 @@
+::before 선택자
+	요소의 실제 내용(content) 앞에 가상의 요소를 추가할 때 사용
+	내용(content), 스타일, 배경 등을 추가가능
+	
+HTML을 수정할 필요 없음
+구조변경 필요 x
+
+overflow
+	overflow : hidden  >> 넘어가는 부분 숨기기
+	overflow : scroll >> 넘어가는 부분 스크롤처리
+
+box-sizing : border-box
+	width와 height에 padding과 border가 포함됨
+	요소 크기를 예측 가능하게 만들고, 레이아웃을 더 쉽게 조정

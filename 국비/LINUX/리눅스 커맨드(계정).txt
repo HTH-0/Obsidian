@@ -1,0 +1,52 @@
+계정 : 	인증과					권한(소유/허가권)부여의 도구		>	인가
+	Authentication				Permission				Authorization
+	-시스템 내에서 등록된 사용자임을 확인
+	-ID/PW, 지문, 홍채 인증...
+	-ID를 확인(식별)
+	-PW 확인(인증)
+
+리눅스 계정관련 파일 >>>>>>> 계정 관련 파일에 자세하게 정리
+	--생성 시 필요한 정보 저장 파일
+	/etc/login.defs	: 계정 보안관련 설정
+			>패스워드 관련 설정 다수)
+	/etc/default/useradd	: 계정 경로 관련 설정
+				>계정 개별 Home 디렉토리 경로, 계정 Skel 경로 설정
+
+	--생성 요청 이후 해당 계정의 개별 정보
+	/etc/passwd	: 계정 기본 정보 저장
+			> 계정명, UID, GID, 개별 홈D경로, 쉘 종류
+	/etc/shadow	: 계정 패스워드 정보 저장
+			> 암호화된 패스워드 저장
+	/etc/group	: 그룹 계정 정보 저장
+	
+	/home/개별홈디렉토리	: 개별 계정마다 부여되는 작업공간
+
+	/var/spool/mail/개별 메일 파일 
+
+
+계정 생성 문제
+1. test10 계정 생성 시 UID값 1800 으로 지정
+	 adduser -u 1800 test10
+
+2. test20 계정 생성 시 주그룹을 test10으로 지정
+	adduser -g test10 test20
+
+3. test30 계정 생성 시 보조그룹 test10 추가
+	 adduser -G test10 test30
+
+4. test40 계정 생성 시 홈디렉토리 경로를 /export/test40 으로 지정
+	mkdir /export 
+	adduser -d /export/test40 test40
+
+5. test50 계정 생성 시 스컬경로를 /skel2 로 하고 test50 홈디렉토리에 test50이 생성되도록
+	cp -r /etc/skel /skel2
+	touch /skel2/test50 
+	adduser -mk /skel2 test50
+
+6. test60 계정 생성 시 쉘을 /bin/ksh로 설정
+	adduser -s /bin/ksh test60
+
+
+
+
+

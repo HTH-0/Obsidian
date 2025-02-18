@@ -1,0 +1,114 @@
+GIT 기본 명령어
+- 전역설정
+  - git --global user.email "your email"
+  - git --global user.name "your nickname"
+  - git config - -global - -list 
+	
+
+기본 명령어
+  - git init : 초기파일 생성
+  - git add : SA에 WD 변경사항 저장
+  - git commit : COMMIT 시점 지정(버전기록)
+확인 명령어
+  - git log
+  - git log --oneline 
+되돌리기
+  - git reset : 이전 버전으로 돌아가기
+  - git reset --soft : WD(o) SA(o) Head(이동)
+  - git reset --hard : WD(x) SA(x) Head(이동)
+  - git reset --mixed : WD(o) SA(x) Head(이동)
+    	hard : 돌아간 커밋 이후의 변경 이력을 전부 삭제
+    	soft : 변경 이력 삭제, 변경 내용은 남아있음, 인덱스 초기화(git add가 안되어 있는 상태), HEAD 포인터만 이전 커밋으로
+    	mixed : 변경 이력 삭제, 변경 내용은 남아있음, 인덱스도 유지(git add까지 되어 있음) 
+  - git reflog
+  - git rm --cached filename (tracked file -> untracked file)
+
+
+
+
+git status : 현재 Git 저장소의 상태를 확인
+
+please tell me who you are 메시지가 뜬다면?? 
+	git config --global user.email xogud1793@naver.com
+	git config --global user.name HTH-0
+
+	
+	<준비>
+cmd 커맨드
+	C:/Users/Administrator/Downloads/TEST 파일 생성 > 주소창에 cmd 실행
+
+
+1. git init 커맨드 입력	: .git 파일 생성
+	test파일에 .git 파일 확인 	( 숨김파일 체크)
+
+git log	> 파일 aaa 생성
+git status			: SA확인
+
+git add aaa.txt		:SA추가
+git status
+git commit -m V0.0	> V0.1.2 (0은 Major : 큰 기능 추가, 1은 Minor : 작은 기능, 2는 Patch)
+git log
+git log --oneline	 > 파일 bbb 생성
+git status		
+
+git add *
+git commit -m "V0.1 bbb.txt added"
+git log --oneline	> 파일 ccc 생성
+
+git add *
+git commit -m "V0.2 ccc.txt added"
+git log --oneline
+
+git reset --hard 082dc9b(리셋하고 싶은 시점)
+git status
+git log --oneline
+git reflog
+git reset --hard 0271635(복구시점)
+git log --oneline
+
+git reset --soft 4d7331b(리셋하고 싶은 시점)
+git log --oneline
+git status
+git reflog
+git reset --hard 0271635(복구시점)
+git log --oneline
+
+git reset --mixed 4d7331b
+git log --oneline
+git status
+
+
+
+
+git branch		: 브랜치 확인
+
+git branch dev		: dev라는 브랜치 생성
+
+git switch master		: 브랜치 이동
+
+git merge dev		: dev 브랜치를 (지금 있는 브랜치로)병합하기
+
+git merge --continue	: 병합 이어하기
+
+충돌상황
+dev브랜치에서 master 브랜치에 한번 병합한 상황)
+dev 브랜치 상태에서 파일 변경 > master브랜치로 이동 후 다시 파일 변경
+
+해결방법
+파일 수정 후(master 브랜치 상태) > git add *	> git merge --continue	> (dev엔 수정이 반영이 안되어있음.)
+> dev 브랜치로 이동 후 > git merge
+
+
+
+git push : 로컬 저장소의 변경 사항(커밋)을 원격 저장소로 전송
+git clone : 원격 저장소의 복사본을 로컬로 가져옴
+git pull : 원격 저장소의 변경 사항을 로컬로 가져오고 병합
+git patch : 변경 사항(패치)을 파일로 저장하거나, 적용
+git remote : 원격 저장소를 관리하는데 사용
+
+github에 새로운 repository 생성
+	** add a readme file  체크xxxx
+git branch -M main : 마스터 브랜치를 main브랜치로 변경
+git push origin : 깃허브에 올리기
+git push --set-upstream origin master : 깃허브에 처음 올릴때 사용
+

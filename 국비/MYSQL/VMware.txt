@@ -1,0 +1,87 @@
+edit > virtual network editor > change settings
+
+
+통신망 종류 
+
+브릿지 : 안에서 밖으로, 밖에서 안으로 다 가능
+
+NAT : 보안 통신
+	> 밖에서 안으로 들어오는것 불가능
+
+host-only : 인터넷 통신을 쓰지않고 내부에서만 연결
+
+CPU(processors)
+disk (보조기억) > 프로그램 
+ram(주기억) > 프로세스
+
+
+
+설치 및 설정과정
+file > new virtual machine > typical > i will > linux / version(centOS 7 64-bit) 로 설정
+> 이름,폴더 설정 > 맥시범 40GB/ single file 설정 > edit 에서 memory 4GB, sound card/USB controller 제거
+> CD/DVD 에서  USE ios image 설정 > 실행
+설치 > 언어설정(한국어) > 소프트웨어 선택( Gnome 데스크탑) > 파티션 (기본)  > root 암호 : 1 설정
+> 사용자생성(이름 user1, 암호 1) > 설치 > 약관 동의 후 완료
+
+접속 : 목록에 없읍니까? > root , 암호1로 접속 > 입력문자 한국어(hangul)
+인터넷 연결설정 : 우상단 전원버튼 > 유선꺼짐 > 네트워크 설정 > 자동으로 연결 체크 > IPv4 탭에서 ip를 수동으로 사용
+> 주소, 네임서버 기입 > 
+
+
+vm > snapshot > take snapshot  : 백업파일 생성
+
+	컨트롤 알트 > 마우스 빠져나오기
+	리눅스는 커맨드환경
+
+
+		** 대소문자 구분 확실하게 하기
+
+administrator(ms 관리자 계정 / 비활성화 되어있는게 보통, 제한적인 권한(system계정이 최고))
+vs
+root(리눅스용, 최상위 관리자)
+
+
+터미널 ( 사용자와 맞닿아있는 시스템의 마지막 연결 )
+shell ( 터미널 안의 작은 모듈) : 사용자와 운영체제의 내부(커널) 사이의 인터페이스를 감싸는 층
+
+root@localhost ~#
+root 계정
+localhost	호스트 종류
+~ (작업 중인 공간, 틸드) 	> #(관리자 계정), $(유저 계정)
+
+
+puTTY : 원거리에서 특정 컴퓨터 제어하는 프로그램 (원격 접속을 위한 접속 프로그램)
+
+사용법 : host name 기입 ( 192.168.10.10 ) > saved sessions 에서 이름 설정 후 세이브 > 로드후 오픈 > 경고창 accept
+> root 계정 접속( 암호 1)
+	 설정 : appearance 에서 폰트 변경 : consolas ( 문자 구분에 용이함)
+
+
+간단한 명령어
+		명령어  -(옵션) (값)
+
+passwd : 비밀번호 변경
+
+reboot
+shutdown -r now 	: 재부팅
+init 6 (리눅스 런레벨)
+
+power off 
+shutdown -h now : 강제종료
+init 0
+
+ifconfig : 네트워크 설정정보 확인
+
+pwd : 현재 작업공간 확인 ( root 계정은 root 파일이 기본)
+
+/ : 폴더 구분 (윈도우에서 \ 역할), / 최상위 폴더
+
+cd : 디렉토리 변경 명령어
+cd . : 현재 위치
+cd .. :  상위 폴더로 이동
+	> 이동경로 지정 	 1. 절대 경로: 최상위 디렉토리부터 해당 파일까지의 경로를 모두 기입하는 방식
+				> 어디에 있든 이동 가능
+			 2. 상대 경로: 현재 파일이 존재하는 디렉토리를 기준으로 해당 파일까지의 위치를 작성한 경로
+				> 해당 위치 폴더에서 하위폴더 입력
+~ (작업 중인 공간, 틸드) 	> #(관리자 계정), $(유저 계정)
+cd - : 바로 직전의 경로

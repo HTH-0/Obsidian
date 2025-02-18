@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1834352cff57ce37",
+        "id": "ec0244ce22ead406",
         "type": "tabs",
         "children": [
           {
-            "id": "c9a7835960833a4f",
+            "id": "c288f0f6877b1309",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "VSCODE/JAVASCRIPT/06이벤트"
-              },
-              "icon": "lucide-file",
-              "title": "06이벤트"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
             }
           }
         ]
@@ -73,7 +71,7 @@
             }
           },
           {
-            "id": "a58193415f278cc8",
+            "id": "1983b95c745c75d9",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -196,10 +194,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9a7835960833a4f",
+  "active": "c288f0f6877b1309",
   "lastOpenFiles": [
-    "VSCODE/JAVASCRIPT/06이벤트/03키보드.html",
-    "VSCODE/JAVASCRIPT/06이벤트/02마우스.html",
+    "국비/화면설계/화면설계.md",
+    "국비/응용 SW 기초/응용 SW 기초.md",
+    "국비/MYSQL/MYSQL.md",
+    "정처.md",
+    "국비/국비.md",
+    "VSCODE/VSCODE.md",
+    "VSCODE/JAVASCRIPT/JAVASCRIPT.md",
+    "VSCODE/HTML/HTML.md",
+    "MYSQL/mysql 기본 조작.md",
+    "MYSQL/SELECT.md",
+    "MYSQL/연산자.md",
+    "국비/VSCODE/VSCODE.md",
+    "국비/LINUX/LINUX.md",
+    "국비/GIT/GIT.md",
+    "정처산기.md",
+    "국비수업",
+    "새 폴더",
+    "PROJECT/화면구현/화면구현.md",
+    "PROJECT/PROJECT.md",
+    "정처산기/정처산기.md",
+    "국비/VSCODE/vscode.txt",
+    "국비/VSCODE/Selector.txt",
+    "국비/VSCODE/rebase 충돌 해결법.txt",
+    "국비/VSCODE/html(video~).txt",
+    "국비/VSCODE/html(form).txt",
+    "국비/VSCODE/CSS.txt",
+    "국비/VSCODE/css-Selector.txt",
+    "국비/VSCODE/css-position.txt",
+    "국비/응용 SW 기초/정리.png",
     "VSCODE/CSS/07MQ/07MQ.md",
     "VSCODE/CSS/06ANIMATION/06ANIMATION.md",
     "VSCODE/CSS/05LAYOUT/05LAYOUT.md",
@@ -207,33 +232,7 @@
     "VSCODE/CSS/03SELECTOR/03SELECTOR.md",
     "VSCODE/CSS/02Box/02Box.md",
     "VSCODE/CSS/01Basic/01Basic.md",
-    "MYSQL/연산자.md",
-    "MYSQL/SELECT.md",
-    "MYSQL/mysql 기본 조작.md",
-    "VSCODE/JAVASCRIPT/JAVASCRIPT.md",
     "VSCODE/JAVASCRIPT/06이벤트/06이벤트.md",
-    "VSCODE/JAVASCRIPT/05함수/05함수.md",
-    "VSCODE/JAVASCRIPT/04흐름제어문/04흐름제어문.md",
-    "VSCODE/JAVASCRIPT/03_연산자/03_연산자.md",
-    "VSCODE/JAVASCRIPT/02TYPE/02TYPE.md",
-    "VSCODE/JAVASCRIPT/01Basic/01Basic.md",
-    "VSCODE/CSS/CSS.md",
-    "VSCODE/HTML/HTML.md",
-    "MYSQL/MYSQL.md",
-    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/01조/README.md",
-    "VSCODE/VSCODE.md",
-    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/04조/README.md",
-    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/03조/README.md",
-    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/02조/README.md",
-    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/04조/css/04.css",
-    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/04조/css/03.css",
-    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/04조/css/02.css",
-    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/04조/css/01.css",
-    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/03조/css/04.css",
-    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/03조/css/03.css",
-    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/03조/css/02.css",
-    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/03조/css/01.css",
-    "VSCODE/CSS/05LAYOUT/폴리파크LAYOUT/02조/css/04.css",
     "VSCODE/HTML/logo/naver.png",
     "VSCODE/HTML/logo/mainlogo.png",
     "VSCODE/HTML/logo/kakao.png",
@@ -242,7 +241,6 @@
     "VSCODE/HTML/logo/05check.svg",
     "VSCODE/HTML/logo/apple.png",
     "VSCODE/HTML/images/home.svg",
-    "VSCODE/HTML/images/test.jpg",
-    "VSCODE/HTML/images/emotion.svg"
+    "VSCODE/HTML/images/test.jpg"
   ]
 }

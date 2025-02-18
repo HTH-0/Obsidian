@@ -1,0 +1,22 @@
+지혜 : 지식에 유연성을 더하고, 상황과 맥락에 맞는 규칙을 적용하는 것
+지식 : 정보를 일반화하고 체계화하여 바로 적용·활용할 수 있도록 만든 것
+정보 : 여러 가지 데이터 중에 사용자에게 ‘필요한’ 데이터. 정제된, 가공된 데이터
+자료 : 관찰, 측정을 통해서 수집된 사실이나 값, 수치, 문자
+
+<My sql>
+Information_schema : 메타데이터 제공, 데이터베이스 정보 제공(테이블, 열, 인덱스 등등)
+Performance_schema : 시스템 성능 관련정보 제공 (쿼리 성능, 서버 리소스 사용현황, 대기중인 이벤트 등등)
+mysql : 인증 정보( 사용자 정보, 권한 정보 등등)
+sys : Performance_schema, Information_schema 의 분석을 돕기 위해 만들어진 DB( 여러 View 테이블 포함)
+
+varchar : 
+
+스네이크 표기법 : 언더바 (user_id)
+카멜 표기법 : 대문자 (userId)
+
+제약조건
+PK : 유일값, 빈값x(not null이 따라옴), 주로 관계형에 사용
+
+column 추가 : alter table 테이블명 add column 컬럼명 자료형 제약조건
+수정 : alter table 테이블명 change column 기존컬럼명 변경컬럼명 변경자료형 제약조건
+삭제 : alter table 테이블명 drop 컬럼명

@@ -1,0 +1,21 @@
+foreign keys 탭
+
+Foreign key option
+기본 키 열이 바뀔 때 외래키 열도 같이 변화할지
+cascade로 변경
+
+columns 탭
+: 제약조건 설정(Primary key ...)
+primary key 제거 > 점선 ( 비식별관계 )
+	 : 외래키 이기만 하면 점선, primary key있으면 실선
+		 (부모테이블[A 테이블]의 PK가 외래키로써, 자식테이블[B 테이블]의 PK가 아닌 일반 속성)
+
+상단 database 탭 > foward engineer : 모델로 확인하기
+
+
+
+file > newmodel > db명 변경 > add diagram > table 만들기 > column/ 제약조건 설정
+ > 관계설정( 외래키 열이 포함될 테이블 먼저 클릭) > 외래키 열 있는 테이블 foreign keys 탭 > cascade 설정
+> 상단 database > foward engineer > 홈에서 schemas 탭 확인
+
+database > reverse engineer > schemas 탭에서 eer다이어그램으로

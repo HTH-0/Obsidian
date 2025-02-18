@@ -1,0 +1,11 @@
+git rebase
+두 개의 공통 base를 가진 branch에서 한 branch의 base를 다른 branch 의 최신 커밋으로 base를 옮기는 작업
+>> branch의 base를 다시 설정하는 작업
+
+
+깃플로우
+:  Git 브랜치를 효과적으로 관리하기 위한 워크플로우
+
+
+https://learngitbranching.js.org/?locale=ko
+>> 깃 연습사이트
