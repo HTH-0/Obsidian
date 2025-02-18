@@ -11,17 +11,28 @@
             "id": "c288f0f6877b1309",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "해보고 싶은 것/프로젝트.md",
-                "mode": "source",
-                "source": false
+                "file": "해보고 싶은 것/제목 없음.png"
               },
-              "icon": "lucide-file",
-              "title": "프로젝트"
+              "icon": "lucide-image",
+              "title": "제목 없음"
+            }
+          },
+          {
+            "id": "54a45eb9281b54b3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +86,7 @@
             }
           },
           {
-            "id": "5dbd1a2023165394",
+            "id": "e6254a359af9e960",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -198,12 +209,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c288f0f6877b1309",
+  "active": "54a45eb9281b54b3",
   "lastOpenFiles": [
+    "해보고 싶은 것/타자 배경.png",
+    "해보고 싶은 것/타자 참고 2.png",
+    "해보고 싶은 것/프로젝트.md",
     "MYSQL/SELECT.md",
     "MYSQL/연산자.md",
     "해보고 싶은 것/제목 없음.png",
-    "해보고 싶은 것/타자 참고 2.png",
     "VSCODE/JAVASCRIPT/06이벤트/11DomLoad.html",
     "VSCODE/JAVASCRIPT/06이벤트/10Resize.html",
     "VSCODE/JAVASCRIPT/06이벤트/09스크롤.html",
@@ -213,8 +226,6 @@
     "VSCODE/JAVASCRIPT/06이벤트/05채팅창.html",
     "VSCODE/JAVASCRIPT/06이벤트/04키보드.html",
     "해보고 싶은 것/95타자연습.html",
-    "해보고 싶은 것/프로젝트.md",
-    "해보고 싶은 것/타자 배경.png",
     "해보고 싶은 것/해보고 싶은 것.md",
     "해보고 싶은 것",
     "국비/화면설계/화면설계.md",
