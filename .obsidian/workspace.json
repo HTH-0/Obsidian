@@ -13,13 +13,26 @@
             "state": {
               "type": "mk-space",
               "state": {
-                "path": "VSCODE"
+                "path": "VSCODE/JAVASCRIPT/04흐름제어문"
               },
               "icon": "lucide-file",
-              "title": "VSCODE"
+              "title": "04흐름제어문"
+            }
+          },
+          {
+            "id": "d373fff1e5f49f0a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +86,7 @@
             }
           },
           {
-            "id": "75249957db89d929",
+            "id": "829d29a8e42b1401",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -196,24 +209,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c288f0f6877b1309",
+  "active": "829d29a8e42b1401",
   "lastOpenFiles": [
+    "VSCODE/JAVASCRIPT/08동기비동기(SYNC&ASYNC)/01set&clearTimeout.html",
+    "VSCODE/JAVASCRIPT/08동기비동기(SYNC&ASYNC)/00INFO.txt",
+    "VSCODE/JAVASCRIPT/08동기비동기(SYNC&ASYNC)",
+    "VSCODE/JAVASCRIPT/07NODE_CRUD/06EL_CrudDrag.html",
+    "VSCODE/JAVASCRIPT/07NODE_CRUD/05_[문제] EL_CRUD.html",
+    "VSCODE/JAVASCRIPT/07NODE_CRUD/04EL_CRUD.html",
+    "VSCODE/JAVASCRIPT/07NODE_CRUD/03CLASS추가.html",
+    "VSCODE/JAVASCRIPT/07NODE_CRUD/02FORM검색.html",
+    "VSCODE/JAVASCRIPT/07NODE_CRUD/01NODE검색.html",
+    "VSCODE/JAVASCRIPT/07NODE_CRUD",
+    "VSCODE/JAVASCRIPT/04흐름제어문/04흐름제어문.md",
+    "VSCODE/JAVASCRIPT/03CLASS추가.html",
     "해보고 싶은 것/제목 없음.png",
     "해보고 싶은 것/타자 참고 2.png",
-    "VSCODE/JAVASCRIPT/06이벤트/11DomLoad.html",
-    "VSCODE/JAVASCRIPT/06이벤트/10Resize.html",
-    "VSCODE/JAVASCRIPT/06이벤트/09스크롤.html",
-    "VSCODE/JAVASCRIPT/06이벤트/08표만들기.html",
-    "VSCODE/JAVASCRIPT/06이벤트/07체크이벤트.html",
-    "VSCODE/JAVASCRIPT/06이벤트/06타자연습.html",
-    "VSCODE/JAVASCRIPT/06이벤트/05채팅창.html",
-    "VSCODE/JAVASCRIPT/06이벤트/04키보드.html",
-    "해보고 싶은 것/95타자연습.html",
     "해보고 싶은 것/프로젝트.md",
     "해보고 싶은 것/타자 배경.png",
     "해보고 싶은 것/해보고 싶은 것.md",
     "MYSQL/연산자.md",
-    "해보고 싶은 것",
     "국비/화면설계/화면설계.md",
     "국비/응용 SW 기초/응용 SW 기초.md",
     "국비/MYSQL/MYSQL.md",
@@ -236,13 +251,11 @@
     "VSCODE/CSS/06ANIMATION/06ANIMATION.md",
     "VSCODE/CSS/05LAYOUT/05LAYOUT.md",
     "VSCODE/CSS/04POSITION/04POSITION.md",
-    "VSCODE/CSS/03SELECTOR/03SELECTOR.md",
     "VSCODE/HTML/logo/naver.png",
     "VSCODE/HTML/logo/mainlogo.png",
     "VSCODE/HTML/logo/kakao.png",
     "VSCODE/HTML/logo/facebook.png",
     "VSCODE/HTML/logo/google.png",
-    "VSCODE/HTML/logo/05check.svg",
-    "VSCODE/HTML/logo/apple.png"
+    "VSCODE/HTML/logo/05check.svg"
   ]
 }

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- GOOGLE ICON -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        * {
+            font-size: 1rem;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 300,
+                'GRAD' 0,
+                'opsz' 24;
+            font-size: 1.5rem;
+        }
+
+        input {
+            height: 35px;
+        }
+
+        .btn {
+            width: 75px;
+            height: 35px;
+            border-radius: 5px;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        th,
+        td {
+            width: 50px;
+            height: 35px;
+            border: 1px solid;
+            margin: 2px;
+        }
+
+        th:nth-child(1),
+        td:nth-child(1) {
+            width: 150px;
+        }
+
+        th:nth-child(3),
+        td:nth-child(3) {
+            width: 700px;
+        }
+        td:nth-child(4){
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="" name="joinForm" onsubmit="return false">
+        <input name="username" placeholder="이름을 입력하세요">
+        <input name="age" placeholder="나이를 입력하세요">
+        <input name="address" placeholder="주소를 입력하세요">
+        <button class="btn">입력</button>
+    </form>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>나이</th>
+                <th>주소</th>
+                <th>삭제</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+
+    </table>
+    </div>
+    <script>
+        // form의 기본기능은 비활성화합니다
+        // 입력버튼을 눌렀을때 table의 tbody에 입력된 (이름/나이/주소/삭제버튼)이 생성될수 있도록합니다
+        // 입력된 노드의 이름/나이/주소를 수정할수 있도록합니다.
+        // 특정행의 삭제버튼을 클릭했을때 해당 행이 삭제 될수 있도록 합니다.
+
+        // 특정행의 위치를 위로이동/아래로 이동이 가능하도록 합니다(나중에)
+        const btnEl = document.querySelector('.btn');
+        const formEl = document.joinForm;
+        const usernameEl = formEl.username;
+        const ageEl = formEl.age;
+        const addressEl = formEl.address;
+        const tableBodyEl = document.querySelector('table tbody');
+    
+        // 입력된 값들을 저장할 변수
+        let nameValue = '';
+        let ageValue = '';
+        let addValue = '';
+    
+        // 각 입력 필드에 대한 값 변경을 실시간으로 처리
+        usernameEl.addEventListener('input', (e) => {
+            nameValue = e.target.value;
+        });
+    
+        ageEl.addEventListener('input', (e) => {
+            ageValue = e.target.value;
+        });
+    
+        addressEl.addEventListener('input', (e) => {
+            addValue = e.target.value;
+        });
+    
+        // tr 생성 함수
+        function createRow(name, age, address) {
+            const tr = document.createElement('tr');
+    
+            // td 생성
+            const tdName = document.createElement('td');
+            tdName.innerHTML = name;
+            tdName.contentEditable = true;
+
+            const tdAge = document.createElement('td');
+            tdAge.innerHTML = age;
+            tdAge.contentEditable = true;
+
+            const tdAddress = document.createElement('td');
+            tdAddress.innerHTML = address;
+            tdAddress.contentEditable = true;
+
+    
+            // 삭제 td 생성
+            const tdDelete = document.createElement('td');
+            tdDelete.innerHTML = "삭제";
+            tdDelete.addEventListener('click',()=>{
+                tableBodyEl.removeChild(tr); 
+            });
+
+            // 새로 생성된 행에 셀 추가
+            tr.appendChild(tdName);
+            tr.appendChild(tdAge);
+            tr.appendChild(tdAddress);
+            tr.appendChild(tdDelete);
+    
+            return tr;
+        }
+    
+        // 버튼 클릭 시
+        btnEl.addEventListener('click', () => {
+            // 입력값이 없으면 알림
+            if (!nameValue || !ageValue || !addValue) {
+                alert('공백이 있습니다.');
+                return;
+            }
+    
+            // 새 행을 테이블에 추가
+            const newRow = createRow(nameValue, ageValue, addValue);
+            tableBodyEl.appendChild(newRow);
+
+            // 입력 필드 초기화
+            usernameEl.value = '';
+            ageEl.value = '';
+            addressEl.value = '';
+            // 내부 값 초기화
+            nameValue = '';
+            ageValue = '';
+            addValue = '';
+        });
+    </script>
+</body>
+
+</html>

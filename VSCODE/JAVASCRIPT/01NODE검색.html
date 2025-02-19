@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>LIST_1</li>
+        <li id="li-2">LIST_2</li>
+        <li class="item">LIST_3</li>
+        <li>LIST_4</li>
+        <li id="li-5">LIST_5</li>
+        <li>LIST_6</li>
+        <li class="item">LIST_7</li>
+        <li class="item">LIST_8</li>
+    </ul>
+
+
+
+    <script>
+        // getElementById('id명')
+        const li2El = document.getElementById('li-2');
+        li2El.style.backgroundColor="orange";
+        li2El.style.fontSize="2rem"
+
+        // querySelector('선택자')
+        const itemEl = document.querySelector('.item');
+        itemEl.style.color = "green";
+        itemEl.style.fontWeight="900";
+
+        // querySelectorAll('선택자')
+        // 배열이 아니라 배열함수에 제약이 있다.
+        const itemEls = document.querySelectorAll('.item');
+        itemEls.forEach((item)=>{
+            item.style.border = "2px solid orange";
+            item.style.margin = "20px 0";
+        });
+
+        const liEls = document.getElementsByTagName('li');
+        console.log(liEls);
+        // forEach 함수 사용할 수 없다.
+        // liEls.forEach((item)=>{console.log(item);});
+        
+        // 유사 배열 > 배열 (Array.from())
+        const liEls2 = Array.from(liEls);
+        // forEach 사용 가능해진다
+        liEls2.forEach((item)=>{console.log(item);});
+
+        
+    </script>
+</body>
+</html>

@@ -47,19 +47,22 @@
             text-align: left;
             min-height: 30px;
         }
-        .container>#percentage{
+
+        .container>#percentage {
             border: 1px solid;
             width: 500px;
             padding: 2px;
             height: 22px;
             position: relative;
         }
-        .container>#percentage span{
+
+        .container>#percentage span {
             position: absolute;
             /* left: calc(100% - 25px); */
             left: 0;
             transition: 1s;
         }
+
         .valid {
             color: green;
         }
@@ -73,7 +76,9 @@
 <body>
 
     <div class="container">
-        <div><li>타자연습</li></div>
+        <div>
+            <li>타자연습</li>
+        </div>
         <div id="target-text">묻고 더블로 가!</div>
         <div id="result">입력된 값이 올바른지 여부를 확인하는 부분입니다.</div>
         <input type="text" id="input-text" placeholder="위 문장을 입력하세요">
@@ -97,7 +102,7 @@
             "신에게는 아직 열두척의 배가 남아있사옵니다",
             "아직 한 발 남았다"
         ]
-        
+
         // 문장 랜덤 배치
         let textsIdx = parseInt(Math.random() * 100) % texts.length;
         console.log(textsIdx);
@@ -130,9 +135,9 @@
 
             const progressPercent = (validCnt / text.length) * 100;
             const progressIconEl = document.querySelector('#percentage span');
-            if(progressPercent !== 100){
+            if (progressPercent !== 100) {
                 progressIconEl.style.left = `${progressPercent}%`;
-            }else if(progressPercent == 100){
+            } else if (progressPercent == 100) {
                 progressIconEl.style.left = `calc(${progressPercent}% - 25px)`;
             }
 
@@ -142,9 +147,9 @@
                 setTimeout(() => {
                     inputEl.disabled = true;
 
-                    while(true){
+                    while (true) {
                         tmp = parseInt(Math.random() * 100) % texts.length;
-                        if(tmp!==textsIdx){
+                        if (tmp !== textsIdx) {
                             textsIdx = tmp;
                             break;
                         }
@@ -168,11 +173,6 @@
 
 
         });
-        // 조합된 문장 일치여부
-        // inputEl.addEventListener('compositionupdate',(e)=> {
-        // console.log('compositionupdate',e.data);
-        //     console.log('inputedValue',e.data);
-        // });
     </script>
 </body>
 
