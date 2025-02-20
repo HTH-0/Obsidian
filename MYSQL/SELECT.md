@@ -1,4 +1,4 @@
-[[MYSQL/MYSQL]]
+[[MYSQL]]
 ## **SELECT 산술식;**
 
 ## **SELECT * FROM 데이터베이스;**
@@ -25,6 +25,15 @@
 >> 	OR, AND 뒤에 한번 더 반복 해줘야 한다.
 
 
+## **ORDER BY**
+>>정렬하기, 기본적으로 오름차순 정렬
+>>SELECT * FROM city ORDER BY Population; 
+>>	(뒤에 ASC가 생략되어 있다)
+>>	오름차순 정렬
+>>SELECT * FROM city ORDER BY Population DESC;
+>>	뒤에 DESC 붙인다면
+>>	내림차순 정렬
+>>
 
 ## **LIMIT**
 >>SELECT * FROM city LIMIT 1;
@@ -41,12 +50,20 @@
 >> SELECT DISTINCT countrycode, name FROM city;
 >> 	두 개 다 중복된 데이터를 제거한다. (데이터의 수가 더 많아진다는 말)
 
-## **ORDER BY**
->>정렬하기, 기본적으로 오름차순 정렬
->>SELECT * FROM city ORDER BY Population; 
->>	(뒤에 ASC가 생략되어 있다)
->>	오름차순 정렬
->>SELECT * FROM city ORDER BY Population DESC;
->>	뒤에 DESC 붙인다면
->>	내림차순 정렬
+## **BETWEEN**
+>> a > 100 and a <130 을 표현하기 위해
+>> BETWEEN 은 양 끝 수를 포함한다 (이상, 이하)
+>
+>>>SELECT * FROM film WHERE length BETWEEN 100 AND 130;
+>>>	= SELECT * FROM film WHERE length >=100 AND length <=130;
 >>
+>>>SELECT * FROM film WHERE length  NOT BETWEEN 100 AND 130;
+>>>	100보다 작고, 130보다 큰 값 찾기
+
+## **IN**
+>> OR 이 겹칠때 한번에 적는법
+>
+>>>SELECT * FROM film WHERE rating IN ('PG', 'G');
+>>>	=SELECT * FROM film WHERE rating = 'PG' OR rating = 'G';
+
+## **LIKE**
