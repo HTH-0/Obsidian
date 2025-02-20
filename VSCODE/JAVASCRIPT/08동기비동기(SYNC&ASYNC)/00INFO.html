@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="d1"></div>
+    <button></button>
+
+    <script>
+        // 동기처리일 때. 순서대로 실행된다.
+        for (let i = 0; i < 10; i++) {
+            console.log("main for...1", i);
+        }
+        console.log("for1이 끝남");
+
+        setTimeout(() => {
+            for (let i = 0; i < 10; i++) {
+                console.log("Async main for...2", i);
+            }
+            console.log("for2이 끝남");
+        }, 100);
+
+        for (let i = 0; i < 10; i++) {
+            console.log("main for...3", i);
+        }
+        console.log("for3이 끝남");
+
+    </script>
+</body>
+
+</html>

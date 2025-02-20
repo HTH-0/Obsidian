@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+    </style>
+
+
+    <style>
+        .slider-block {
+            /* width: 100vw; */
+            height: auto;
+            margin: 50px auto;
+            border: 1px solid;
+            overflow: hidden;
+        }
+
+
+
+        .slider-block>.slider-wrapper {
+            width: 100vw;
+            height: 500px;
+            border: 1px solid green;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            position: relative;
+            transition: .5s;
+        }
+
+        .slider-block>.slider-wrapper>.item {
+            width: 33.3333vw;
+            height: 500px;
+            position: relative;
+        }
+
+        .slider-block>.slider-wrapper>.item img {
+            width: 33vw;
+            object-fit: contain;
+        }
+
+        .slider-block>.slider-wrapper>.item>label {
+            display: flex;
+            color: skyblue;
+            position: absolute;                 
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 100;
+            width: 50px;
+            height: 50px;
+        }
+
+        .slider-block>.slider-wrapper>.item>label>.material-symbols-outlined {
+            font-size: 3rem;
+            display: block;
+            cursor: pointer;
+        }
+
+        .slider-block>.slider-wrapper>.item>label.prev {
+            left: 33vw;
+        }
+
+        .slider-block>.slider-wrapper>.item>label.next {
+            right: 0;
+        }
+
+        .slider-block>input[type="radio"] {
+            /* display: none; */
+        }
+
+        .slider-block>input[type="radio"]#forward-1:checked~.slider-wrapper {
+            left: 0;
+        }
+
+        
+        .slider-block>input[type="radio"]#forward-2:checked~.slider-wrapper {
+            left: -33.33vw;
+        }
+        
+        .slider-block>input[type="radio"]#forward-3:checked~.slider-wrapper {
+            left: -66vw;
+        }
+        
+        .slider-block>input[type="radio"]#forward-4:checked~.slider-wrapper {
+            left: -100vw;
+        }
+        
+        
+        .slider-block>input[type="radio"]#forward-5:checked~.slider-wrapper {
+            left: -133vw;
+        }
+        
+        .slider-block>input[type="radio"]#backend-4:checked~.slider-wrapper {
+            left: -100vw;
+        }
+        
+        .slider-block>input[type="radio"]#backend-3:checked~.slider-wrapper {
+            left: -66vw;
+        }
+        
+        .slider-block>input[type="radio"]#backend-2:checked~.slider-wrapper {
+            left: -33vw;
+        }
+        
+        .slider-block>input[type="radio"]#backend-1:checked~.slider-wrapper {
+            left: 0px;
+        }
+         /* 해당 안되는 label 안보이게 */
+        /* .slider-block>input[type="radio"]#forward-1:checked~.slider-wrapper label:not([for="forward-1"]) {
+            display: none;
+        }
+
+        .slider-block>input[type="radio"]#forward-2:checked~.slider-wrapper label:not([for="forward-2"]) {
+            display: none;
+        }
+
+        .slider-block>input[type="radio"]#forward-3:checked~.slider-wrapper label:not([for="forward-3"]) {
+            display: none;
+        }
+        .slider-block>input[type="radio"]#forward-4:checked~.slider-wrapper label:not([for="forward-4"]) {
+            display: none;
+        }
+
+        .slider-block>input[type="radio"]#forward-5:checked~.slider-wrapper label:not([for="forward-5"]) {
+            display: none;
+        }
+
+        .slider-block>input[type="radio"]#backend-4:checked~.slider-wrapper label:not([for="backend-4"]) {
+            display: none;
+        }
+
+        .slider-block>input[type="radio"]#backend-3:checked~.slider-wrapper label:not([for="backend-3"]) {
+            display: none;
+        }
+
+        .slider-block>input[type="radio"]#backend-2:checked~.slider-wrapper label:not([for="backend-2"]) {
+            display: none;
+        }
+
+        .slider-block>input[type="radio"]#backend-1:checked~.slider-wrapper label:not([for="backend-1"]) {
+            display: none;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="slider-block">
+        <input type="radio" id="forward-2" name="slideradio">
+        <input type="radio" id="forward-3" name="slideradio">
+        <input type="radio" id="forward-4" name="slideradio">
+        <input type="radio" id="forward-5" name="slideradio">
+        <input type="radio" id="backend-1" name="slideradio" checked>
+        <input type="radio" id="backend-2" name="slideradio">
+        <input type="radio" id="backend-3" name="slideradio">
+        <input type="radio" id="backend-4" name="slideradio">
+        <div class="slider-wrapper">
+            <div class="item">
+                <label for="backend-5" class="prev"><span class="material-symbols-outlined">arrow_left</span></label>
+                <label for="forward-2" class="next"><span class="material-symbols-outlined">arrow_right</span></label>
+                <img src="./Instrument/accordian.png" alt="">
+            </div>
+            <div class="item">
+                <label for="backend-1" class="prev"><span class="material-symbols-outlined">arrow_left</span></label>
+                <label for="forward-3" class="next"><span class="material-symbols-outlined">arrow_right</span></label>
+                <img src="./Instrument/cello.png" alt="">
+            </div>
+            <div class="item">
+                <label for="backend-2" class="prev"><span class="material-symbols-outlined">arrow_left</span></label>
+                <label for="forward-4" class="next"><span class="material-symbols-outlined">arrow_right</span></label>
+                <img src="./Instrument/clarinet.png" alt="">
+            </div>
+            <div class="item">
+                <label for="backend-3" class="prev"><span class="material-symbols-outlined">arrow_left</span></label>
+                <label for="forward-5" class="next"><span class="material-symbols-outlined">arrow_right</span></label>
+                <img src="./Instrument/drum.png" alt="">
+            </div>
+            <div class="item">
+                <label for="backend-4" class="prev"><span class="material-symbols-outlined">arrow_left</span></label>
+                <label for="forward-6" class="next"><span class="material-symbols-outlined">arrow_right</span></label>
+                <img src="./Instrument/saxophone.png" alt="">
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

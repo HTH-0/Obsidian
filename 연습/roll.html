@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .roll {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        animation: rolling 5s linear infinite;
+    }
+    @keyframes rolling {
+    0% {
+        top: 0;
+        left: 0;
+        transform: rotate(0deg);
+    }
+    25% {
+        top: calc(100vh - 40px);
+            left: 0;
+            transform: rotate(900deg);
+    }
+    50% {
+        top: calc(100vh - 40px);
+            left: calc(100vw - 40px);
+            transform: rotate(1800deg);
+    }
+    75% {
+        top: 0;
+            left: calc(100vw - 40px);
+            transform: rotate(2700deg);
+    }
+    100% {
+        top: 0;
+            left: 0;
+            transform: rotate(3600deg);
+    }
+}
+</style>
+
+<body>
+    <div class="roll">
+        <svg xmlns="http://www.w3.org/2000/svg" class="soccer" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm200-500 54-18 16-54q-32-48-77-82.5T574-786l-54 38v56l160 112Zm-400 0 160-112v-56l-54-38q-54 17-99 51.5T210-652l16 54 54 18Zm-42 308 46-4 30-54-58-174-56-20-40 30q0 65 18 118.5T238-272Zm242 112q26 0 51-4t49-12l28-60-26-44H378l-26 44 28 60q24 8 49 12t51 4Zm-90-200h180l56-160-146-102-144 102 54 160Zm332 88q42-50 60-103.5T800-494l-40-28-56 18-58 174 30 54 46 4Z"/></svg>
+    </div>
+</body>
+
+</html>

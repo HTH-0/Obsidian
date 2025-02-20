@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&" />
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+                
+        }
+        body {
+            font-family: "굴림", Gulim;
+            text-align: center;
+            align-items: center;
+        }
+
+        .wallpaper {
+            width: 1280;
+            height: 940px;
+            border: 1px solid;
+            /* background-color: rgb(192, 192, 192); */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .wallpaper>div {
+            width: 800px;
+            height: 600px;
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+            flex-direction: column;
+            background-color: rgb(192, 192, 192);
+
+        }
+
+        /* 상단 타자연습 부분 */
+        .header {
+            width: 100%;
+            top: 0;
+        }
+
+        .header li {
+            list-style: none;
+            text-align: left;
+            padding: 0 10px;
+            background-color: rgb(0, 0, 123);
+            color: white;
+        }
+
+        /* 타자 입력 부분 */
+        .container {
+            background-color: rgb(192, 192, 192);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            width: 800px;
+            height: 500px;
+            bottom: 0;
+            margin: auto;
+        }
+
+        .container>.target {
+            width: 600px;
+            height: 200px;
+            display: flex;
+            text-align: left;
+            align-items: center;
+            position: relative;
+            border: 3px inset;
+            padding-left: 10px;
+        }
+
+        .container>.result {
+            width: 600px;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            border: 3px inset;
+            padding-left: 10px;
+        }
+
+        .container>input[type="text"] {
+            border: 3px inset;
+            background-color: rgb(192, 192, 192);
+            width: 600px;
+            padding: 0;
+            height: 25px;
+            font-size: 16px;
+            font-family: gulim;
+            padding-left: 10px;
+        }
+
+        input:focus {
+            outline: none;
+
+        }
+
+
+        /* status */
+        .status {
+            border: 3px inset;
+            width: 600px;
+            height: 150px;
+            padding-left: 10px;
+        }
+
+        .valid {
+            color: black;
+        }
+
+        .invalid {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wallpaper">
+        <div>
+            <div class="header">
+                <li>타자연습</li>
+            </div>
+            <div class="container">
+                <div class="status">
+                    <p>속도: <span id="speed">0</span></p>
+                    <p>정확도: <span id="accuracy">0</span></p>
+                </div>
+                <div id="result" class="result">입력된 값이 올바른지 여부를 확인하는 부분입니다.</div>
+                <input type="text" id="input-text" placeholder="위 문장을 입력하세요">
+                <div id="target-text" class="target">입력해야 할 텍스트들
+                    <span style="position: absolute; left: 20px; top: 0;"> </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 타수=(1분동안타이핑한글자수)/5 -->
+
+    <script>
+        const targetTextEl = document.querySelector('#target-text');
+        const inputEl = document.querySelector('#input-text');
+        const resultEl = document.querySelector('#result');
+        const speedEl = document.querySelector('#speed');
+        const accuracyEl = document.querySelector('#accuracy');
+    
+        // 입력해야 할 문장들 세팅
+        const texts = [
+            "String greeting = \"Hello\";",
+            "int num = 10;",
+            "String[] fruits = {\"Apple\", \"Banana\", \"Orange\"};",
+            "System.out.println(add(5, 3));",
+            "MyClass obj = new MyClass();",
+            "double num = 5.5;",
+            "System.out.println(result);",
+            "int[] numbers = {1, 2, 3, 4}"
+        ];
+    
+        let textsnum = 0;
+        let startTime = null;  // 타이핑 시작 시간
+        let totalCharactersTyped = 0;  // 입력한 총 문자 수
+        let totalWordsTyped = 0;  // 입력한 총 단어 수
+        let correctCharacters = 0;  // 정확하게 입력한 문자 수
+        let wrongCharacters = 0;  // 잘못 입력한 문자 수
+    
+        // 4개씩 묶어 보여주기
+        function displaytext() {
+            const showtext = texts.slice(textsnum, textsnum + 4);
+            targetTextEl.innerHTML = showtext.join('<br>');
+            targetTextEl.style.lineHeight = '2.5';
+        }
+    
+        // 정확함을 따지는 함수
+        function perfect() {
+            const text = texts[textsnum];
+            const inputValue = inputEl.value;  // input값을 실시간으로 가져옴
+            let resultHTML = '';
+    
+            // 입력한 문자와 목표 문장 비교
+            for (let i = 0; i < inputValue.length; i++) {
+                if (i >= text.length) {
+                    // 총 길이를 초과했을 때 불합격
+                    resultHTML += `<span class="invalid">${inputValue[i]}</span>`;
+                } else if (text[i] !== inputValue[i]) {
+                    // 글자가 같지 않을 때 불합격
+                    resultHTML += `<span class="invalid">${inputValue[i]}</span>`;
+                    wrongCharacters++;
+                } else {
+                    // 맞는 글자는 합격
+                    resultHTML += `<span class="valid">${inputValue[i]}</span>`;
+                    correctCharacters++;
+                }
+            }
+    
+            resultEl.innerHTML = resultHTML;
+    
+            // WPM, CPM 업데이트
+            updateSpeed();
+        }
+        
+        // 타자 속도 계산 함수 (WPM, CPM)
+        function updateSpeed() {
+            const currentTime = Date.now();
+            const elapsedTime = (currentTime - startTime) / 1000 / 60;  // 경과 시간 (분 단위)
+    
+            if (elapsedTime > 0) {
+                // CPM (문자수 / 경과된 시간)
+                const cpm = (totalCharactersTyped / elapsedTime).toFixed(1);
+    
+                // WPM (단어수 / 경과된 시간)
+                const wordsTyped = inputEl.value.trim().split(/\s+/).length;
+                totalWordsTyped = wordsTyped;
+                const wpm = (totalWordsTyped / elapsedTime).toFixed(1);
+    
+                // 화면에 출력
+                speedEl.innerHTML = `WPM ${wpm} / CPM ${cpm}`;
+    
+                // 정확도 계산 (정확하게 입력한 문자 수 / 전체 문자 수)
+                const accuracy = ((correctCharacters / (correctCharacters + wrongCharacters)) * 100).toFixed(1);
+                accuracyEl.innerHTML = ` ${accuracy}%`;
+            }
+        }
+    
+        // 엔터를 눌렀을때 함수
+        function pressEnter(e) {
+            const text = texts[textsnum];
+            const inputValue = inputEl.value;
+    
+            if (e.keyCode === 13) {
+                if (inputValue === text) {
+                    // 맞다면 한줄씩 위로 올린다
+                    textsnum += 1;
+                    displaytext();
+                    totalCharactersTyped += inputValue.length;
+                    inputEl.value = '';
+                    resultEl.innerHTML = '';
+                } else {
+                    // 실패해도 일단 비우기
+                    inputEl.value = '';
+                    resultEl.innerHTML = '';
+                }
+    
+                // 타이핑 시작 시간을 기록
+                if (startTime === null) {
+                    startTime = Date.now();  // 타이핑 시작 시간 기록
+                }
+            }
+        }
+    
+        inputEl.addEventListener('input', perfect);
+        inputEl.addEventListener('keydown', pressEnter);
+    
+        displaytext(); 
+    </script>
+    
+</body>
+
+</html>
