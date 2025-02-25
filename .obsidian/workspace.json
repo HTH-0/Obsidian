@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해보고 싶은 것/프로젝트.md",
+                "file": "JAVA/Java시작.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "프로젝트"
+              "title": "Java시작"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "de9e40112f518ec2",
+            "id": "22cc42cccdf31a56",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -198,8 +198,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "de9e40112f518ec2",
+  "active": "4bb8b0d349c851fa",
   "lastOpenFiles": [
+    "JAVA/Java시작.md",
+    "JAVA/JAVA.md",
+    "JAVA",
+    "국비/국비.md",
+    "해보고 싶은 것/프로젝트.md",
     "VSCODE/JAVASCRIPT/08동기비동기(SYNC&ASYNC)/동기 비동기.txt",
     "PROJECT/화면구현/css/백조의호수.css",
     "PROJECT/화면구현/백조의호수.html",
@@ -209,10 +214,7 @@
     "연습/95짧은글연습.html",
     "연습",
     "새 폴더",
-    "VSCODE/JAVASCRIPT/08동기비동기(SYNC&ASYNC)/03Async&Await.html",
-    "VSCODE/JAVASCRIPT/08동기비동기(SYNC&ASYNC)/02set&clearInterval.html",
     "해보고 싶은 것/타자 참고 2.png",
-    "해보고 싶은 것/프로젝트.md",
     "해보고 싶은 것/타자 배경.png",
     "해보고 싶은 것/제목 없음.png",
     "해보고 싶은 것/해보고 싶은 것.md",
@@ -223,7 +225,6 @@
     "국비/응용 SW 기초/응용 SW 기초.md",
     "국비/MYSQL/MYSQL.md",
     "정처.md",
-    "국비/국비.md",
     "VSCODE/VSCODE.md",
     "VSCODE/JAVASCRIPT/JAVASCRIPT.md",
     "VSCODE/HTML/HTML.md",
@@ -239,7 +240,6 @@
     "국비/응용 SW 기초/정리.png",
     "VSCODE/CSS/07MQ/07MQ.md",
     "VSCODE/CSS/06ANIMATION/06ANIMATION.md",
-    "VSCODE/CSS/05LAYOUT/05LAYOUT.md",
     "VSCODE/HTML/logo/naver.png",
     "VSCODE/HTML/logo/mainlogo.png",
     "VSCODE/HTML/logo/kakao.png",

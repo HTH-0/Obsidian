@@ -36,9 +36,9 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//VSCODE",
     "//VSCODE/VSCODE/JAVASCRIPT/VSCODE/JAVASCRIPT/08동기비동기(SYNC&ASYNC)",
-    "//VSCODE/VSCODE/JAVASCRIPT"
+    "//VSCODE/VSCODE/JAVASCRIPT",
+    "//JAVA"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
