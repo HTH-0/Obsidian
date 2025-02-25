@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/Java시작.md",
+                "file": "JAVA/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java시작"
+              "title": "무제"
             }
           }
         ]
@@ -200,8 +200,9 @@
   },
   "active": "4bb8b0d349c851fa",
   "lastOpenFiles": [
-    "JAVA/JAVA.md",
     "JAVA/Java시작.md",
+    "JAVA/무제.md",
+    "JAVA/JAVA.md",
     "JAVA",
     "국비/국비.md",
     "해보고 싶은 것/프로젝트.md",
@@ -239,7 +240,6 @@
     "정처산기/정처산기.md",
     "국비/응용 SW 기초/정리.png",
     "VSCODE/CSS/07MQ/07MQ.md",
-    "VSCODE/CSS/06ANIMATION/06ANIMATION.md",
     "VSCODE/HTML/logo/naver.png",
     "VSCODE/HTML/logo/mainlogo.png",
     "VSCODE/HTML/logo/kakao.png",
