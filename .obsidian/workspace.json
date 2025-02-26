@@ -11,10 +11,14 @@
             "id": "32f6bf3d1943fa00",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "JAVA/3-08.문제풀이(타입 변환).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "3-08.문제풀이(타입 변환)"
             }
           }
         ]
@@ -69,8 +73,19 @@
               "icon": "lucide-bookmark",
               "title": "북마크"
             }
+          },
+          {
+            "id": "d498ef61001587b5",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -184,12 +199,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b32213294ddcf8d5",
+  "active": "32f6bf3d1943fa00",
   "lastOpenFiles": [
-    "JAVA/1-00.Helloworld.md",
     "JAVA/JAVA.md",
-    "JAVA/3-08.문제풀이(타입 변환).md",
+    "JAVA/무제.md",
+    "JAVA/1-00.Helloworld.md",
+    "무제.canvas",
     "JAVA/2-06.문제풀이(데이터타입).md",
+    "JAVA/3-08.문제풀이(타입 변환).md",
     "JAVA/3-07.문자열과 숫자 변환.md",
     "JAVA/3-06.char,short형변환 차이.md",
     "JAVA/3-05.연산 시 형변환.md",
@@ -211,7 +228,6 @@
     "진법 변환 (Java).md",
     "int (Java).md",
     "JAVA/JAVA내 파일목록.md",
-    "System.out.println (Java).md",
     "JAVA",
     "VSCODE/JAVASCRIPT/08동기비동기(SYNC&ASYNC)/동기 비동기.txt",
     "PROJECT/화면구현/css/백조의호수.css",
