@@ -1,4 +1,4 @@
-[[MYSQL]]
+[[MYSQL/MYSQL]]
 ## **SELECT 산술식;**
 
 ## **SELECT * FROM 데이터베이스;**

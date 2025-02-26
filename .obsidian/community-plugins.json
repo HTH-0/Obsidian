@@ -1,9 +1,5 @@
 [
-  "remotely-save",
   "obsidian-git",
-  "calendar",
-  "make-md",
-  "obsidian-style-settings",
   "dataview",
-  "templater-obsidian"
+  "make-md"
 ]

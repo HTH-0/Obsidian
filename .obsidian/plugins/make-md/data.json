@@ -36,9 +36,11 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//VSCODE/VSCODE/JAVASCRIPT/VSCODE/JAVASCRIPT/08동기비동기(SYNC&ASYNC)",
-    "//VSCODE/VSCODE/JAVASCRIPT",
-    "//JAVA"
+    "//Template",
+    "//Templates",
+    "//연습",
+    "//JAVA",
+    "//Tags"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -53,7 +55,7 @@
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,
-  "inlineContextExpanded": false,
+  "inlineContextExpanded": true,
   "inlineContextProperties": true,
   "inlineContextSectionsExpanded": true,
   "banners": true,
