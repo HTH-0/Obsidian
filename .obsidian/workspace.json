@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a1502c9f2dc3d468",
+        "id": "e6ae5b877fed2baa",
         "type": "tabs",
         "children": [
           {
-            "id": "4bb8b0d349c851fa",
+            "id": "32f6bf3d1943fa00",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JAVA/1-00.Java기본.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1-00.Java기본"
+              "title": "새 탭"
             }
           }
         ]
@@ -73,19 +69,8 @@
               "icon": "lucide-bookmark",
               "title": "북마크"
             }
-          },
-          {
-            "id": "ecd353f44613e35a",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -195,29 +180,39 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "remotely-save:Remotely Save": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "4bb8b0d349c851fa",
+  "active": "b32213294ddcf8d5",
   "lastOpenFiles": [
-    "JAVA/1-00.Java기본.md",
-    "JAVA/1-01.print.md",
-    "JAVA/2-01.진수 변환.md",
-    "JAVA/2-02.보수.md",
-    "JAVA/2-03.변수자료형.md",
-    "JAVA/2-04.기본 자료형.md",
-    "JAVA/2-05.상수.md",
+    "JAVA/1-00.Helloworld.md",
     "JAVA/JAVA.md",
+    "JAVA/3-08.문제풀이(타입 변환).md",
+    "JAVA/2-06.문제풀이(데이터타입).md",
+    "JAVA/3-07.문자열과 숫자 변환.md",
+    "JAVA/3-06.char,short형변환 차이.md",
+    "JAVA/3-05.연산 시 형변환.md",
+    "JAVA/3-04.자동 형변환.md",
+    "JAVA/3-03.byte데이터손실.md",
+    "JAVA/3-02.타입(강제형변환).md",
+    "JAVA/3-01.타입(자동,강제형변환).md",
+    "JAVA/2-05.상수.md",
+    "JAVA/2-04.기본 자료형.md",
+    "JAVA/2-03.변수자료형.md",
+    "JAVA/2-02.보수.md",
+    "JAVA/2-01.진수 변환.md",
+    "JAVA/1-01.print.md",
+    "[1-01.print.md",
+    "JAVA/Java_study.md",
+    "해보고 싶은 것/해보고 싶은 것.md",
+    "해보고 싶은 것/무제.md",
+    "Vault.md",
     "진법 변환 (Java).md",
     "int (Java).md",
     "JAVA/JAVA내 파일목록.md",
-    "Vault.md",
     "System.out.println (Java).md",
-    "Java 기본 문법.md",
-    "JAVA/Java시작.md",
     "JAVA",
-    "국비/국비.md",
-    "해보고 싶은 것/프로젝트.md",
     "VSCODE/JAVASCRIPT/08동기비동기(SYNC&ASYNC)/동기 비동기.txt",
     "PROJECT/화면구현/css/백조의호수.css",
     "PROJECT/화면구현/백조의호수.html",
@@ -230,15 +225,6 @@
     "해보고 싶은 것/타자 참고 2.png",
     "해보고 싶은 것/타자 배경.png",
     "해보고 싶은 것/제목 없음.png",
-    "해보고 싶은 것/해보고 싶은 것.md",
-    "해보고 싶은 것/끝말잇기.md",
-    "VSCODE/JAVASCRIPT/04흐름제어문/04흐름제어문.md",
-    "MYSQL/연산자.md",
-    "국비/화면설계/화면설계.md",
-    "국비/응용 SW 기초/응용 SW 기초.md",
-    "국비/MYSQL/MYSQL.md",
-    "정처.md",
-    "VSCODE/VSCODE.md",
     "국비/응용 SW 기초/정리.png",
     "VSCODE/HTML/logo/naver.png",
     "VSCODE/HTML/logo/mainlogo.png",
