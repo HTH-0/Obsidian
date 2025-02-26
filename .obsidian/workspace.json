@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/5/5-06..md",
+                "file": "JAVA/5/5-07.증감,논리연산자.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5-06."
+              "title": "5-07.증감,논리연산자"
             }
           }
         ]
@@ -191,8 +191,10 @@
   },
   "active": "133dea99b261b6b0",
   "lastOpenFiles": [
+    "JAVA/5/5-08.연산자 문제풀이.md",
+    "JAVA/5/5-07.증감,논리연산자.md",
+    "JAVA/5/5-06. 논리 연산자 (AND, OR).md",
     "JAVA/5/5-05.시프트 연산자.md",
-    "JAVA/5/5-06..md",
     "JAVA/개인연습/03. 클래스 예제(BankAccount).md",
     "JAVA/개인연습/개인연습.md",
     "JAVA/5/5-04.비트 연산자.md",
@@ -221,8 +223,6 @@
     "JAVA/개인연습",
     "JAVA/4/4-04.Scanner 버퍼 문제 해결.md",
     "JAVA/4/4-05.문제풀이(Scanner).md",
-    "JAVA/4/4-03.입력버퍼 처리.md",
-    "JAVA/4/4-02.Scanner 활용.md",
     "Tags",
     "Templates",
     "무제.canvas",
