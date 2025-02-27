@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "9d3a9505462b6e72",
+        "id": "03a29abd0e950fe1",
         "type": "tabs",
         "children": [
           {
-            "id": "133dea99b261b6b0",
+            "id": "395360ac9f00796a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "JAVA/5/5-07.증감,논리연산자.md",
-                "mode": "source",
-                "source": false
+                "path": "JAVA/개인연습"
               },
               "icon": "lucide-file",
-              "title": "5-07.증감,논리연산자"
+              "title": "개인연습"
             }
           }
         ]
@@ -75,7 +73,7 @@
             }
           },
           {
-            "id": "012f56d0bbd518d2",
+            "id": "957e26dc1964ee8c",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -184,53 +182,51 @@
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "remotely-save:Remotely Save": false,
-      "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "133dea99b261b6b0",
+  "active": "957e26dc1964ee8c",
   "lastOpenFiles": [
-    "JAVA/5/5-08.연산자 문제풀이.md",
+    "JAVA/개인연습/개인연습.md",
+    "JAVA/6/6-02.Switch.md",
+    "JAVA/6/6-01.IF.md",
+    "JAVA/5/5.md",
+    "To Do/자격증 일정.md",
+    "To Do/제목 없음.png",
+    "To Do/ToDo.md",
+    "To Do/프로젝트.md",
+    "To Do/타자 배경.png",
+    "To Do/타자 참고 2.png",
+    "JAVA/개인연습/11.다운캐스팅.md",
+    "JAVA/개인연습/10.업캐스팅.md",
+    "JAVA/개인연습/09. 오버로딩.md",
+    "JAVA/개인연습/Override 추가지식.md",
+    "JAVA/개인연습/08. 상속 예제(overriding).md",
+    "JAVA/개인연습/07. 상속 예제(super).md",
+    "JAVA/개인연습/06. Overriding.md",
+    "JAVA/개인연습/05. 상속 (super).md",
+    "JAVA/개인연습/04. 상속 개념.md",
+    "JAVA/6/6.md",
     "JAVA/5/5-07.증감,논리연산자.md",
+    "JAVA/6",
+    "Tags",
+    "JAVA/5/5-08.연산자 문제풀이.md",
     "JAVA/5/5-06. 논리 연산자 (AND, OR).md",
     "JAVA/5/5-05.시프트 연산자.md",
     "JAVA/개인연습/03. 클래스 예제(BankAccount).md",
-    "JAVA/개인연습/개인연습.md",
     "JAVA/5/5-04.비트 연산자.md",
     "JAVA/5/5-01.연산자.md",
     "JAVA/5/5-03.문제풀이 연산자.md",
     "JAVA/5/5-02.문제풀이 조건문 & 삼항 연산자.md",
-    "JAVA/5/5.md",
-    "JAVA/3/3-01.타입(자동,강제형변환).md",
-    "JAVA/3/3.md",
     "JAVA/3",
-    "JAVA/4/4-01.Scanner.md",
-    "JAVA/4/4.md",
     "JAVA/4",
-    "JAVA/무제.md",
-    "JAVA/JAVA.md",
     "JAVA/5",
-    "JAVA/1/1-00.Helloworld.md",
-    "JAVA/2/2-01.진수 변환.md",
-    "JAVA/1/1-01.print.md",
-    "JAVA/2/2.md",
     "JAVA/2",
-    "JAVA/1/1.md",
     "JAVA/1",
-    "JAVA/개인연습/01.클래스 예제(Car).md",
-    "JAVA/개인연습/02. 클래스 예제(Person).md",
     "JAVA/개인연습",
-    "JAVA/4/4-04.Scanner 버퍼 문제 해결.md",
-    "JAVA/4/4-05.문제풀이(Scanner).md",
-    "Tags",
     "Templates",
     "무제.canvas",
     "JAVA",
-    "VSCODE/JAVASCRIPT/08동기비동기(SYNC&ASYNC)/동기 비동기.txt",
-    "해보고 싶은 것/타자 참고 2.png",
-    "해보고 싶은 것/타자 배경.png",
-    "해보고 싶은 것/제목 없음.png",
     "정처산기이론/응용 SW 기초/정리.png",
     "VSCODE/HTML/logo/naver.png",
     "VSCODE/HTML/logo/mainlogo.png",
