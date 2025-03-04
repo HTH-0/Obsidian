@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "03a29abd0e950fe1",
+        "id": "6246c6df0d7a044e",
         "type": "tabs",
         "children": [
           {
-            "id": "395360ac9f00796a",
+            "id": "ae0c3b43a97f08be",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".makemd/superstate.mdc",
-                "bFile": ".makemd/superstate.mdc",
-                "aRef": ""
+                "file": "JAVA/7/7-05.기타반복처리.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: superstate.mdc"
+              "icon": "lucide-file",
+              "title": "7-05.기타반복처리"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "cde31c3258ebc925",
+            "id": "d0818b97e9f2d759",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -187,13 +187,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "395360ac9f00796a",
+  "active": "ae0c3b43a97f08be",
   "lastOpenFiles": [
+    "JAVA/7/7-04.for.md",
+    "JAVA/7/7.md",
+    "JAVA/개인연습/숫자 야구 게임.md",
+    "JAVA/개인연습/개인연습.md",
+    "JAVA/7/7-05.기타반복처리.md",
+    "JAVA/개인연습/forEach.md",
+    "JAVA/7/7-03.continue,break.md",
     "JAVA/7/7-02.While 별찍기.md",
     "JAVA/7/7-02.While 구구단 .md",
-    "JAVA/7/7.md",
     "JAVA/개인연습/charAt().md",
-    "JAVA/개인연습/개인연습.md",
     "JAVA/7/7-01.While.md",
     "JAVA/6/6.md",
     "JAVA/개인연습/Integer.parseInt().md",
@@ -214,13 +219,8 @@
     "JAVA/개인연습/Override 추가지식.md",
     "JAVA/개인연습/08. 상속 예제(overriding).md",
     "JAVA/개인연습/07. 상속 예제(super).md",
-    "JAVA/개인연습/06. Overriding.md",
-    "JAVA/개인연습/05. 상속 (super).md",
-    "JAVA/개인연습/04. 상속 개념.md",
-    "JAVA/5/5-07.증감,논리연산자.md",
     "JAVA/6",
     "Tags",
-    "JAVA/5/5-08.연산자 문제풀이.md",
     "JAVA/3",
     "JAVA/4",
     "JAVA/5",
