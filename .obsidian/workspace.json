@@ -11,14 +11,12 @@
             "id": "ae0c3b43a97f08be",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "JAVA/8/EX4.4 Rectangle.md",
-                "mode": "source",
-                "source": false
+                "path": "To Do"
               },
               "icon": "lucide-file",
-              "title": "EX4.4 Rectangle"
+              "title": "To Do"
             }
           }
         ]
@@ -75,7 +73,7 @@
             }
           },
           {
-            "id": "b4f31812f68eaa6e",
+            "id": "e853db94dfa6fd42",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,10 +187,20 @@
   },
   "active": "ae0c3b43a97f08be",
   "lastOpenFiles": [
+    "To Do/To Do.md",
+    "VSCODE/VSCODE.md",
+    "JAVA/9/무제.md",
+    "JAVA/9/9-04.String 메모리구조.md",
+    "JAVA/9/9-03.This.md",
+    "JAVA/9/9-02.Encapsulation(캡슐화).md",
+    "JAVA/9/9-01.getter,setter.md",
+    "JAVA/8/8.md",
+    "JAVA/9/9.md",
+    "JAVA/8/EX4.4 Rectangle.md",
+    "JAVA/9",
     "JAVA/8/EX4.3 Song.md",
     "JAVA/8/EX4.2 Grade.md",
     "JAVA/8/EX4.1 TV.md",
-    "JAVA/8/EX4.4 Rectangle.md",
     "JAVA/미니프로젝트/TodoList 저장, 불러오기 개선.md",
     "JAVA/8/8-06.생성자.md",
     "JAVA/미니프로젝트/Todo List.md",
@@ -200,7 +208,6 @@
     "JAVA/개인연습/개인연습.md",
     "JAVA/개인연습/TodoList private 이유.md",
     "JAVA/미니프로젝트/미니프로젝트.md",
-    "JAVA/8/8.md",
     "JAVA/8/8-03.지역변수, 멤버변수, static변수.md",
     "JAVA/8/8-04.오버로딩.md",
     "JAVA/개인연습/숫자 야구 게임.md",
@@ -208,15 +215,7 @@
     "JAVA/개인연습/01.클래스 예제(Car).md",
     "JAVA/미니프로젝트",
     "JAVA/무제.md",
-    "JAVA/8/8-02.C04MethodMain 예제.md",
-    "JAVA/8/8-01.C03Person 예제.md",
-    "JAVA/8/8-00.객체와 메모리구조.md",
-    "JAVA/7/7.md",
-    "JAVA/7/7-05.기타반복처리.md",
     "JAVA/8",
-    "JAVA/7/7-04.for.md",
-    "JAVA/개인연습/forEach.md",
-    "JAVA/7/7-03.continue,break.md",
     "JAVA/7",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
@@ -227,7 +226,6 @@
     "JAVA/4",
     "JAVA/5",
     "JAVA/2",
-    "JAVA/1",
     "무제.canvas",
     "정처산기이론/응용 SW 기초/정리.png",
     "VSCODE/HTML/logo/naver.png",
