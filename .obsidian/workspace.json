@@ -11,14 +11,14 @@
             "id": "ae0c3b43a97f08be",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".trash/무제 17.md",
-                "bFile": ".trash/무제 17.md",
-                "aRef": ""
+                "file": "JAVA/8/EX4.4 Rectangle.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 무제 17"
+              "icon": "lucide-file",
+              "title": "EX4.4 Rectangle"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "d0818b97e9f2d759",
+            "id": "b4f31812f68eaa6e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,6 +189,10 @@
   },
   "active": "ae0c3b43a97f08be",
   "lastOpenFiles": [
+    "JAVA/8/EX4.3 Song.md",
+    "JAVA/8/EX4.2 Grade.md",
+    "JAVA/8/EX4.1 TV.md",
+    "JAVA/8/EX4.4 Rectangle.md",
     "JAVA/미니프로젝트/TodoList 저장, 불러오기 개선.md",
     "JAVA/8/8-06.생성자.md",
     "JAVA/미니프로젝트/Todo List.md",
@@ -213,10 +217,6 @@
     "JAVA/7/7-04.for.md",
     "JAVA/개인연습/forEach.md",
     "JAVA/7/7-03.continue,break.md",
-    "JAVA/7/7-02.While 별찍기.md",
-    "JAVA/7/7-02.While 구구단 .md",
-    "JAVA/개인연습/charAt().md",
-    "JAVA/7/7-01.While.md",
     "JAVA/7",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
