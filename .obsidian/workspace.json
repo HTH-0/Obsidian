@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/13/13-02.문제Convert.md",
+                "file": "JAVA/13/13-03.인터페이스 문제Remocon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13-02.문제Convert"
+              "title": "13-03.인터페이스 문제Remocon"
             }
           }
         ]
@@ -189,11 +189,12 @@
   },
   "active": "ae0c3b43a97f08be",
   "lastOpenFiles": [
-    "JAVA/13/13-01.추상클래스.md",
+    "To Do/자격증 일정.md",
+    "JAVA/13/13-03.인터페이스 문제Remocon.md",
     "JAVA/13/13-02.문제Convert.md",
+    "JAVA/13/13-01.추상클래스.md",
     "JAVA/13/13.md",
     "JAVA/개인연습/개인연습.md",
-    "To Do/자격증 일정.md",
     "To Do/To Do.md",
     "JAVA/12/12-Ex03.Shape.md",
     "JAVA/13",
@@ -216,7 +217,6 @@
     "JAVA/11/11-05. singleton 문제.md",
     "JAVA/12",
     "JAVA/11/11-04.concat, print.md",
-    "JAVA/11/11-03.singleton.md",
     "JAVA/11",
     "JAVA/10",
     "JAVA/09",
