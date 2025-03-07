@@ -1,3 +1,6 @@
+---
+sticker: emoji//1f4ac
+---
 ### 📌 Java 클래스 및 평균 계산 - `Grade` 클래스 예제
 
 ---

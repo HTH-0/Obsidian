@@ -1,3 +1,6 @@
+---
+sticker: emoji//1f4ac
+---
 ### 📌 Java 클래스 및 사각형 포함 관계 - `Rectangle` 클래스 예제
 
 ---
