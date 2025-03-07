@@ -51,8 +51,10 @@
     "//JAVA/JAVA/7",
     "//JAVA/JAVA/8",
     "//JAVA/JAVA/9",
-    "//JAVA/JAVA/12",
-    "//PROJECT"
+    "//PROJECT",
+    "//JAVA/JAVA/13",
+    "//To Do",
+    "//JAVA/JAVA/13-02.문제Convert"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
