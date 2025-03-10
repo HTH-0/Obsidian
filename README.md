@@ -38,3 +38,18 @@
 | 📝 **VSCODE** | [바로가기](https://github.com/HTH-0/Obsidian/tree/master/VSCODE) |
 
 ---
+## 📂 옵시디언 폴더 구조
+
+<details>
+  <summary>📁 JAVA (클릭해서 열기)</summary>
+
+  - [01. JAVA 기본](https://github.com/사용자명/레포명/tree/main/JAVA/01.JAVA기본)
+  - [02. 자료형](https://github.com/사용자명/레포명/tree/main/JAVA/02.자료형)
+  - [03. 형변환](https://github.com/사용자명/레포명/tree/main/JAVA/03.형변환)
+  - [04. Scanner](https://github.com/사용자명/레포명/tree/main/JAVA/04.Scanner)
+  - [05. 연산자](https://github.com/사용자명/레포명/tree/main/JAVA/05.연산자)
+  - [06. Switch](https://github.com/사용자명/레포명/tree/main/JAVA/06.Switch)
+  - [07. While, for](https://github.com/사용자명/레포명/tree/main/JAVA/07.While_for)
+  - [08. 객체](https://github.com/사용자명/레포명/tree/main/JAVA/08.객체)
+
+</details>
