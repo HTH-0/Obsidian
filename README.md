@@ -27,29 +27,63 @@
 
 ---
 
-### 📌 주요 테마 바로가기  
-아래 링크를 클릭하면 테마별로 정리된 폴더로 이동할 수 있습니다.
-
-| 📂 테마 | 🔗 바로가기 |
-|------|---------|
-| 🖥 **JAVA** | [바로가기](https://github.com/HTH-0/Obsidian/tree/master/JAVA) |
-| 🗄 **MYSQL** | [바로가기](https://github.com/HTH-0/Obsidian/tree/master/MYSQL) |
-| 📚 **정처산기이론** | [바로가기](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론) |
-| 📝 **VSCODE** | [바로가기](https://github.com/HTH-0/Obsidian/tree/master/VSCODE) |
-
----
 ## 📂 옵시디언 폴더 구조
 
 <details>
   <summary>📁 JAVA (클릭해서 열기)</summary>
 
-  - [01. JAVA 기본](https://github.com/사용자명/레포명/tree/main/JAVA/01.JAVA기본)
-  - [02. 자료형](https://github.com/사용자명/레포명/tree/main/JAVA/02.자료형)
-  - [03. 형변환](https://github.com/사용자명/레포명/tree/main/JAVA/03.형변환)
-  - [04. Scanner](https://github.com/사용자명/레포명/tree/main/JAVA/04.Scanner)
-  - [05. 연산자](https://github.com/사용자명/레포명/tree/main/JAVA/05.연산자)
-  - [06. Switch](https://github.com/사용자명/레포명/tree/main/JAVA/06.Switch)
-  - [07. While, for](https://github.com/사용자명/레포명/tree/main/JAVA/07.While_for)
-  - [08. 객체](https://github.com/사용자명/레포명/tree/main/JAVA/08.객체)
+  - [01. JAVA 기본](https://github.com/HTH-0/Obsidian/tree/main/JAVA/01.JAVA기본)
+  - [02. 자료형](https://github.com/HTH-0/Obsidian/tree/main/JAVA/02.자료형)
+  - [03. 형변환](https://github.com/HTH-0/Obsidian/tree/main/JAVA/03.형변환)
+  - [04. Scanner](https://github.com/HTH-0/Obsidian/tree/main/JAVA/04.Scanner)
+  - [05. 연산자](https://github.com/HTH-0/Obsidian/tree/main/JAVA/05.연산자)
+  - [06. Switch](https://github.com/HTH-0/Obsidian/tree/main/JAVA/06.Switch)
+  - [07. While, for](https://github.com/HTH-0/Obsidian/tree/main/JAVA/07.While_for)
+  - [08. 객체](https://github.com/HTH-0/Obsidian/tree/main/JAVA/08.객체)
+  - [09. 객체 (캡슐화와 메모리 구조)](https://github.com/HTH-0/Obsidian/tree/main/JAVA/09.객체(캡슐화와_메모리_구조))
+  - [10. 배열](https://github.com/HTH-0/Obsidian/tree/main/JAVA/10.배열)
+  - [11. 객체 (Singleton, static)](https://github.com/HTH-0/Obsidian/tree/main/JAVA/11.객체(Singleton_static))
+  - [12. 상속, 업다운캐스팅](https://github.com/HTH-0/Obsidian/tree/main/JAVA/12.상속_업다운캐스팅)
+  - [13. 추상, 인터페이스](https://github.com/HTH-0/Obsidian/tree/main/JAVA/13.추상_인터페이스)
+  - [14. 기타](https://github.com/HTH-0/Obsidian/tree/main/JAVA/14)
+  - [15. 예외](https://github.com/HTH-0/Obsidian/tree/main/JAVA/15.예외)
+  - [개인연습](https://github.com/HTH-0/Obsidian/tree/main/JAVA/개인연습)
+  - [미니프로젝트](https://github.com/HTH-0/Obsidian/tree/main/JAVA/미니프로젝트)
+
+</details>
+
+<details>
+  <summary>📁 MYSQL (클릭해서 열기)</summary>
+
+  - [MYSQL 기본](https://github.com/HTH-0/Obsidian/tree/main/MYSQL)
+  
+</details>
+
+<details>
+  <summary>📁 PROJECT (클릭해서 열기)</summary>
+
+  - [화면구현](https://github.com/HTH-0/Obsidian/tree/main/PROJECT/화면구현)
+
+</details>
+
+<details>
+  <summary>📁 VSCODE (클릭해서 열기)</summary>
+
+  - [CSS](https://github.com/HTH-0/Obsidian/tree/main/VSCODE/CSS)
+  - [HTML](https://github.com/HTH-0/Obsidian/tree/main/VSCODE/HTML)
+  - [JAVASCRIPT](https://github.com/HTH-0/Obsidian/tree/main/VSCODE/JAVASCRIPT)
+  - [연습](https://github.com/HTH-0/Obsidian/tree/main/VSCODE/연습)
+
+</details>
+
+<details>
+  <summary>📁 정처산기이론 (클릭해서 열기)</summary>
+
+  - [GIT](https://github.com/HTH-0/Obsidian/tree/main/정처산기이론/GIT)
+  - [LINUX](https://github.com/HTH-0/Obsidian/tree/main/정처산기이론/LINUX)
+  - [MYSQL](https://github.com/HTH-0/Obsidian/tree/main/정처산기이론/MYSQL)
+  - [VSCODE](https://github.com/HTH-0/Obsidian/tree/main/정처산기이론/VSCODE)
+  - [응용 SW 기초](https://github.com/HTH-0/Obsidian/tree/main/정처산기이론/응용_SW_기초)
+  - [화면설계](https://github.com/HTH-0/Obsidian/tree/main/정처산기이론/화면설계)
 
 </details>
