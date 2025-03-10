@@ -1,13 +1,16 @@
-# **💾 옵시디언 Repository**  
+<div align="center">
 
-**옵시디언(Obsidian)**을 백업하고 관리하기 위한 저장소입니다.  
+# 📂 옵시디언 Repository  
+**옵시디언(Obsidian)을 백업하고 관리하기 위한 저장소입니다.**  
+
+</div>
 
 ---
 
 ## 📂 옵시디언 폴더 구조  
 
 <details>
-  <summary>📁 JAVA</summary>
+  <summary><strong>📁 JAVA</strong></summary>
 
   - [📁 01. JAVA 기본](https://github.com/HTH-0/Obsidian/tree/main/JAVA/01.JAVA기본)  
   - [📁 02. 자료형](https://github.com/HTH-0/Obsidian/tree/main/JAVA/02.자료형)  
@@ -30,21 +33,21 @@
 </details>
 
 <details>
-  <summary>📁 MYSQL</summary>
+  <summary><strong>📁 MYSQL</strong></summary>
 
   - [📁 MYSQL 기본](https://github.com/HTH-0/Obsidian/tree/main/MYSQL)  
 
 </details>
 
 <details>
-  <summary>📁 PROJECT</summary>
+  <summary><strong>📁 PROJECT</strong></summary>
 
   - [📁 화면구현](https://github.com/HTH-0/Obsidian/tree/main/PROJECT/화면구현)  
 
 </details>
 
 <details>
-  <summary>📁 VSCODE</summary>
+  <summary><strong>📁 VSCODE</strong></summary>
 
   - [📁 CSS](https://github.com/HTH-0/Obsidian/tree/main/VSCODE/CSS)  
   - [📁 HTML](https://github.com/HTH-0/Obsidian/tree/main/VSCODE/HTML)  
@@ -54,7 +57,7 @@
 </details>
 
 <details>
-  <summary>📁 정처산기이론</summary>
+  <summary><strong>📁 정처산기이론</strong></summary>
 
   - [📁 GIT](https://github.com/HTH-0/Obsidian/tree/main/정처산기이론/GIT)  
   - [📁 LINUX](https://github.com/HTH-0/Obsidian/tree/main/정처산기이론/LINUX)  
@@ -87,4 +90,3 @@
    git commit -m "백업 업데이트"
    git push origin master
    ```  
-
