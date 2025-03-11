@@ -51,7 +51,6 @@
     "//JAVA/JAVA/7",
     "//JAVA/JAVA/8",
     "//JAVA/JAVA/9",
-    "//PROJECT",
     "//JAVA/JAVA/13-02.문제Convert",
     "//JAVA/JAVA/02",
     "//JAVA/JAVA/03",
@@ -65,7 +64,11 @@
     "//JAVA/JAVA/12",
     "//JAVA/JAVA/16",
     "//JAVA/JAVA/16.제너릭",
-    "//To Do"
+    "//JAVA/JAVA/16.제네릭",
+    "//To Do",
+    "//VSCODE",
+    "//VSCODE/VSCODE/연습",
+    "//JAVA/JAVA/17.컬렉션"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
