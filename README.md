@@ -12,59 +12,59 @@
 <details>
   <summary><strong>📁 JAVA</strong></summary>
 
-  - [📁 01. JAVA 기본](https://github.com/HTH-0/Obsidian/tree/master/JAVA/01.JAVA기본)  
-  - [📁 02. 자료형](https://github.com/HTH-0/Obsidian/tree/master/JAVA/02.자료형)  
-  - [📁 03. 형변환](https://github.com/HTH-0/Obsidian/tree/master/JAVA/03.형변환)  
-  - [📁 04. Scanner](https://github.com/HTH-0/Obsidian/tree/master/JAVA/04.Scanner)  
-  - [📁 05. 연산자](https://github.com/HTH-0/Obsidian/tree/master/JAVA/05.연산자)  
-  - [📁 06. Switch](https://github.com/HTH-0/Obsidian/tree/master/JAVA/06.Switch)  
-  - [📁 07. While, for](https://github.com/HTH-0/Obsidian/tree/master/JAVA/07.While_for)  
-  - [📁 08. 객체](https://github.com/HTH-0/Obsidian/tree/master/JAVA/08.객체)  
-  - [📁 09. 객체 (캡슐화와 메모리 구조)](https://github.com/HTH-0/Obsidian/tree/master/JAVA/09.객체(캡슐화와_메모리_구조))  
-  - [📁 10. 배열](https://github.com/HTH-0/Obsidian/tree/master/JAVA/10.배열)  
-  - [📁 11. 객체 (Singleton, static)](https://github.com/HTH-0/Obsidian/tree/master/JAVA/11.객체(Singleton_static))  
-  - [📁 12. 상속, 업다운캐스팅](https://github.com/HTH-0/Obsidian/tree/master/JAVA/12.상속_업다운캐스팅)  
-  - [📁 13. 추상, 인터페이스](https://github.com/HTH-0/Obsidian/tree/master/JAVA/13.추상_인터페이스)  
-  - [📁 14. 기타](https://github.com/HTH-0/Obsidian/tree/master/JAVA/14)  
-  - [📁 15. 예외](https://github.com/HTH-0/Obsidian/tree/master/JAVA/15.예외)  
-  - [📁 개인연습](https://github.com/HTH-0/Obsidian/tree/master/JAVA/개인연습)  
-  - [📁 미니프로젝트](https://github.com/HTH-0/Obsidian/tree/master/JAVA/미니프로젝트)  
+  📁 [01 JAVA 기본](https://github.com/HTH-0/Obsidian/tree/master/JAVA/01.JAVA기본)  
+  📁 [02 자료형](https://github.com/HTH-0/Obsidian/tree/master/JAVA/02.자료형)  
+  📁 [03 형변환](https://github.com/HTH-0/Obsidian/tree/master/JAVA/03.형변환)  
+  📁 [04 Scanner](https://github.com/HTH-0/Obsidian/tree/master/JAVA/04.Scanner)  
+  📁 [05 연산자](https://github.com/HTH-0/Obsidian/tree/master/JAVA/05.연산자)  
+  📁 [06 Switch](https://github.com/HTH-0/Obsidian/tree/master/JAVA/06.Switch)  
+  📁 [07 While, for](https://github.com/HTH-0/Obsidian/tree/master/JAVA/07.While_for)  
+  📁 [08 객체](https://github.com/HTH-0/Obsidian/tree/master/JAVA/08.객체)  
+  📁 [09 객체 (캡슐화와 메모리 구조)](https://github.com/HTH-0/Obsidian/tree/master/JAVA/09.객체(캡슐화와_메모리_구조))  
+  📁 [10 배열](https://github.com/HTH-0/Obsidian/tree/master/JAVA/10.배열)  
+  📁 [11 객체 (Singleton, static)](https://github.com/HTH-0/Obsidian/tree/master/JAVA/11.객체(Singleton_static))  
+  📁 [12 상속, 업다운캐스팅](https://github.com/HTH-0/Obsidian/tree/master/JAVA/12.상속_업다운캐스팅)  
+  📁 [13 추상, 인터페이스](https://github.com/HTH-0/Obsidian/tree/master/JAVA/13.추상_인터페이스)  
+  📁 [14 기타](https://github.com/HTH-0/Obsidian/tree/master/JAVA/14)  
+  📁 [15 예외](https://github.com/HTH-0/Obsidian/tree/master/JAVA/15.예외)  
+  📁 [개인연습](https://github.com/HTH-0/Obsidian/tree/master/JAVA/개인연습)  
+  📁 [미니프로젝트](https://github.com/HTH-0/Obsidian/tree/master/JAVA/미니프로젝트)  
 
 </details>
 
 <details>
   <summary><strong>📁 MYSQL</strong></summary>
 
-  - [📁 MYSQL 기본](https://github.com/HTH-0/Obsidian/tree/master/MYSQL)  
+  📁 [MYSQL 기본](https://github.com/HTH-0/Obsidian/tree/master/MYSQL)  
 
 </details>
 
 <details>
   <summary><strong>📁 PROJECT</strong></summary>
 
-  - [📁 화면구현](https://github.com/HTH-0/Obsidian/tree/master/PROJECT/화면구현)  
+  📁 [화면구현](https://github.com/HTH-0/Obsidian/tree/master/PROJECT/화면구현)  
 
 </details>
 
 <details>
   <summary><strong>📁 VSCODE</strong></summary>
 
-  - [📁 CSS](https://github.com/HTH-0/Obsidian/tree/master/VSCODE/CSS)  
-  - [📁 HTML](https://github.com/HTH-0/Obsidian/tree/master/VSCODE/HTML)  
-  - [📁 JAVASCRIPT](https://github.com/HTH-0/Obsidian/tree/master/VSCODE/JAVASCRIPT)  
-  - [📁 연습](https://github.com/HTH-0/Obsidian/tree/master/VSCODE/연습)  
+  📁 [CSS](https://github.com/HTH-0/Obsidian/tree/master/VSCODE/CSS)  
+  📁 [HTML](https://github.com/HTH-0/Obsidian/tree/master/VSCODE/HTML)  
+  📁 [JAVASCRIPT](https://github.com/HTH-0/Obsidian/tree/master/VSCODE/JAVASCRIPT)  
+  📁 [연습](https://github.com/HTH-0/Obsidian/tree/master/VSCODE/연습)  
 
 </details>
 
 <details>
   <summary><strong>📁 정처산기이론</strong></summary>
 
-  - [📁 GIT](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/GIT)  
-  - [📁 LINUX](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/LINUX)  
-  - [📁 MYSQL](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/MYSQL)  
-  - [📁 VSCODE](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/VSCODE)  
-  - [📁 응용 SW 기초](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/응용_SW_기초)  
-  - [📁 화면설계](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/화면설계)  
+  📁 [GIT](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/GIT)  
+  📁 [LINUX](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/LINUX)  
+  📁 [MYSQL](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/MYSQL)  
+  📁 [VSCODE](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/VSCODE)  
+  📁 [응용 SW 기초](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/응용_SW_기초)  
+  📁 [화면설계](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/화면설계)  
 
 </details>
 
