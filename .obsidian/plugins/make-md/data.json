@@ -63,10 +63,8 @@
     "//JAVA/JAVA/12",
     "//JAVA/JAVA/16",
     "//JAVA/JAVA/16.제너릭",
-    "//To Do",
     "//VSCODE/VSCODE/연습",
-    "//JAVA",
-    "//JAVA/JAVA/17.컬렉션"
+    "//JAVA"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

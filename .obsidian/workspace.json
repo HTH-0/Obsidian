@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/17.컬렉션/17-08.Properties.md",
+                "file": "JAVA/미니프로젝트/버블보블.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "17-08.Properties"
+              "title": "버블보블"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "4d5c61c3f7cd986c",
+            "id": "497c9afddb777045",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,8 +189,16 @@
   },
   "active": "ae0c3b43a97f08be",
   "lastOpenFiles": [
-    "JAVA/17.컬렉션/17-07.HashMap.md",
+    "JAVA/미니프로젝트/버블버블 개요.md",
+    "JAVA/미니프로젝트/버블보블.md",
+    "JAVA/미니프로젝트/미니프로젝트.md",
+    "JAVA/미니프로젝트/Bubble Bobble 4.md",
+    "JAVA/미니프로젝트/Bubble Bobble 3.md",
+    "무제.md",
+    "JAVA/미니프로젝트/Bubble Bobble 1.md",
+    "JAVA/미니프로젝트/Bubble Bobble 2.md",
     "JAVA/17.컬렉션/17-08.Properties.md",
+    "JAVA/17.컬렉션/17-07.HashMap.md",
     "JAVA/17.컬렉션/17-06.HashMap 예제.md",
     "JAVA/17.컬렉션/17-05.HashSet.md",
     "JAVA/17.컬렉션/17.컬렉션.md",
@@ -209,15 +217,7 @@
     "To Do/제목 없음.png",
     "JAVA/16.제네릭/16-03.Couple 예제.md",
     "JAVA/16.제네릭/16-02.팝콘예제.md",
-    "JAVA/16.제네릭/16.제네릭.md",
-    "To Do/자격증 일정.md",
-    "README.md",
-    "JAVA/16.제네릭/16-01.제네릭.md",
     "JAVA/16.제네릭",
-    "JAVA/14.객체와 시간 처리/14.객체와 시간 처리.md",
-    "JAVA/15.예외/15-05.throw,throws.md",
-    "JAVA/15.예외/15-04.다양한 예외.md",
-    "JAVA/15.예외/15-03.ClassCastException.md",
     "JAVA/15.예외",
     "JAVA/14.객체와 시간 처리",
     "JAVA/13.추상, 인터페이스",
