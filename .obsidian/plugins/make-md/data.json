@@ -38,7 +38,6 @@
     "/",
     "//Template",
     "//Templates",
-    "//Tags",
     "//해보고 싶은 것",
     "//JAVA/JAVA/0",
     "//JAVA/JAVA/1",
@@ -65,7 +64,8 @@
     "//JAVA/JAVA/16.제너릭",
     "//VSCODE/VSCODE/연습",
     "//JAVA",
-    "//JAVA/JAVA/미니프로젝트"
+    "//Tags",
+    "//JAVA/JAVA/18.Swing"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
