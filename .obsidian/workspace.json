@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6246c6df0d7a044e",
+        "id": "27e6d6427e12b388",
         "type": "tabs",
         "children": [
           {
-            "id": "ae0c3b43a97f08be",
+            "id": "5ec8f55214f0d9e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/18.Swing/18.Swing1.md",
+                "file": "JAVA/18.Swing/18-01.Swing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "18.Swing1"
+              "title": "18-01.Swing"
             }
           }
         ]
@@ -187,13 +187,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4433073835a8f282",
+  "active": "5ec8f55214f0d9e9",
   "lastOpenFiles": [
-    "JAVA/18.Swing.md",
     "JAVA/18.Swing/18.Swing1.md",
+    "JAVA/18.Swing/18-01.Swing.md",
+    "JAVA/18.Swing/18.Swing.md",
+    "JAVA/17.컬렉션/17.컬렉션.md",
+    "JAVA/개인연습/개인연습.md",
+    "JAVA/18.Swing.md",
     "JAVA/18.Swing/무제.md",
     "JAVA/16.제네릭/16.제네릭.md",
-    "JAVA/18.Swing/18.Swing.md",
     "JAVA/18.Swing",
     "JAVA/JAVA.md",
     "README.md",
@@ -209,14 +212,11 @@
     "JAVA/17.컬렉션/17-07.HashMap.md",
     "JAVA/17.컬렉션/17-06.HashMap 예제.md",
     "JAVA/17.컬렉션/17-05.HashSet.md",
-    "JAVA/17.컬렉션/17.컬렉션.md",
     "JAVA/17.컬렉션/17-04.Set 로또 예제.md",
     "JAVA/17.컬렉션/17-03.Set.md",
     "JAVA/17.컬렉션/17-02.List예제.md",
     "JAVA/17.컬렉션/17-01.List.md",
     "JAVA/17.컬렉션",
-    "정처산기이론/정처산기이론.md",
-    "To Do/프로젝트(한컴).md",
     "To Do/제목 없음.png",
     "JAVA/16.제네릭",
     "JAVA/15.예외",
