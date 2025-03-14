@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/19.IO/16-11.Selenium.md",
+                "file": "JAVA/미니프로젝트/숫자야구게임.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "16-11.Selenium"
+              "title": "숫자야구게임"
             }
           }
         ]
@@ -189,21 +189,23 @@
   },
   "active": "5ec8f55214f0d9e9",
   "lastOpenFiles": [
-    "JAVA/19.IO/19-10.Jsoup.md",
-    "JAVA/19.IO/16-11.Selenium.md",
+    "JAVA/19.IO/19-13.OpenWeatherMap API.md",
+    "JAVA/19.IO/19-12.REST API.md",
+    "JAVA/19.IO/19-08.채팅 파일저장,불러오기.md",
     "JAVA/19.IO/19-09.URLStream.md",
+    "JAVA/19.IO/19-10.Jsoup.md",
+    "JAVA/19.IO/19-11.Selenium.md",
+    "JAVA/19.IO/19-01.FileWriter.md",
     "JAVA/19.IO/19.IO.md",
     "To Do/자격증 일정.md",
     "To Do/프로젝트(한컴).md",
     "To Do/To Do.md",
-    "JAVA/19.IO/19-08.채팅 파일저장,불러오기.md",
     "JAVA/19.IO/19-07.버퍼vs버퍼x.md",
     "JAVA/19.IO/19-06.Input,OutputStream.md",
     "JAVA/19.IO/19-05.FileStream.md",
     "JAVA/19.IO/19-04.Buffer.md",
     "JAVA/19.IO/19-03.FileCopy.md",
     "JAVA/19.IO/19-02.FileReader.md",
-    "JAVA/19.IO/19-01.FileWriter.md",
     "JAVA/18.Swing/18-01.Swing.md",
     "JAVA/19.IO",
     "JAVA/18.Swing/18.Swing1.md",
@@ -215,8 +217,6 @@
     "JAVA/16.제네릭/16.제네릭.md",
     "JAVA/18.Swing",
     "JAVA/JAVA.md",
-    "README.md",
-    "무제.md",
     "JAVA/17.컬렉션",
     "To Do/제목 없음.png",
     "JAVA/16.제네릭",
