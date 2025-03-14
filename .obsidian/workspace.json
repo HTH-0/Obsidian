@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/19.IO/19-06.Input,OutputStream.md",
+                "file": "JAVA/19.IO/19-09..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "19-06.Input,OutputStream"
+              "title": "19-09."
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "5e307487e4d538cf",
+            "id": "0b494fe54e8ee3d2",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,8 +189,11 @@
   },
   "active": "5ec8f55214f0d9e9",
   "lastOpenFiles": [
-    "JAVA/19.IO/19-05.FileStream.md",
+    "JAVA/19.IO/19-08.채팅 파일저장,불러오기.md",
+    "JAVA/19.IO/19-09..md",
+    "JAVA/19.IO/19-07.버퍼vs버퍼x.md",
     "JAVA/19.IO/19-06.Input,OutputStream.md",
+    "JAVA/19.IO/19-05.FileStream.md",
     "JAVA/19.IO/19-04.Buffer.md",
     "JAVA/19.IO/19-03.FileCopy.md",
     "JAVA/19.IO/19-02.FileReader.md",
@@ -214,9 +217,6 @@
     "JAVA/미니프로젝트/버블보블.md",
     "JAVA/미니프로젝트/Bubble Bobble 4.md",
     "JAVA/미니프로젝트/Bubble Bobble 3.md",
-    "JAVA/미니프로젝트/Bubble Bobble 1.md",
-    "JAVA/미니프로젝트/Bubble Bobble 2.md",
-    "JAVA/17.컬렉션/17-08.Properties.md",
     "JAVA/17.컬렉션",
     "To Do/제목 없음.png",
     "JAVA/16.제네릭",
