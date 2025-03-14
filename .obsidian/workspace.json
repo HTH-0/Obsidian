@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/19.IO/19-09..md",
+                "file": "To Do/자격증 일정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "19-09."
+              "title": "자격증 일정"
             }
           }
         ]
@@ -189,8 +189,10 @@
   },
   "active": "5ec8f55214f0d9e9",
   "lastOpenFiles": [
-    "JAVA/19.IO/19-08.채팅 파일저장,불러오기.md",
+    "To Do/프로젝트(한컴).md",
+    "To Do/To Do.md",
     "JAVA/19.IO/19-09..md",
+    "JAVA/19.IO/19-08.채팅 파일저장,불러오기.md",
     "JAVA/19.IO/19-07.버퍼vs버퍼x.md",
     "JAVA/19.IO/19-06.Input,OutputStream.md",
     "JAVA/19.IO/19-05.FileStream.md",
@@ -215,8 +217,6 @@
     "JAVA/미니프로젝트/버블버블 개요.md",
     "JAVA/미니프로젝트/미니프로젝트.md",
     "JAVA/미니프로젝트/버블보블.md",
-    "JAVA/미니프로젝트/Bubble Bobble 4.md",
-    "JAVA/미니프로젝트/Bubble Bobble 3.md",
     "JAVA/17.컬렉션",
     "To Do/제목 없음.png",
     "JAVA/16.제네릭",
