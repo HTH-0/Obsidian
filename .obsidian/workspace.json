@@ -11,14 +11,12 @@
             "id": "5ec8f55214f0d9e9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "JAVA/20/무제 3.md",
-                "mode": "source",
-                "source": false
+                "path": "JAVA/20.파일 입출력"
               },
               "icon": "lucide-file",
-              "title": "무제 3"
+              "title": "20.파일 입출력"
             }
           }
         ]
@@ -187,15 +185,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5ec8f55214f0d9e9",
+  "active": "0a8a02a4ea31b9f9",
   "lastOpenFiles": [
-    "JAVA/20/20-03.DataInputOutput.md",
-    "JAVA/20/무제 3.md",
-    "JAVA/20/20-02.readLine().md",
-    "JAVA/20/20-01.문자변환스트림.md",
+    "JAVA/20.파일 입출력/20.파일 입출력.md",
+    "JAVA/20.파일 입출력/20-04.객체 직렬역직렬.md",
+    "JAVA/20.파일 입출력/20-03.DataInputOutput.md",
+    "JAVA/20.파일 입출력/20-02.readLine().md",
+    "JAVA/20.파일 입출력/20-01.문자변환스트림.md",
     "JAVA/21.JDBC/21-05.SELECT.md",
     "JAVA/21.JDBC/21-04.DELETE.md",
-    "JAVA/20/20.md",
     "JAVA/21.JDBC/21-06.4가지 다 구현.md",
     "JAVA/21.JDBC/21.JDBC.md",
     "JAVA/21.JDBC/21-03.UPDATE.md",
@@ -204,7 +202,7 @@
     "JAVA/JAVA.md",
     "JAVA/21.JDBC",
     "To Do/자격증 일정.md",
-    "JAVA/20",
+    "JAVA/20.파일 입출력",
     "To Do/To Do.md",
     "JAVA/미니프로젝트/숫자야구게임.md",
     "JAVA/19.IO/19-13.OpenWeatherMap API.md",
