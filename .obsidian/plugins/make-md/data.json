@@ -64,7 +64,9 @@
     "//JAVA/JAVA/16.제너릭",
     "//VSCODE/VSCODE/연습",
     "//Tags",
-    "//JAVA/JAVA/19.IO"
+    "//JAVA",
+    "//JAVA/JAVA/19.IO",
+    "//To Do"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
