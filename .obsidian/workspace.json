@@ -11,14 +11,12 @@
             "id": "5ec8f55214f0d9e9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "To Do/은행 입출력.md",
-                "mode": "source",
-                "source": false
+                "path": "JAVA/23"
               },
               "icon": "lucide-file",
-              "title": "은행 입출력"
+              "title": "23"
             }
           }
         ]
@@ -187,8 +185,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5ec8f55214f0d9e9",
+  "active": "76758d3a482d1f54",
   "lastOpenFiles": [
+    "JAVA/22.Socket/22.Socket.md",
+    "JAVA/22.Socket/22-04.Socket(server양방향).md",
+    "JAVA/22.Socket/22-03.Socket(client양방향).md",
+    "JAVA/22.Socket/22-02.Socket(server).md",
+    "JAVA/22.Socket/22-01.Socket(client).md",
+    "JAVA/23/23.md",
+    "JAVA/21.JDBC/21-09.분산 트랜잭션.md",
+    "JAVA/22.Socket",
+    "JAVA/23",
+    "JAVA/21.JDBC/21-08.트랜잭션.md",
+    "JAVA/21.JDBC/21-07.GUI와 DB연동.md",
+    "JAVA/21.JDBC/21-06.4가지 다 구현.md",
     "To Do/은행 입출력.md",
     "JAVA/21.JDBC/21.JDBC.md",
     "JAVA/20.파일 입출력/20.파일 입출력.md",
@@ -198,7 +208,6 @@
     "JAVA/20.파일 입출력/20-01.문자변환스트림.md",
     "JAVA/21.JDBC/21-05.SELECT.md",
     "JAVA/21.JDBC/21-04.DELETE.md",
-    "JAVA/21.JDBC/21-06.4가지 다 구현.md",
     "JAVA/21.JDBC/21-03.UPDATE.md",
     "JAVA/21.JDBC/21-02.INSERT.md",
     "JAVA/21.JDBC/21-01.JDBC.md",
@@ -208,15 +217,6 @@
     "JAVA/20.파일 입출력",
     "To Do/To Do.md",
     "JAVA/미니프로젝트/숫자야구게임.md",
-    "JAVA/19.IO/19-13.OpenWeatherMap API.md",
-    "JAVA/19.IO/19-12.REST API.md",
-    "JAVA/19.IO/19-08.채팅 파일저장,불러오기.md",
-    "JAVA/19.IO/19-09.URLStream.md",
-    "JAVA/19.IO/19-10.Jsoup.md",
-    "JAVA/19.IO/19-11.Selenium.md",
-    "JAVA/19.IO/19-01.FileWriter.md",
-    "JAVA/19.IO/19.IO.md",
-    "To Do/프로젝트(한컴).md",
     "JAVA/19.IO",
     "JAVA/18.Swing",
     "JAVA/17.컬렉션",
@@ -224,8 +224,6 @@
     "JAVA/16.제네릭",
     "JAVA/15.예외",
     "JAVA/14.객체와 시간 처리",
-    "JAVA/13.추상, 인터페이스",
-    "JAVA/12.상속, 업다운캐스팅",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",
     "무제.canvas",
