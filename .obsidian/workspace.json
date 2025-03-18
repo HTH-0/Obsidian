@@ -11,12 +11,14 @@
             "id": "5ec8f55214f0d9e9",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "JAVA/20.파일 입출력"
+                "file": "To Do/은행 입출력.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "20.파일 입출력"
+              "title": "은행 입출력"
             }
           }
         ]
@@ -73,7 +75,7 @@
             }
           },
           {
-            "id": "4c64f27c9dcc2dd7",
+            "id": "0da03f9b4897a1c7",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -185,8 +187,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8103dd704b4a9801",
+  "active": "5ec8f55214f0d9e9",
   "lastOpenFiles": [
+    "To Do/은행 입출력.md",
+    "JAVA/21.JDBC/21.JDBC.md",
     "JAVA/20.파일 입출력/20.파일 입출력.md",
     "JAVA/20.파일 입출력/20-04.객체 직렬역직렬.md",
     "JAVA/20.파일 입출력/20-03.DataInputOutput.md",
@@ -195,7 +199,6 @@
     "JAVA/21.JDBC/21-05.SELECT.md",
     "JAVA/21.JDBC/21-04.DELETE.md",
     "JAVA/21.JDBC/21-06.4가지 다 구현.md",
-    "JAVA/21.JDBC/21.JDBC.md",
     "JAVA/21.JDBC/21-03.UPDATE.md",
     "JAVA/21.JDBC/21-02.INSERT.md",
     "JAVA/21.JDBC/21-01.JDBC.md",
@@ -214,7 +217,6 @@
     "JAVA/19.IO/19-01.FileWriter.md",
     "JAVA/19.IO/19.IO.md",
     "To Do/프로젝트(한컴).md",
-    "JAVA/19.IO/19-07.버퍼vs버퍼x.md",
     "JAVA/19.IO",
     "JAVA/18.Swing",
     "JAVA/17.컬렉션",
