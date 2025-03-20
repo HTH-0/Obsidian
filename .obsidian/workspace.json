@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/29.Reflection/29-02.Reflection(객체조작).md",
+                "file": "JAVA/개인연습/LAMDA 와 interface.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "29-02.Reflection(객체조작)"
+              "title": "LAMDA 와 interface"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "d80bc6fef13041ac",
+            "id": "bd075e3c6abdd039",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,8 +189,10 @@
   },
   "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
-    "JAVA/29.Reflection/29-01.예제.md",
+    "JAVA/개인연습/LAMDA 와 interface.md",
+    "JAVA/JAVA.md",
     "JAVA/29.Reflection/29-02.Reflection(객체조작).md",
+    "JAVA/29.Reflection/29-01.예제.md",
     "JAVA/29.Reflection/29-00.Reflection 개요.md",
     "JAVA/29.Reflection/29.Reflection.md",
     "무제.md",
@@ -217,8 +219,6 @@
     "JAVA/미니프로젝트/Bubble Bobble 1.md",
     "JAVA/18.Swing/18-01.Swing.md",
     "JAVA/20.파일 입출력/20.파일 입출력.md",
-    "JAVA/22.Socket/22.Socket.md",
-    "JAVA/23.Thread/23-04.동기화.md",
     "JAVA/22.Socket",
     "JAVA/23.Thread",
     "JAVA/21.JDBC",
