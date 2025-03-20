@@ -65,7 +65,6 @@
     "//VSCODE/VSCODE/연습",
     "//Tags",
     "//JAVA/JAVA/21.",
-    "//To Do",
     "//JAVA/JAVA/22",
     "//JAVA/JAVA/23",
     "//JAVA/JAVA/24",
@@ -75,8 +74,8 @@
     "//JAVA/JAVA/25.채팅 프로그램",
     "//JAVA/JAVA/26.Chatting(multi)",
     "//JAVA/JAVA/29.",
-    "//JAVA",
-    "//JAVA/JAVA/개인연습"
+    "//To Do",
+    "//ToyProject"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
