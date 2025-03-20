@@ -90,7 +90,7 @@
             }
           },
           {
-            "id": "bd075e3c6abdd039",
+            "id": "5e89c2036dc032d7",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -204,6 +204,7 @@
   },
   "active": "b529829cb95ff8f5",
   "lastOpenFiles": [
+    "Tags",
     "ToyProject/제작과정(3.20).md",
     "ToyProject/ToyProject.md",
     "To Do/To Do.md",
@@ -231,7 +232,6 @@
     "JAVA/25.Chatting/25. 채팅 프로그램.md",
     "JAVA/25.Chatting/25.Chatting.md",
     "JAVA/26.채팅프로그램(다인)/무제 1.md",
-    "JAVA/24.송수신/24.송수신.md",
     "JAVA/26.Chatting(Multi)",
     "JAVA/25.Chatting",
     "JAVA/24.송수신",
