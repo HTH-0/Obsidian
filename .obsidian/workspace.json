@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ToyProject/3.24 (생각).md",
+                "file": "MYSQL/SELECT 문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.24 (생각)"
+              "title": "SELECT 문제"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "2e5ef19581bacb9f",
+            "id": "510459e3d55f3b69",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,8 +189,14 @@
   },
   "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
-    "ToyProject/3.21 (생각).md",
+    "MYSQL/SELECT.md",
+    "MYSQL/SELECT 문제.md",
+    "MYSQL/SELECT ( NULL, DISTINCT, AS).md",
+    "MYSQL/.md",
+    "MYSQL/SELECT 1.md",
+    "MYSQL/MYSQL.md",
     "ToyProject/3.24 (생각).md",
+    "ToyProject/3.21 (생각).md",
     "ToyProject/3.21 (코드).md",
     "ToyProject/제작과정(3.20).md",
     "To Do/프로젝트(한컴).md",
@@ -211,12 +217,6 @@
     "JAVA/32.Stream/32-06.skip.md",
     "JAVA/32.Stream/32-05.limit.md",
     "JAVA/32.Stream/32-04.sort.md",
-    "JAVA/32.Stream/32.Stream.md",
-    "To Do/자격증 일정.md",
-    "To Do/To Do.md",
-    "JAVA/32.Stream/32-03.distinct.md",
-    "JAVA/32.Stream/32-02.flatMap.md",
-    "JAVA/32.Stream/32-01.Stream예제.md",
     "JAVA/32.Stream",
     "JAVA/31.LAMDA",
     "JAVA/30.디자인패턴",
