@@ -1,4 +1,3 @@
-# 📘 Oracle SQL Snippets 정리 모음
 ### 📌 수량(amount) 조건으로 조회하기
 
 1. **🎯 쿼리 목적**:
