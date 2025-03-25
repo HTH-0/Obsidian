@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MYSQL/SQL 기타 함수 정리.md",
+                "file": "To Do/자격증 일정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL 기타 함수 정리"
+              "title": "자격증 일정"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "abe8859bef37104f",
+            "id": "1bf58522864e72a6",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,8 +189,11 @@
   },
   "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
-    "MYSQL/NULL 처리 함수.md",
+    "To Do/은행 입출력.md",
+    "To Do/프로젝트(한컴).md",
+    "ToyProject/ToyProject.md",
     "MYSQL/SQL 기타 함수 정리.md",
+    "MYSQL/NULL 처리 함수.md",
     "MYSQL/형변환 함수.md",
     "MYSQL/함수 ( 문자열 ,숫자).md",
     "MYSQL/SELECT HAVING 문제.md",
@@ -212,9 +215,6 @@
     "JAVA/24.송수신/24.송수신.md",
     "JAVA/23.Thread/23.Thread.md",
     "JAVA/22.Socket/22.Socket.md",
-    "JAVA/21.JDBC/21.JDBC.md",
-    "JAVA/20.파일 입출력/20.파일 입출력.md",
-    "JAVA/19.IO/19.IO.md",
     "JAVA/34.Annotation",
     "JAVA/33.함수형인터페이스",
     "JAVA/32.Stream",
