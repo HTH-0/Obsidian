@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MYSQL/무제.md",
+                "file": "MYSQL/LEFT JOIN 문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "LEFT JOIN 문제"
             }
           }
         ]
@@ -189,9 +189,9 @@
   },
   "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
-    "MYSQL/JOIN(SELF JOIN, CROSS JOIN).md",
-    "MYSQL/무제.md",
     "MYSQL/INNER JOIN 문제.md",
+    "MYSQL/LEFT JOIN 문제.md",
+    "MYSQL/JOIN(SELF JOIN, CROSS JOIN).md",
     "MYSQL/MYSQL.md",
     "To Do/자격증 일정.md",
     "Vault.md",
