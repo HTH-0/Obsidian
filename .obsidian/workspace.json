@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "1bf58522864e72a6",
+            "id": "3235a741e762da16",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,6 +189,8 @@
   },
   "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
+    "Vault.md",
+    "To Do/자격증 일정.md",
     "To Do/은행 입출력.md",
     "To Do/프로젝트(한컴).md",
     "ToyProject/ToyProject.md",
@@ -200,7 +202,6 @@
     "MYSQL/SELECT (ROLLUP).md",
     "MYSQL/SELECT (HAVING).md",
     "MYSQL/MYSQL.md",
-    "To Do/자격증 일정.md",
     "To Do/To Do.md",
     "ToyProject/3.24 (생각).md",
     "MYSQL/SELECT 문제1.md",
@@ -214,7 +215,6 @@
     "JAVA/25.Chatting/25.Chatting.md",
     "JAVA/24.송수신/24.송수신.md",
     "JAVA/23.Thread/23.Thread.md",
-    "JAVA/22.Socket/22.Socket.md",
     "JAVA/34.Annotation",
     "JAVA/33.함수형인터페이스",
     "JAVA/32.Stream",
