@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MYSQL/LEFT JOIN 문제.md",
+                "file": "To Do/자격증 일정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LEFT JOIN 문제"
+              "title": "자격증 일정"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "3235a741e762da16",
+            "id": "2091e8a9ba0fbb17",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,14 +189,15 @@
   },
   "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
-    "MYSQL/INNER JOIN 문제.md",
+    "To Do/프로젝트(한컴).md",
+    "To Do/은행 입출력.md",
+    "To Do/자격증 일정.md",
+    "To Do/To Do.md",
     "MYSQL/LEFT JOIN 문제.md",
+    "MYSQL/INNER JOIN 문제.md",
     "MYSQL/JOIN(SELF JOIN, CROSS JOIN).md",
     "MYSQL/MYSQL.md",
-    "To Do/자격증 일정.md",
     "Vault.md",
-    "To Do/은행 입출력.md",
-    "To Do/프로젝트(한컴).md",
     "ToyProject/ToyProject.md",
     "MYSQL/SQL 기타 함수 정리.md",
     "MYSQL/NULL 처리 함수.md",
@@ -205,7 +206,6 @@
     "MYSQL/SELECT HAVING 문제.md",
     "MYSQL/SELECT (ROLLUP).md",
     "MYSQL/SELECT (HAVING).md",
-    "To Do/To Do.md",
     "ToyProject/3.24 (생각).md",
     "MYSQL/SELECT 문제1.md",
     "MYSQL/SELECT 문제2(GROUP BY).md",
