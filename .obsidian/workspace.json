@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSP/01/스크립틀릿2.md",
+                "file": "JSP/01/스크립틀릿 3 (구구단).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "스크립틀릿2"
+              "title": "스크립틀릿 3 (구구단)"
             }
           }
         ]
@@ -189,10 +189,13 @@
   },
   "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
-    "JSP/01/스크립틀릿 1.md",
-    "JSP/01/스크립틀릿2.md",
-    "JSP/01/선언문2.md",
+    "JSP/01/스크립틀릿 2 (테이블).md",
+    "JSP/02/02.md",
+    "JSP/02",
+    "JSP/01/스크립틀릿 3 (구구단).md",
     "JSP/01/선언문.md",
+    "JSP/01/선언문2.md",
+    "JSP/01/스크립틀릿 1.md",
     "JSP/01/01.md",
     "To Do/자격증 일정.md",
     "JSP/01",
@@ -215,8 +218,6 @@
     "MYSQL/형변환 함수.md",
     "MYSQL/함수 ( 문자열 ,숫자).md",
     "MYSQL/SELECT HAVING 문제.md",
-    "MYSQL/SELECT (ROLLUP).md",
-    "MYSQL/SELECT (HAVING).md",
     "JAVA/34.Annotation",
     "JAVA/33.함수형인터페이스",
     "JAVA/32.Stream",
@@ -224,7 +225,6 @@
     "JAVA/30.디자인패턴",
     "Tags",
     "ToyProject",
-    "JAVA/29.Reflection",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",
