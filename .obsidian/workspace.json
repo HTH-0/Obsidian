@@ -11,14 +11,12 @@
             "id": "85ac14a2d1d10518",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "JSP/05/out.md",
-                "mode": "source",
-                "source": false
+                "path": "To Do"
               },
               "icon": "lucide-file",
-              "title": "out"
+              "title": "To Do"
             }
           }
         ]
@@ -187,10 +185,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "85ac14a2d1d10518",
+  "active": "bfce8a169721c31d",
   "lastOpenFiles": [
-    "JSP/05/Download (Link).md",
+    "To Do/To Do.md",
+    "ToyProject/ToyProject.md",
+    "JSP/06/06.md",
     "JSP/05/out.md",
+    "JSP/06",
+    "JSP/05/Download (Link).md",
     "JSP/05/Download (Zip).md",
     "JSP/05/Download (Single).md",
     "JSP/05/무제.md",
@@ -215,16 +217,12 @@
     "JSP/03/03.md",
     "JSP/JSP.md",
     "JSP/03",
-    "JSP/01/01.md",
-    "JSP/02/입력값으로 네비게이션 바 생성.md",
-    "JSP/.md",
     "JSP/02",
     "JSP/01",
     "JSP",
     "JAVA/34.Annotation",
     "JAVA/33.함수형인터페이스",
     "JAVA/32.Stream",
-    "JAVA/31.LAMDA",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",
