@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSP/05/무제 1.md",
+                "file": "JSP/05/Download (Link).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제 1"
+              "title": "Download (Link)"
             }
           }
         ]
@@ -189,10 +189,16 @@
   },
   "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
-    "JSP/05/무제 1.md",
+    "JSP/05/Download (Zip).md",
+    "JSP/05/Download (Link).md",
+    "JSP/05/Download (Single).md",
+    "JSP/05/무제.md",
+    "JSP/05/Response.md",
+    "JSP/05/Request.md",
+    "JSP/05/pageContext.md",
+    "JSP/05/내장 객체.md",
     "JSP/05/05.md",
     "JSP/04/04.md",
-    "JSP/05/무제.md",
     "JSP/05",
     "JSP/무제.md",
     "JSP/04/회원가입 예제.md",
@@ -212,12 +218,6 @@
     "JSP/02/입력값으로 네비게이션 바 생성.md",
     "JSP/.md",
     "JSP/02/Nav 생성 폼.md",
-    "JSP/02/.md",
-    "JSP/02/JS to JSP.md",
-    "JSP/02/JSP to JS.md",
-    "JSP/02/EL로 요청 파라미터 출력.md",
-    "JSP/02/Post 방식 폼 전송.md",
-    "JSP/02/Request Process.md",
     "JSP/02",
     "JSP/01",
     "JSP",
