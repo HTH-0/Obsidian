@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSP/05/Download (Link).md",
+                "file": "JSP/05/out.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Download (Link)"
+              "title": "out"
             }
           }
         ]
@@ -189,8 +189,9 @@
   },
   "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
-    "JSP/05/Download (Zip).md",
     "JSP/05/Download (Link).md",
+    "JSP/05/out.md",
+    "JSP/05/Download (Zip).md",
     "JSP/05/Download (Single).md",
     "JSP/05/무제.md",
     "JSP/05/Response.md",
@@ -217,7 +218,6 @@
     "JSP/01/01.md",
     "JSP/02/입력값으로 네비게이션 바 생성.md",
     "JSP/.md",
-    "JSP/02/Nav 생성 폼.md",
     "JSP/02",
     "JSP/01",
     "JSP",
