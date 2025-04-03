@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSP/03/Include.md",
+                "file": "JSP/05/무제 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Include"
+              "title": "무제 1"
             }
           }
         ]
@@ -189,8 +189,18 @@
   },
   "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
-    "JSP/03/Main.md",
+    "JSP/05/무제 1.md",
+    "JSP/05/05.md",
+    "JSP/04/04.md",
+    "JSP/05/무제.md",
+    "JSP/05",
+    "JSP/무제.md",
+    "JSP/04/회원가입 예제.md",
+    "JSP/04/Redirect 페이지 이동.md",
+    "JSP/04/Forward 페이지 이동.md",
     "JSP/03/Include.md",
+    "JSP/04",
+    "JSP/03/Main.md",
     "JSP/03/getParameter.md",
     "JSP/03/Error Page.md",
     "JSP/03/Import.md",
@@ -208,23 +218,13 @@
     "JSP/02/EL로 요청 파라미터 출력.md",
     "JSP/02/Post 방식 폼 전송.md",
     "JSP/02/Request Process.md",
-    "JSP/02/Request 폼.md",
-    "JAVA/03.형변환/3-01.타입(자동,강제형변환).md",
-    "JAVA/03.형변환/03.형변환.md",
-    "JAVA/02.자료형/02.자료형.md",
-    "JAVA/JAVA.md",
-    "JSP/01/스크립틀릿 3 (구구단).md",
-    "JSP/01/스크립틀릿 2 (테이블).md",
     "JSP/02",
-    "JSP/01/선언문.md",
     "JSP/01",
     "JSP",
     "JAVA/34.Annotation",
     "JAVA/33.함수형인터페이스",
     "JAVA/32.Stream",
     "JAVA/31.LAMDA",
-    "JAVA/30.디자인패턴",
-    "Tags",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",
