@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSP/07/Cookie Path 설정.md",
+                "file": "JSP/08/EL 사용 예시.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cookie Path 설정"
+              "title": "EL 사용 예시"
             }
           }
         ]
@@ -189,8 +189,14 @@
   },
   "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
-    "JSP/07/Cookie 확인 .md",
+    "JSP/08/EL 용 폼.md",
+    "JSP/08/EL 사용 예시.md",
+    "JSP/08/08.md",
+    "JSP/07/쿠키(로그인처리).md",
+    "JSP/08",
+    "JSP/07/쿠키 (로그인폼).md",
     "JSP/07/Cookie Path 설정.md",
+    "JSP/07/Cookie 확인 .md",
     "JSP/07/Cookie 생성.md",
     "JSP/07/Cookie 가져오기.md",
     "JSP/07/Cookie 삭제.md",
@@ -212,11 +218,6 @@
     "JSP/05/out.md",
     "JSP/06",
     "JSP/05/Download (Link).md",
-    "JSP/05/Download (Zip).md",
-    "JSP/05/Download (Single).md",
-    "JSP/05/무제.md",
-    "JSP/05/Response.md",
-    "JSP/05/Request.md",
     "JSP/05",
     "JSP/04",
     "JSP/03",
@@ -224,7 +225,6 @@
     "JSP/01",
     "JSP",
     "JAVA/34.Annotation",
-    "JAVA/33.함수형인터페이스",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",
