@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSP/07/Cookie 생성.md",
+                "file": "JSP/07/Cookie Path 설정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cookie 생성"
+              "title": "Cookie Path 설정"
             }
           }
         ]
@@ -189,8 +189,10 @@
   },
   "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
-    "JSP/07/Cookie 가져오기.md",
+    "JSP/07/Cookie 확인 .md",
+    "JSP/07/Cookie Path 설정.md",
     "JSP/07/Cookie 생성.md",
+    "JSP/07/Cookie 가져오기.md",
     "JSP/07/Cookie 삭제.md",
     "JSP/06/jsp 회원가입 처리.md",
     "JSP/07/07.md",
@@ -215,8 +217,6 @@
     "JSP/05/무제.md",
     "JSP/05/Response.md",
     "JSP/05/Request.md",
-    "JSP/05/pageContext.md",
-    "JSP/05/내장 객체.md",
     "JSP/05",
     "JSP/04",
     "JSP/03",
