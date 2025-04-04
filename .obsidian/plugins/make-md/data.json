@@ -78,8 +78,9 @@
     "//JAVA/JAVA/33.",
     "//JAVA/JAVA/24.송수신",
     "//JAVA/JAVA/04.Scanner",
-    "//JSP/JSP/05",
-    "//JSP/JSP/06"
+    "//JSP",
+    "//JSP/JSP/jsp 회원가입 처리",
+    "//JSP/JSP/07"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

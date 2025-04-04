@@ -11,12 +11,14 @@
             "id": "85ac14a2d1d10518",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "To Do"
+                "file": "JSP/07/Cookie 생성.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "To Do"
+              "title": "Cookie 생성"
             }
           }
         ]
@@ -73,7 +75,7 @@
             }
           },
           {
-            "id": "bfce8a169721c31d",
+            "id": "2c049618e46c697a",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -185,11 +187,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bfce8a169721c31d",
+  "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
+    "JSP/07/Cookie 가져오기.md",
+    "JSP/07/Cookie 생성.md",
+    "JSP/07/Cookie 삭제.md",
+    "JSP/06/jsp 회원가입 처리.md",
+    "JSP/07/07.md",
+    "JSP/07",
+    "JSP/무제.md",
+    "JSP/06/06.md",
+    "JSP/06/jsp 회원가입 폼.md",
+    "JSP/06/jsp 로그인 메인.md",
+    "JSP/06/jsp 로그아웃.md",
+    "JSP/06/jsp 로그인 처리.md",
+    "JSP/06/getSession.md",
+    "JSP/06/jsp 로그인폼.md",
+    "JSP/06/setSession.md",
+    "JSP/05/05.md",
     "To Do/To Do.md",
     "ToyProject/ToyProject.md",
-    "JSP/06/06.md",
     "JSP/05/out.md",
     "JSP/06",
     "JSP/05/Download (Link).md",
@@ -200,29 +217,14 @@
     "JSP/05/Request.md",
     "JSP/05/pageContext.md",
     "JSP/05/내장 객체.md",
-    "JSP/05/05.md",
-    "JSP/04/04.md",
     "JSP/05",
-    "JSP/무제.md",
-    "JSP/04/회원가입 예제.md",
-    "JSP/04/Redirect 페이지 이동.md",
-    "JSP/04/Forward 페이지 이동.md",
-    "JSP/03/Include.md",
     "JSP/04",
-    "JSP/03/Main.md",
-    "JSP/03/getParameter.md",
-    "JSP/03/Error Page.md",
-    "JSP/03/Import.md",
-    "JSP/02/02.md",
-    "JSP/03/03.md",
-    "JSP/JSP.md",
     "JSP/03",
     "JSP/02",
     "JSP/01",
     "JSP",
     "JAVA/34.Annotation",
     "JAVA/33.함수형인터페이스",
-    "JAVA/32.Stream",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",
