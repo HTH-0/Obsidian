@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSP/08/EL 사용 예시.md",
+                "file": "JSP/08/JSP 개요 .md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EL 사용 예시"
+              "title": "JSP 개요"
             }
           }
         ]
@@ -189,9 +189,10 @@
   },
   "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
-    "JSP/08/EL 용 폼.md",
-    "JSP/08/EL 사용 예시.md",
+    "JSP/08/JSP 개요 .md",
     "JSP/08/08.md",
+    "JSP/08/EL 사용 예시.md",
+    "JSP/08/EL 용 폼.md",
     "JSP/07/쿠키(로그인처리).md",
     "JSP/08",
     "JSP/07/쿠키 (로그인폼).md",
@@ -217,7 +218,6 @@
     "ToyProject/ToyProject.md",
     "JSP/05/out.md",
     "JSP/06",
-    "JSP/05/Download (Link).md",
     "JSP/05",
     "JSP/04",
     "JSP/03",
