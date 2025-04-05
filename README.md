@@ -39,12 +39,12 @@
   📁 [25.Chatting](https://github.com/HTH-0/Obsidian/tree/master/JAVA/25.Chatting)  
   📁 [26.Chatting(Multi)](https://github.com/HTH-0/Obsidian/tree/master/JAVA/26.Chatting(Multi))  
   📁 [29.Reflection](https://github.com/HTH-0/Obsidian/tree/master/JAVA/29.Reflection)  
-  📁 [30 Swing](https://github.com/HTH-0/Obsidian/tree/master/JAVA/18.Swing)  
-  📁 [31 Swing](https://github.com/HTH-0/Obsidian/tree/master/JAVA/18.Swing)  
-  📁 [32 Swing](https://github.com/HTH-0/Obsidian/tree/master/JAVA/18.Swing)  
-  📁 [33 Swing](https://github.com/HTH-0/Obsidian/tree/master/JAVA/18.Swing)  
-  📁 [34 Swing](https://github.com/HTH-0/Obsidian/tree/master/JAVA/18.Swing)  
-  📁 [35 Swing](https://github.com/HTH-0/Obsidian/tree/master/JAVA/18.Swing)  
+  📁 [30.디자인패턴](https://github.com/HTH-0/Obsidian/tree/master/JAVA/30.디자인패턴)  
+  📁 [31.LAMDA](https://github.com/HTH-0/Obsidian/tree/master/JAVA/31.LAMDA)  
+  📁 [32.Stream](https://github.com/HTH-0/Obsidian/tree/master/JAVA/32.Stream)  
+  📁 [33.함수형인터페이스](https://github.com/HTH-0/Obsidian/tree/master/JAVA/33.함수형인터페이스)  
+  📁 [34.Annotation](https://github.com/HTH-0/Obsidian/tree/master/JAVA/34.Annotation)
+
   
   📁 [개인연습](https://github.com/HTH-0/Obsidian/tree/master/JAVA/개인연습)  
   📁 [미니프로젝트](https://github.com/HTH-0/Obsidian/tree/master/JAVA/미니프로젝트)  
