@@ -46,8 +46,8 @@
   📁 [34.Annotation](https://github.com/HTH-0/Obsidian/tree/master/JAVA/34.Annotation)
 
   
-  📁 [개인연습](https://github.com/HTH-0/Obsidian/tree/master/JAVA/개인연습)  
-  📁 [미니프로젝트](https://github.com/HTH-0/Obsidian/tree/master/JAVA/미니프로젝트)  
+  🧪 [개인연습](https://github.com/HTH-0/Obsidian/tree/master/JAVA/개인연습)  
+  🛠️ [미니프로젝트](https://github.com/HTH-0/Obsidian/tree/master/JAVA/미니프로젝트)  
 
 </details>
 
