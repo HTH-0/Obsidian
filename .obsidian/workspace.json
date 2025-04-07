@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSP/08/JSP 개요 .md",
+                "file": "To Do/자격증 일정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JSP 개요"
+              "title": "자격증 일정"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "2c049618e46c697a",
+            "id": "221e74b0b28b37f4",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,6 +189,7 @@
   },
   "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
+    "To Do/To Do.md",
     "JSP/08/JSP 개요 .md",
     "JSP/08/08.md",
     "JSP/08/EL 사용 예시.md",
@@ -214,7 +215,6 @@
     "JSP/06/jsp 로그인폼.md",
     "JSP/06/setSession.md",
     "JSP/05/05.md",
-    "To Do/To Do.md",
     "ToyProject/ToyProject.md",
     "JSP/05/out.md",
     "JSP/06",
