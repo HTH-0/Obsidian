@@ -97,16 +97,20 @@
 
 ---
 
-### 📲 레포지토리 적용 방법  
-1. **레포지토리 클론**  
+깔끔해! 이 내용은 **Obsidian Vault를 GitHub에 연동해 사용하는 방법**으로 아주 잘 정리돼 있어.  
+그런데 이 문단을 사용자가 쉽게 따라오게 하려면 약간만 다듬어줄 수 있어. 아래처럼 제안해볼게:
+
+---
+
+### 📲 Obsidian Vault 연동 방법
+
+1. **레포지토리 클론**
    ```bash
    git clone https://github.com/HTH-0/Obsidian.git
    ```
-2. 옵시디언에서 해당 폴더를 Vault로 설정  
-3. 변경 사항이 있으면 아래 명령어로 백업  
-   ```bash
-   git add .
-   git commit -m "백업 업데이트"
-   git push origin master
-   ```  
+2. **Obsidian에서 새로운 Vault 열기**
+   - Obsidian 실행 → "Open folder as vault" 선택
+   - 방금 클론 받은 `Obsidian` 폴더를 선택
+
+
 ```
