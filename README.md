@@ -54,7 +54,7 @@
 <details>
   <summary><strong>📁 MYSQL</strong></summary>
 
-  📁 [MYSQL 기본](https://github.com/HTH-0/Obsidian/tree/master/MYSQL)  
+  📁 [MYSQL](https://github.com/HTH-0/Obsidian/tree/master/MYSQL)  
 
 </details>
 
