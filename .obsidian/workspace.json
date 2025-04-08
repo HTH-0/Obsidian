@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "221e74b0b28b37f4",
+            "id": "a1662d598afb4703",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,6 +189,9 @@
   },
   "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
+    "To Do/프로젝트(한컴).md",
+    "VSCODE/VSCODE.md",
+    "To Do/자격증 일정.md",
     "To Do/To Do.md",
     "JSP/08/JSP 개요 .md",
     "JSP/08/08.md",
@@ -214,9 +217,6 @@
     "JSP/06/getSession.md",
     "JSP/06/jsp 로그인폼.md",
     "JSP/06/setSession.md",
-    "JSP/05/05.md",
-    "ToyProject/ToyProject.md",
-    "JSP/05/out.md",
     "JSP/06",
     "JSP/05",
     "JSP/04",

@@ -62,7 +62,6 @@
     "//JAVA/JAVA/12",
     "//JAVA/JAVA/16",
     "//JAVA/JAVA/16.제너릭",
-    "//VSCODE/VSCODE/연습",
     "//Tags",
     "//JAVA/JAVA/21.",
     "//JAVA/JAVA/22",
@@ -76,10 +75,10 @@
     "//JAVA/JAVA/29.",
     "//JAVA/JAVA/32.",
     "//JAVA/JAVA/33.",
-    "//JSP",
     "//JSP/JSP/jsp 회원가입 처리",
     "//JSP/JSP/08",
-    "//To Do"
+    "//To Do",
+    "//VSCODE"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
