@@ -39,22 +39,22 @@
   📁 [25.Chatting](https://github.com/HTH-0/Obsidian/tree/master/JAVA/25.Chatting)  
   📁 [26.Chatting(Multi)](https://github.com/HTH-0/Obsidian/tree/master/JAVA/26.Chatting(Multi))  
   📁 [29.Reflection](https://github.com/HTH-0/Obsidian/tree/master/JAVA/29.Reflection)  
-  📁 [18 Swing](https://github.com/HTH-0/Obsidian/tree/master/JAVA/18.Swing)  
-  📁 [18 Swing](https://github.com/HTH-0/Obsidian/tree/master/JAVA/18.Swing)  
-  📁 [18 Swing](https://github.com/HTH-0/Obsidian/tree/master/JAVA/18.Swing)  
-  📁 [18 Swing](https://github.com/HTH-0/Obsidian/tree/master/JAVA/18.Swing)  
-  📁 [18 Swing](https://github.com/HTH-0/Obsidian/tree/master/JAVA/18.Swing)  
-  📁 [18 Swing](https://github.com/HTH-0/Obsidian/tree/master/JAVA/18.Swing)  
+  📁 [30.디자인패턴](https://github.com/HTH-0/Obsidian/tree/master/JAVA/30.디자인패턴)  
+  📁 [31.LAMDA](https://github.com/HTH-0/Obsidian/tree/master/JAVA/31.LAMDA)  
+  📁 [32.Stream](https://github.com/HTH-0/Obsidian/tree/master/JAVA/32.Stream)  
+  📁 [33.함수형인터페이스](https://github.com/HTH-0/Obsidian/tree/master/JAVA/33.함수형인터페이스)  
+  📁 [34.Annotation](https://github.com/HTH-0/Obsidian/tree/master/JAVA/34.Annotation)
+
   
-  📁 [개인연습](https://github.com/HTH-0/Obsidian/tree/master/JAVA/개인연습)  
-  📁 [미니프로젝트](https://github.com/HTH-0/Obsidian/tree/master/JAVA/미니프로젝트)  
+  🧪 [개인연습](https://github.com/HTH-0/Obsidian/tree/master/JAVA/개인연습)  
+  🛠️ [미니프로젝트](https://github.com/HTH-0/Obsidian/tree/master/JAVA/미니프로젝트)  
 
 </details>
 
 <details>
   <summary><strong>📁 MYSQL</strong></summary>
 
-  📁 [MYSQL 기본](https://github.com/HTH-0/Obsidian/tree/master/MYSQL)  
+  📁 [MYSQL](https://github.com/HTH-0/Obsidian/tree/master/MYSQL)  
 
 </details>
 
@@ -97,16 +97,12 @@
 
 ---
 
-### 📲 레포지토리 적용 방법  
-1. **레포지토리 클론**  
+### 📲 Obsidian Vault 연동 방법
+
+1. **레포지토리 클론**
    ```bash
    git clone https://github.com/HTH-0/Obsidian.git
    ```
-2. 옵시디언에서 해당 폴더를 Vault로 설정  
-3. 변경 사항이 있으면 아래 명령어로 백업  
-   ```bash
-   git add .
-   git commit -m "백업 업데이트"
-   git push origin master
-   ```  
-```
+2. **Obsidian에서 새로운 Vault 열기**
+   - Obsidian 실행 → "Open folder as vault" 선택
+   - 방금 클론 받은 `Obsidian` 폴더를 선택
