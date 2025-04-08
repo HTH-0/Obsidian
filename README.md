@@ -106,6 +106,3 @@
 2. **Obsidian에서 새로운 Vault 열기**
    - Obsidian 실행 → "Open folder as vault" 선택
    - 방금 클론 받은 `Obsidian` 폴더를 선택
-
-
-```
