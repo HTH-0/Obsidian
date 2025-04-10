@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SERVLET/페이지 이동 처리.md",
+                "file": "SERVLET/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "페이지 이동 처리"
+              "title": "무제"
             }
           }
         ]
@@ -189,8 +189,9 @@
   },
   "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
-    "SERVLET/SERVLET 생명주기2.md",
     "SERVLET/페이지 이동 처리.md",
+    "SERVLET/무제.md",
+    "SERVLET/SERVLET 생명주기2.md",
     "SERVLET/SERVLET 생명주기.md",
     "SERVLET/SERVLET.md",
     "SERVLET/.md",
@@ -217,7 +218,6 @@
     "JSP/실기연습1(투표)",
     "To Do/자격증 일정.md",
     "To Do/프로젝트(한컴).md",
-    "VSCODE/VSCODE.md",
     "JSP/08",
     "JSP/07",
     "JSP/06",
