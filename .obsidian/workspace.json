@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SERVLET/설정 파일(xml).md",
+                "file": "SERVLET/SERVLET2/로그인 전체 흐름.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "설정 파일(xml)"
+              "title": "로그인 전체 흐름"
             }
           }
         ]
@@ -189,12 +189,19 @@
   },
   "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
-    "SERVLET/회원가입  로그인.md",
-    "SERVLET/설정 파일(xml).md",
-    "SERVLET/회원가입 처리.md",
-    "SERVLET/페이지 이동 처리.md",
-    "SERVLET/SERVLET 생명주기2.md",
-    "SERVLET/SERVLET 생명주기.md",
+    "SERVLET/SERVLET2/회원가입  로그인 .md",
+    "SERVLET/SERVLET2/로그인 전체 흐름.md",
+    "SERVLET/SERVLET2/로그인 권한처리용.md",
+    "SERVLET/SERVLET2/SERVLET2.md",
+    "SERVLET/SERVLET2",
+    "SERVLET/SERVLET1/SERVLET1.md",
+    "SERVLET/SERVLET1/회원가입  로그인.md",
+    "SERVLET/SERVLET1/설정 파일(xml).md",
+    "SERVLET/SERVLET1",
+    "SERVLET/SERVLET1/회원가입 처리.md",
+    "SERVLET/SERVLET1/페이지 이동 처리.md",
+    "SERVLET/SERVLET1/SERVLET 생명주기2.md",
+    "SERVLET/SERVLET1/SERVLET 생명주기.md",
     "SERVLET/SERVLET.md",
     "SERVLET/.md",
     "JSP/실기연습2/DBUtils.md",
@@ -212,19 +219,12 @@
     "JSP/JSP.md",
     "JSP/무제.md",
     "JSP/실기연습1(투표)/실기연습1(투표).md",
-    "JSP/실기연습1(투표)/CRUD 개요.md",
-    "JSP/실기연습1(투표)/CRUD jsp.md",
-    "JSP/실기연습1(투표)/DTO.md",
-    "JSP/실기연습1(투표)/DTO 설명.md",
-    "JSP/실기연습1(투표)/전체 개요.md",
     "JSP/실기연습1(투표)",
     "JSP/08",
     "JSP/07",
     "JSP/06",
     "JSP/05",
     "JSP/04",
-    "JSP/03",
-    "JSP/02",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",
