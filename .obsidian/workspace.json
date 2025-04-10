@@ -11,14 +11,12 @@
             "id": "85ac14a2d1d10518",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "SERVLET/SERVLET2/로그인 전체 흐름.md",
-                "mode": "source",
-                "source": false
+                "path": "SERVLET/SERVLET2"
               },
               "icon": "lucide-file",
-              "title": "로그인 전체 흐름"
+              "title": "SERVLET2"
             }
           }
         ]
@@ -187,12 +185,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "85ac14a2d1d10518",
+  "active": "ab3ca21d14467145",
   "lastOpenFiles": [
-    "SERVLET/SERVLET2/회원가입  로그인 .md",
-    "SERVLET/SERVLET2/로그인 전체 흐름.md",
-    "SERVLET/SERVLET2/로그인 권한처리용.md",
     "SERVLET/SERVLET2/SERVLET2.md",
+    "SERVLET/Filter/인코딩 설정.md",
+    "SERVLET/Filter/Filter.md",
+    "SERVLET/Filter/인코딩용 필터.md",
+    "SERVLET/Filter/Filter2.md",
+    "SERVLET/Filter/Filter 1.md",
+    "SERVLET/SERVLET2/로그인 전체 흐름.md",
+    "SERVLET/Filter",
+    "SERVLET/SERVLET2/무제.md",
+    "SERVLET/무제.md",
+    "SERVLET/SERVLET2/회원가입  로그인 .md",
+    "SERVLET/SERVLET2/로그인 권한처리용.md",
     "SERVLET/SERVLET2",
     "SERVLET/SERVLET1/SERVLET1.md",
     "SERVLET/SERVLET1/회원가입  로그인.md",
@@ -211,20 +217,12 @@
     "JSP/실기연습2/회원정보조회 페이지.md",
     "JSP/실기연습2/검수 결과 출력 페이지.md",
     "JSP/실기연습2/무제.md",
-    "JSP/실기연습2/수강신청 폼.md",
-    "JSP/실기연습2/강사조회페이지.md",
-    "JSP/실기연습2/DTO 코드.md",
-    "JSP/실기연습2/실기연습2.md",
     "JSP/실기연습2",
-    "JSP/JSP.md",
-    "JSP/무제.md",
-    "JSP/실기연습1(투표)/실기연습1(투표).md",
     "JSP/실기연습1(투표)",
     "JSP/08",
     "JSP/07",
     "JSP/06",
     "JSP/05",
-    "JSP/04",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",
