@@ -50,7 +50,17 @@
   🛠️ [미니프로젝트](https://github.com/HTH-0/Obsidian/tree/master/JAVA/미니프로젝트)  
 
 </details>
+<details>
+  <summary><strong>📁 JSP_SERVLET</strong></summary>
 
+  📁 [GIT](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/GIT)  
+  📁 [LINUX](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/LINUX)  
+  📁 [MYSQL](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/MYSQL)  
+  📁 [VSCODE](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/VSCODE)  
+  📁 [응용 SW 기초](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/응용_SW_기초)  
+  📁 [화면설계](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/화면설계)  
+
+</details>
 <details>
   <summary><strong>📁 MYSQL</strong></summary>
 
