@@ -11,12 +11,14 @@
             "id": "85ac14a2d1d10518",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "SERVLET/Filter"
+                "file": "ToyProject/4.14.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Filter"
+              "title": "4.14"
             }
           }
         ]
@@ -185,8 +187,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8103dd704b4a9801",
+  "active": "85ac14a2d1d10518",
   "lastOpenFiles": [
+    "To Do/자격증 일정.md",
+    "ToyProject/4.14.md",
+    "ToyProject/3.21 (생각).md",
+    "ToyProject/ToyProject.md",
+    "JSP/JSP.md",
     "SERVLET/Filter/Filter.md",
     "SERVLET/Filter/Filter 1.md",
     "SERVLET/Filter/Filter2.md",
@@ -212,11 +219,6 @@
     "SERVLET/.md",
     "JSP/실기연습2/DBUtils.md",
     "SERVLET",
-    "JSP/실기연습2/강사 매출 현황 페이지.md",
-    "JSP/실기연습2/DTO 설명.md",
-    "JSP/실기연습2/회원정보조회 페이지.md",
-    "JSP/실기연습2/검수 결과 출력 페이지.md",
-    "JSP/실기연습2/무제.md",
     "JSP/실기연습2",
     "JSP/실기연습1(투표)",
     "JSP/08",
