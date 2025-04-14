@@ -13,10 +13,10 @@
             "state": {
               "type": "mk-space",
               "state": {
-                "path": "SERVLET/SERVLET2"
+                "path": "SERVLET/Filter"
               },
               "icon": "lucide-file",
-              "title": "SERVLET2"
+              "title": "Filter"
             }
           }
         ]
@@ -73,7 +73,7 @@
             }
           },
           {
-            "id": "ab3ca21d14467145",
+            "id": "2082b9498cb14e4e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -185,14 +185,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ab3ca21d14467145",
+  "active": "8103dd704b4a9801",
   "lastOpenFiles": [
-    "SERVLET/SERVLET2/SERVLET2.md",
-    "SERVLET/Filter/인코딩 설정.md",
     "SERVLET/Filter/Filter.md",
-    "SERVLET/Filter/인코딩용 필터.md",
-    "SERVLET/Filter/Filter2.md",
     "SERVLET/Filter/Filter 1.md",
+    "SERVLET/Filter/Filter2.md",
+    "SERVLET/Filter/인코딩용 필터.md",
+    "SERVLET/Filter/인코딩 설정.md",
+    "SERVLET/SERVLET2/SERVLET2.md",
     "SERVLET/SERVLET2/로그인 전체 흐름.md",
     "SERVLET/Filter",
     "SERVLET/SERVLET2/무제.md",
