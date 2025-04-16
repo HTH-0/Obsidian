@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ToyProject/Battle/4.15 생각.md",
+                "file": "To Do/자격증 일정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.15 생각"
+              "title": "자격증 일정"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "21f47f53bc75a6e1",
+            "id": "1b0fd7c842ea9842",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,8 +189,10 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
-    "ToyProject/Battle/3.24 (생각).md",
+    "MYSQL/MYSQL.md",
+    "MYSQL/정규화.md",
     "ToyProject/Battle/4.15 생각.md",
+    "ToyProject/Battle/3.24 (생각).md",
     "ToyProject/Battle/4.14 생각.md",
     "ToyProject/Battle/3.21 (생각).md",
     "ToyProject/제작과정(3.20).md",
@@ -216,8 +218,6 @@
     "SERVLET/SERVLET2/로그인 권한처리용.md",
     "SERVLET/SERVLET2",
     "SERVLET/SERVLET1/SERVLET1.md",
-    "SERVLET/SERVLET1/회원가입  로그인.md",
-    "SERVLET/SERVLET1/설정 파일(xml).md",
     "SERVLET/SERVLET1",
     "SERVLET",
     "JSP/실기연습2",
