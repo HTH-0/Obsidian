@@ -89,25 +89,25 @@
 <details>
   <summary><strong>📁 JSP</strong></summary>
 
-  📁 [GIT](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/GIT)  
-  📁 [LINUX](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/LINUX)  
-  📁 [MYSQL](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/MYSQL)  
-  📁 [VSCODE](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/VSCODE)  
-  📁 [응용 SW 기초](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/응용_SW_기초)  
-  📁 [화면설계](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/화면설계)  
+  📁 [01 JSP 기초 실습](https://github.com/HTH-0/Obsidian/tree/master/JSP_SERVLET/JSP_SERVLET/01JSP)  
+  📁 [02 HRDKOREA 실습 1](https://github.com/HTH-0/Obsidian/tree/master/JSP_SERVLET/JSP_SERVLET/02HRDKOREA)  
+  📁 [03 HRDKOREA 실습 2](https://github.com/HTH-0/Obsidian/tree/master/JSP_SERVLET/JSP_SERVLET/03HRDKOREA)  
+  └─ CRUD, 템플릿, 유틸 클래스 및 레이아웃 구성 실습  
 
 </details>
+
 <details>
   <summary><strong>📁 SERVLET</strong></summary>
 
-  📁 [GIT](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/GIT)  
-  📁 [LINUX](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/LINUX)  
-  📁 [MYSQL](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/MYSQL)  
-  📁 [VSCODE](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/VSCODE)  
-  📁 [응용 SW 기초](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/응용_SW_기초)  
-  📁 [화면설계](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/화면설계)  
+  📁 [04 서블릿 초기 설정](https://github.com/HTH-0/Obsidian/tree/master/JSP_SERVLET/JSP_SERVLET/04SERVLET_INIT)  
+  📁 [06 필터(Filter)](https://github.com/HTH-0/Obsidian/tree/master/JSP_SERVLET/JSP_SERVLET/06Filter)  
+  📁 [07 리스너(Listener)](https://github.com/HTH-0/Obsidian/tree/master/JSP_SERVLET/JSP_SERVLET/07Listener)  
+  📁 [09 MVC 기본 구조](https://github.com/HTH-0/Obsidian/tree/master/JSP_SERVLET/JSP_SERVLET/09MVC_INIT)  
+  📁 [10 사용자 기능 MVC](https://github.com/HTH-0/Obsidian/tree/master/JSP_SERVLET/JSP_SERVLET/10MVC_USER)  
+  📁 [11 도서 기능 MVC](https://github.com/HTH-0/Obsidian/tree/master/JSP_SERVLET/JSP_SERVLET/11MVC_BOOK)  
 
 </details>
+
 ---
 
 ### 🚀 옵시디언 사용 방법  
