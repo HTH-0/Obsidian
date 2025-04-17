@@ -89,12 +89,19 @@
 <details>
   <summary><strong>📁 JSP</strong></summary>
 
-  📁 [01 JSP 기초 실습](https://github.com/HTH-0/Obsidian/tree/master/JSP_SERVLET/JSP_SERVLET/01JSP)  
-  📁 [02 HRDKOREA 실습 1](https://github.com/HTH-0/Obsidian/tree/master/JSP_SERVLET/JSP_SERVLET/02HRDKOREA)  
-  📁 [03 HRDKOREA 실습 2](https://github.com/HTH-0/Obsidian/tree/master/JSP_SERVLET/JSP_SERVLET/03HRDKOREA)  
-  └─ CRUD, 템플릿, 유틸 클래스 및 레이아웃 구성 실습  
+  📁 [01](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/JSP/01)  
+  📁 [02](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/JSP/02)  
+  📁 [03](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/JSP/03)  
+  📁 [04](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/JSP/04)  
+  📁 [05](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/JSP/05)  
+  📁 [06](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/JSP/06)  
+  📁 [07](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/JSP/07)  
+  📁 [08](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/JSP/08)  
+  📁 [실기연습1(투표)](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/JSP/실기연습1(투표))  
+  📁 [실기연습2](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/JSP/실기연습2)
 
 </details>
+
 
 <details>
   <summary><strong>📁 SERVLET</strong></summary>
