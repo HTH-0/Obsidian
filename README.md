@@ -106,13 +106,13 @@
 <details>
   <summary><strong>📁 SERVLET</strong></summary>
 
-  📁 [SERVLET1](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/SERVLET/SERVLET1)  
-  📁 [SERVLET2](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/SERVLET/SERVLET2)  
-  📁 [Filter](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/SERVLET/Filter)  
-  📁 [Listener](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/SERVLET/Listener)  
-  📁 [MVC INIT](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/SERVLET/MVC%20INIT)  
-  📁 [USER MVC](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/SERVLET/USER%20MVC)  
-  📁 [Resource](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/SERVLET/Resource)  
+  📁 [SERVLET1](https://github.com/HTH-0/Obsidian/tree/master/SERVLET/SERVLET1)  
+  📁 [SERVLET2](https://github.com/HTH-0/Obsidian/tree/master/SERVLET/SERVLET2)  
+  📁 [Filter](https://github.com/HTH-0/Obsidian/tree/master/SERVLET/Filter)  
+  📁 [Listener](https://github.com/HTH-0/Obsidian/tree/master/SERVLET/Listener)  
+  📁 [MVC INIT](https://github.com/HTH-0/Obsidian/tree/master/SERVLET/MVC%20INIT)  
+  📁 [USER MVC](https://github.com/HTH-0/Obsidian/tree/master/SERVLET/USER%20MVC)  
+  📁 [Resource](https://github.com/HTH-0/Obsidian/tree/master/SERVLET/Resource)  
 
 </details>
 
