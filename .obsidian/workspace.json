@@ -11,14 +11,12 @@
             "id": "17bf86ba2f437bdc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "PROJECT/ToyProject/Battle/첫 시작.md",
-                "mode": "source",
-                "source": false
+                "path": "PROJECT/화면구현"
               },
               "icon": "lucide-file",
-              "title": "첫 시작"
+              "title": "화면구현"
             }
           }
         ]
@@ -187,10 +185,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17bf86ba2f437bdc",
+  "active": "a9e58ede2563ba9c",
   "lastOpenFiles": [
-    "PROJECT/ToyProject/Battle/Battle.md",
     "PROJECT/ToyProject/Battle/첫 시작.md",
+    "PROJECT/ToyProject/Battle/Battle.md",
     "PROJECT/ToyProject/Battle/4.15 코드.md",
     "PROJECT/ToyProject/Battle/4.14 생각.md",
     "PROJECT/ToyProject/Battle/4.15 에러.md",

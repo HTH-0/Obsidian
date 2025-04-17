@@ -85,7 +85,7 @@
     "//ToyProject",
     "//PROJECT",
     "//PROJECT/PROJECT/ToyProject",
-    "//PROJECT/PROJECT/ToyProject/PROJECT/ToyProject/Battle"
+    "//PROJECT/PROJECT/화면구현"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
