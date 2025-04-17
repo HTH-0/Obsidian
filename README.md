@@ -106,12 +106,13 @@
 <details>
   <summary><strong>📁 SERVLET</strong></summary>
 
-  📁 [04 서블릿 초기 설정](https://github.com/HTH-0/Obsidian/tree/master/JSP_SERVLET/JSP_SERVLET/04SERVLET_INIT)  
-  📁 [06 필터(Filter)](https://github.com/HTH-0/Obsidian/tree/master/JSP_SERVLET/JSP_SERVLET/06Filter)  
-  📁 [07 리스너(Listener)](https://github.com/HTH-0/Obsidian/tree/master/JSP_SERVLET/JSP_SERVLET/07Listener)  
-  📁 [09 MVC 기본 구조](https://github.com/HTH-0/Obsidian/tree/master/JSP_SERVLET/JSP_SERVLET/09MVC_INIT)  
-  📁 [10 사용자 기능 MVC](https://github.com/HTH-0/Obsidian/tree/master/JSP_SERVLET/JSP_SERVLET/10MVC_USER)  
-  📁 [11 도서 기능 MVC](https://github.com/HTH-0/Obsidian/tree/master/JSP_SERVLET/JSP_SERVLET/11MVC_BOOK)  
+  📁 [SERVLET1](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/SERVLET/SERVLET1)  
+  📁 [SERVLET2](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/SERVLET/SERVLET2)  
+  📁 [Filter](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/SERVLET/Filter)  
+  📁 [Listener](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/SERVLET/Listener)  
+  📁 [MVC INIT](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/SERVLET/MVC%20INIT)  
+  📁 [USER MVC](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/SERVLET/USER%20MVC)  
+  📁 [Resource](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/SERVLET/Resource)  
 
 </details>
 
