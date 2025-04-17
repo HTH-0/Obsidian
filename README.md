@@ -97,7 +97,7 @@
   📁 [06](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/JSP/06)  
   📁 [07](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/JSP/07)  
   📁 [08](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/JSP/08)  
-  📁 [실기연습1(투표)](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/JSP/실기연습1(투표))  
+  📁 [실기연습1(투표)]([https://github.com/HTH-0/Obsidian/tree/master/Obsidian/JSP/실기연습1(투표)](https://github.com/HTH-0/Obsidian/tree/master/JSP/%EC%8B%A4%EA%B8%B0%EC%97%B0%EC%8A%B51(%ED%88%AC%ED%91%9C)))
   📁 [실기연습2](https://github.com/HTH-0/Obsidian/tree/master/Obsidian/JSP/실기연습2)
 
 </details>
