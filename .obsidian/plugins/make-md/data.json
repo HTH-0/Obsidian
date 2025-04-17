@@ -84,7 +84,8 @@
     "//JAVA/JAVA/33.함수형인터페이스",
     "//ToyProject",
     "//PROJECT",
-    "//PROJECT/PROJECT/ToyProject"
+    "//PROJECT/PROJECT/ToyProject",
+    "//PROJECT/PROJECT/ToyProject/PROJECT/ToyProject/Battle"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

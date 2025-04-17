@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PROJECT/ToyProject/Battle/4.15 코드.md",
+                "file": "PROJECT/ToyProject/Battle/첫 시작.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.15 코드"
+              "title": "첫 시작"
             }
           }
         ]
@@ -189,8 +189,10 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
-    "PROJECT/ToyProject/Battle/4.14 생각.md",
+    "PROJECT/ToyProject/Battle/Battle.md",
+    "PROJECT/ToyProject/Battle/첫 시작.md",
     "PROJECT/ToyProject/Battle/4.15 코드.md",
+    "PROJECT/ToyProject/Battle/4.14 생각.md",
     "PROJECT/ToyProject/Battle/4.15 에러.md",
     "PROJECT/ToyProject/Battle/4.15 생각.md",
     "PROJECT/ToyProject/Battle/4.14 코드.md",
@@ -213,8 +215,6 @@
     "JSP/02/Post 방식 폼 전송.md",
     "JSP/02/입력값으로 네비게이션 바 생성.md",
     "JSP/02/Nav 생성 폼.md",
-    "JSP/02/Request Process.md",
-    "JSP/02/JS to JSP.md",
     "SERVLET/USER MVC",
     "SERVLET/MVC INIT",
     "SERVLET/Resource",
