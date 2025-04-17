@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SERVLET/Resource/무제.md",
+                "file": "SERVLET/MCV INIT/Connection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "Connection"
             }
           }
         ]
@@ -189,11 +189,18 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
-    "SERVLET/Resource/Controller, servlet.md",
-    "SERVLET/Resource/무제.md",
+    "SERVLET/MCV INIT/DAO.md",
+    "SERVLET/MCV INIT/Connection.md",
+    "SERVLET/MCV INIT/컨트롤러 2.md",
+    "SERVLET/MCV INIT/MVC 컨트롤러.md",
     "SERVLET/Resource/Resource.md",
+    "SERVLET/MCV INIT/MCV INIT.md",
+    "SERVLET/MCV INIT",
+    "SERVLET/Resource/Resource 설정 1.md",
+    "SERVLET/Resource/Resource 설정 2.md",
+    "SERVLET/Resource/Utils, DTO.md",
+    "SERVLET/Resource/Controller, servlet.md",
     "SERVLET/Listener/Listener 서블릿.md",
-    "SERVLET/무제.md",
     "SERVLET/Resource",
     "SERVLET/Listener/Listener  web.xml.md",
     "SERVLET/Listener/Listener.md",
@@ -212,19 +219,12 @@
     "ToyProject/Battle/Battle.md",
     "ToyProject/Battle",
     "ToyProject/Battle/4.15 에러.md",
-    "ToyProject/Battle/4.14 코드.md",
-    "ToyProject/Battle/3.21 (코드).md",
-    "ToyProject/ToyProject.md",
-    "JSP/JSP.md",
-    "SERVLET/Filter/Filter.md",
-    "SERVLET/Filter/Filter2.md",
     "SERVLET/Filter",
     "SERVLET/SERVLET2",
     "SERVLET/SERVLET1",
     "SERVLET",
     "JSP/실기연습2",
     "JSP/실기연습1(투표)",
-    "JSP/08",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",
