@@ -78,8 +78,11 @@
     "//JSP/JSP/jsp 회원가입 처리",
     "//To Do",
     "//ToyProject/ToyProject/Battle",
-    "//SERVLET",
-    "//SERVLET/SERVLET/USER MVC"
+    "//SERVLET/SERVLET/USER MVC",
+    "//SERVLET/SERVLET/MCV INIT",
+    "//JAVA",
+    "//JAVA/JAVA/34.Annotation",
+    "//JAVA/JAVA/33.함수형인터페이스"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
