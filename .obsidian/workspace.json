@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/33.함수형인터페이스/33-01.함수형 인터페이스.md",
+                "file": "PROJECT/ToyProject/Battle/4.15 코드.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "33-01.함수형 인터페이스"
+              "title": "4.15 코드"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "82a50f3e8baf202c",
+            "id": "8761ee86c839f991",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,9 +189,16 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
+    "PROJECT/ToyProject/Battle/4.14 생각.md",
+    "PROJECT/ToyProject/Battle/4.15 코드.md",
+    "PROJECT/ToyProject/Battle/4.15 에러.md",
+    "PROJECT/ToyProject/Battle/4.15 생각.md",
+    "PROJECT/ToyProject/Battle/4.14 코드.md",
+    "PROJECT/ToyProject/ToyProject.md",
+    "PROJECT/PROJECT.md",
+    "JAVA/33.함수형인터페이스/33-01.함수형 인터페이스.md",
     "JAVA/33.함수형인터페이스/33-02.람다 사칙연산 reduce.md",
     "JAVA/33.함수형인터페이스/33-03.예제(Function, andThen, Currying).md",
-    "JAVA/33.함수형인터페이스/33-01.함수형 인터페이스.md",
     "JAVA/34.Annotation/무제 1.md",
     "JAVA/34.Annotation/무제.md",
     "JAVA/34.Annotation/34.Annotation.md",
@@ -208,18 +215,11 @@
     "JSP/02/Nav 생성 폼.md",
     "JSP/02/Request Process.md",
     "JSP/02/JS to JSP.md",
-    "JSP/02/EL로 요청 파라미터 출력.md",
-    "JSP/03/Main.md",
-    "JSP/03/Include.md",
-    "JSP/03/Error Page.md",
-    "JSP/03/Import.md",
-    "JSP/03/getParameter.md",
-    "JSP/04/Redirect 페이지 이동.md",
     "SERVLET/USER MVC",
     "SERVLET/MVC INIT",
     "SERVLET/Resource",
     "SERVLET/Listener",
-    "ToyProject/Battle",
+    "PROJECT/ToyProject/Battle",
     "SERVLET/Filter",
     "SERVLET/SERVLET2",
     "SERVLET/SERVLET1",

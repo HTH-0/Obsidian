@@ -80,9 +80,11 @@
     "//ToyProject/ToyProject/Battle",
     "//SERVLET/SERVLET/USER MVC",
     "//SERVLET/SERVLET/MCV INIT",
-    "//JAVA",
     "//JAVA/JAVA/34.Annotation",
-    "//JAVA/JAVA/33.함수형인터페이스"
+    "//JAVA/JAVA/33.함수형인터페이스",
+    "//ToyProject",
+    "//PROJECT",
+    "//PROJECT/PROJECT/ToyProject"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
