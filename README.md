@@ -89,25 +89,33 @@
 <details>
   <summary><strong>📁 JSP</strong></summary>
 
-  📁 [GIT](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/GIT)  
-  📁 [LINUX](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/LINUX)  
-  📁 [MYSQL](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/MYSQL)  
-  📁 [VSCODE](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/VSCODE)  
-  📁 [응용 SW 기초](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/응용_SW_기초)  
-  📁 [화면설계](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/화면설계)  
+  📁 [01](https://github.com/HTH-0/Obsidian/tree/master/JSP/01)  
+  📁 [02](https://github.com/HTH-0/Obsidian/tree/master/JSP/02)  
+  📁 [03](https://github.com/HTH-0/Obsidian/tree/master/JSP/03)  
+  📁 [04](https://github.com/HTH-0/Obsidian/tree/master/JSP/04)  
+  📁 [05](https://github.com/HTH-0/Obsidian/tree/master/JSP/05)  
+  📁 [06](https://github.com/HTH-0/Obsidian/tree/master//JSP/06)  
+  📁 [07](https://github.com/HTH-0/Obsidian/tree/master/JSP/07)  
+  📁 [08](https://github.com/HTH-0/Obsidian/tree/master/JSP/08)  
+  📁 [실기연습1(투표)](https://github.com/HTH-0/Obsidian/tree/master/JSP/%EC%8B%A4%EA%B8%B0%EC%97%B0%EC%8A%B51(%ED%88%AC%ED%91%9C))  
+  📁 [실기연습2](https://github.com/HTH-0/Obsidian/tree/master/JSP/%EC%8B%A4%EA%B8%B0%EC%97%B0%EC%8A%B52)
 
 </details>
+
+
 <details>
   <summary><strong>📁 SERVLET</strong></summary>
 
-  📁 [GIT](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/GIT)  
-  📁 [LINUX](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/LINUX)  
-  📁 [MYSQL](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/MYSQL)  
-  📁 [VSCODE](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/VSCODE)  
-  📁 [응용 SW 기초](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/응용_SW_기초)  
-  📁 [화면설계](https://github.com/HTH-0/Obsidian/tree/master/정처산기이론/화면설계)  
+  📁 [SERVLET1](https://github.com/HTH-0/Obsidian/tree/master/SERVLET/SERVLET1)  
+  📁 [SERVLET2](https://github.com/HTH-0/Obsidian/tree/master/SERVLET/SERVLET2)  
+  📁 [Filter](https://github.com/HTH-0/Obsidian/tree/master/SERVLET/Filter)  
+  📁 [Listener](https://github.com/HTH-0/Obsidian/tree/master/SERVLET/Listener)  
+  📁 [MVC INIT](https://github.com/HTH-0/Obsidian/tree/master/SERVLET/MVC%20INIT)  
+  📁 [USER MVC](https://github.com/HTH-0/Obsidian/tree/master/SERVLET/USER%20MVC)  
+  📁 [Resource](https://github.com/HTH-0/Obsidian/tree/master/SERVLET/Resource)  
 
 </details>
+
 ---
 
 ### 🚀 옵시디언 사용 방법  
