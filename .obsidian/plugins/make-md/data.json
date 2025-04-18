@@ -82,10 +82,7 @@
     "//SERVLET/SERVLET/MCV INIT",
     "//JAVA/JAVA/34.Annotation",
     "//JAVA/JAVA/33.함수형인터페이스",
-    "//ToyProject",
-    "//PROJECT",
-    "//PROJECT/PROJECT/ToyProject",
-    "//PROJECT/PROJECT/화면구현"
+    "//ToyProject"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
