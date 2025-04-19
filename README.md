@@ -7,7 +7,7 @@
 
 ---
 
-## 📂 옵시디언 폴더 구조  
+## 📂 폴더 구조  
 
 <details>
   <summary><strong>📁 JAVA</strong></summary>
