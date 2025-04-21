@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SERVLET/MVC BOOK/FIlter.md",
+                "file": "To Do/깃허브 식물.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FIlter"
+              "title": "깃허브 식물"
             }
           }
         ]
@@ -189,8 +189,9 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
-    "SERVLET/MVC BOOK/Service.md",
     "SERVLET/MVC BOOK/FIlter.md",
+    "To Do/깃허브 식물.md",
+    "SERVLET/MVC BOOK/Service.md",
     "SERVLET/MVC BOOK/DTO.md",
     "SERVLET/MVC BOOK/DAO.md",
     "SERVLET/MVC BOOK/BookReadController , update, delete.md",
@@ -216,7 +217,6 @@
     "MYSQL/용어 정리/파생속성.md",
     "To Do/자격증 일정.md",
     "MYSQL/용어 정리",
-    "MYSQL/무제.md",
     "SERVLET/USER MVC",
     "SERVLET/MVC INIT",
     "SERVLET/Resource",
