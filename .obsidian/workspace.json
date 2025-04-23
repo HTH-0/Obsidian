@@ -11,14 +11,14 @@
             "id": "17bf86ba2f437bdc",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "To Do/깃허브 식물.md",
-                "bFile": "To Do/깃허브 식물.md",
-                "aRef": ""
+                "file": "Spring/parameter 처리 Controller.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 깃허브 식물"
+              "icon": "lucide-file",
+              "title": "parameter 처리 Controller"
             }
           }
         ]
@@ -189,6 +189,9 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
+    "Spring/어노테이션.md",
+    "Spring/parameter 처리 Controller.md",
+    "Spring/.md",
     "Spring/Spring.md",
     "SERVLET/MVC REPLY/Dto.md",
     "Spring",
@@ -215,9 +218,6 @@
     "JSP/08/08.md",
     "JSP/JSP.md",
     "MYSQL/용어 정리/키 종류(후보키, 기본키, 대체키, 슈퍼키, 외래키).md",
-    "MYSQL/용어 정리/용어 정리.md",
-    "MYSQL/용어 정리/정규화.md",
-    "MYSQL/용어 정리/도메인 (Domain).md",
     "MYSQL/용어 정리",
     "SERVLET/USER MVC",
     "SERVLET/MVC INIT",
