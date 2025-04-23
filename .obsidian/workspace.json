@@ -11,14 +11,14 @@
             "id": "17bf86ba2f437bdc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "To Do/깃허브 식물.md",
-                "mode": "source",
-                "source": false
+                "aFile": "To Do/깃허브 식물.md",
+                "bFile": "To Do/깃허브 식물.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "깃허브 식물"
+              "icon": "diff",
+              "title": "Diff: 깃허브 식물"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "ef5062dd44bb56a2",
+            "id": "a956802988b3303e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,8 +189,19 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
-    "SERVLET/MVC BOOK/FIlter.md",
+    "Spring/Spring.md",
+    "SERVLET/MVC REPLY/Dto.md",
+    "Spring",
+    "SERVLET/MVC REPLY/무제.md",
+    "SERVLET/MVC REPLY/Dao.md",
+    "SERVLET/MVC REPLY/Controller.md",
+    "SERVLET/MVC REPLY/MVC REPLY.md",
+    "SERVLET/MVC REPLY",
+    "SERVLET/SERVLET.md",
+    "To Do/자격증 일정.md",
+    "To Do/은행 입출력.md",
     "To Do/깃허브 식물.md",
+    "SERVLET/MVC BOOK/FIlter.md",
     "SERVLET/MVC BOOK/Service.md",
     "SERVLET/MVC BOOK/DTO.md",
     "SERVLET/MVC BOOK/DAO.md",
@@ -201,21 +212,12 @@
     "SERVLET/MVC BOOK",
     "SERVLET/USER MVC/USER MVC.md",
     "SERVLET/무제.md",
-    "SERVLET/SERVLET.md",
     "JSP/08/08.md",
     "JSP/JSP.md",
     "MYSQL/용어 정리/키 종류(후보키, 기본키, 대체키, 슈퍼키, 외래키).md",
     "MYSQL/용어 정리/용어 정리.md",
     "MYSQL/용어 정리/정규화.md",
     "MYSQL/용어 정리/도메인 (Domain).md",
-    "MYSQL/용어 정리/무제.md",
-    "MYSQL/용어 정리/관계차수  카더닐리티.md",
-    "MYSQL/용어 정리/엔터티 발생 시점에 따른 분류.md",
-    "MYSQL/용어 정리/주 식별자 본질 식별자.md",
-    "MYSQL/용어 정리/스키마( 내부 외부 개념).md",
-    "MYSQL/용어 정리/식별자  비식별자.md",
-    "MYSQL/용어 정리/파생속성.md",
-    "To Do/자격증 일정.md",
     "MYSQL/용어 정리",
     "SERVLET/USER MVC",
     "SERVLET/MVC INIT",
@@ -223,8 +225,6 @@
     "SERVLET/Listener",
     "PROJECT/ToyProject/Battle",
     "SERVLET/Filter",
-    "SERVLET/SERVLET2",
-    "SERVLET/SERVLET1",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",
