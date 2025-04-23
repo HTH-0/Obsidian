@@ -61,11 +61,6 @@ public class ParameterController {
 		log.info("GET /param/p09..." + dto);
 	}
 	
-	@GetMapping("/page01")
-	public void page01(PersonDto dto) {
-		log.info("GET /param/page01..." + dto);
-	}
-}
 ```
 
 ---
@@ -128,13 +123,7 @@ public class ParameterController {
     - URI 경로 값을 `@ModelAttribute` DTO에 자동 매핑
         
     - 예: `/param/p09/kim/22/seoul` → `PersonDto`에 자동 바인딩
-        
-- `page01()`
-    
-    - 요청 파라미터를 `PersonDto`에 바인딩
-        
-    - 반환값이 void → `/WEB-INF/views/param/page01.jsp` 뷰로 포워딩
-        
+                
 
 ---
 
