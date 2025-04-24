@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Bean 등록 방식.md",
+                "file": "Spring/05 DataSource/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bean 등록 방식"
+              "title": "무제"
             }
           }
         ]
@@ -189,9 +189,15 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
-    "Spring/04 Exception/Error.jsp.md",
-    "Spring/Bean 등록 방식.md",
+    "Spring/05 DataSource/root-context 갱신.md",
+    "Spring/05 DataSource/무제.md",
+    "Spring/05 DataSource/DaoImpl.md",
+    "Spring/05 DataSource/ServiceImpl.md",
     "Spring/05 DataSource/05 DataSource.md",
+    "Spring/01 lombok/무제.md",
+    "Spring/01 lombok/01 lombok.md",
+    "Spring/Bean 등록 방식.md",
+    "Spring/04 Exception/Error.jsp.md",
     "Spring/05 DataSource",
     "Spring/04 Exception/무제.md",
     "Spring/04 Exception/GlobalException.md",
@@ -208,19 +214,13 @@
     "Spring/03 Validation/MemoDto.md",
     "Spring/02 Parameter/어노테이션.md",
     "Spring/03 Validation",
-    "Spring/01 lombok/01 lombok.md",
     "Spring/01 lombok",
     "Spring/02 Parameter/Parameter 처리 3 (Redirect) .md",
     "Spring/02 Parameter/Parameter 처리 2.md",
     "Spring/02 Parameter/Parameter 처리 3 (Forward).md",
     "Spring/02 Parameter",
     "Spring/02 Parameter/Parameter 처리 1.md",
-    "Spring/Spring.md",
-    "Spring/.md",
-    "SERVLET/MVC REPLY/Dto.md",
     "Spring",
-    "SERVLET/MVC REPLY/무제.md",
-    "SERVLET/MVC REPLY/Dao.md",
     "SERVLET/MVC REPLY",
     "SERVLET/MVC BOOK",
     "MYSQL/용어 정리",
