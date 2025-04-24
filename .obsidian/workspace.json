@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/02 Parameter/어노테이션.md",
+                "file": "Spring/03 Validation/UserController.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "어노테이션"
+              "title": "UserController"
             }
           }
         ]
@@ -187,8 +187,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "78c6285d921915cd",
+  "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
+    "Spring/03 Validation/MemoController.md",
+    "Spring/03 Validation/UserController.md",
+    "Spring/03 Validation/UserDto.md",
+    "Spring/03 Validation/03 Validation.md",
+    "Spring/03 Validation/MemoDto.md",
+    "Spring/02 Parameter/어노테이션.md",
+    "Spring/03 Validation",
     "Spring/01 lombok/01 lombok.md",
     "Spring/01 lombok",
     "Spring/02 Parameter/02 Parameter.md",
@@ -199,7 +206,6 @@
     "Spring/02 Parameter/Parameter 처리 1.md",
     "Spring/무제.md",
     "Spring/Spring.md",
-    "Spring/02 Parameter/어노테이션.md",
     "Spring/.md",
     "SERVLET/MVC REPLY/Dto.md",
     "Spring",
@@ -214,17 +220,11 @@
     "To Do/깃허브 식물.md",
     "SERVLET/MVC BOOK/FIlter.md",
     "SERVLET/MVC BOOK/Service.md",
-    "SERVLET/MVC BOOK/DTO.md",
-    "SERVLET/MVC BOOK/DAO.md",
-    "SERVLET/MVC BOOK/BookReadController , update, delete.md",
-    "SERVLET/MVC BOOK/BookListController.md",
-    "SERVLET/MVC BOOK/BookCreateController.md",
     "SERVLET/MVC BOOK",
     "MYSQL/용어 정리",
     "SERVLET/USER MVC",
     "SERVLET/MVC INIT",
     "SERVLET/Resource",
-    "SERVLET/Listener",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",
