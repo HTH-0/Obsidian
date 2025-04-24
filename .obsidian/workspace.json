@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/어노테이션.md",
+                "file": "Spring/02 Parameter/어노테이션.md",
                 "mode": "source",
                 "source": false
               },
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "a956802988b3303e",
+            "id": "78c6285d921915cd",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -187,8 +187,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17bf86ba2f437bdc",
+  "active": "78c6285d921915cd",
   "lastOpenFiles": [
+    "Spring/01 lombok/01 lombok.md",
+    "Spring/01 lombok",
     "Spring/02 Parameter/02 Parameter.md",
     "Spring/02 Parameter/Parameter 처리 3 (Redirect) .md",
     "Spring/02 Parameter/Parameter 처리 2.md",
@@ -197,7 +199,7 @@
     "Spring/02 Parameter/Parameter 처리 1.md",
     "Spring/무제.md",
     "Spring/Spring.md",
-    "Spring/어노테이션.md",
+    "Spring/02 Parameter/어노테이션.md",
     "Spring/.md",
     "SERVLET/MVC REPLY/Dto.md",
     "Spring",
@@ -217,14 +219,12 @@
     "SERVLET/MVC BOOK/BookReadController , update, delete.md",
     "SERVLET/MVC BOOK/BookListController.md",
     "SERVLET/MVC BOOK/BookCreateController.md",
-    "SERVLET/MVC BOOK/MVC BOOK.md",
     "SERVLET/MVC BOOK",
     "MYSQL/용어 정리",
     "SERVLET/USER MVC",
     "SERVLET/MVC INIT",
     "SERVLET/Resource",
     "SERVLET/Listener",
-    "PROJECT/ToyProject/Battle",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",
