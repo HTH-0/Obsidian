@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/05 DataSource/DataSource.md",
+                "file": "Spring/06 MyBatis/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DataSource"
+              "title": "무제"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "51800aa4e688fdce",
+            "id": "8e37da98f950f313",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -187,13 +187,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8103dd704b4a9801",
+  "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
-    "Spring/05 DataSource/root-context 갱신.md",
+    "Spring/06 MyBatis/pom 설정.md",
+    "Spring/06 MyBatis/무제.md",
+    "Spring/06 MyBatis/root-context 설정.md",
+    "Spring/06 MyBatis/06 MyBatis.md",
+    "Spring/Spring.md",
+    "Spring/06 MyBatis",
+    "Spring/05 DataSource/05 DataSource.md",
+    "Spring/05 DataSource/DayaSource class.md",
+    "Spring/06 MyBatis\\",
     "Spring/05 DataSource/DataSource.md",
+    "Spring/05 DataSource/root-context 갱신.md",
     "Spring/05 DataSource/DaoImpl.md",
     "Spring/05 DataSource/ServiceImpl.md",
-    "Spring/05 DataSource/05 DataSource.md",
     "Spring/01 lombok/무제.md",
     "Spring/01 lombok/01 lombok.md",
     "Spring/Bean 등록 방식.md",
@@ -211,20 +219,12 @@
     "Spring/03 Validation/UserController.md",
     "Spring/03 Validation/MemoController.md",
     "Spring/03 Validation/UserDto.md",
-    "Spring/03 Validation/MemoDto.md",
-    "Spring/02 Parameter/어노테이션.md",
     "Spring/03 Validation",
     "Spring/01 lombok",
-    "Spring/02 Parameter/Parameter 처리 3 (Redirect) .md",
-    "Spring/02 Parameter/Parameter 처리 2.md",
-    "Spring/02 Parameter/Parameter 처리 3 (Forward).md",
     "Spring/02 Parameter",
-    "Spring/02 Parameter/Parameter 처리 1.md",
     "Spring",
     "SERVLET/MVC REPLY",
     "SERVLET/MVC BOOK",
-    "MYSQL/용어 정리",
-    "SERVLET/USER MVC",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",

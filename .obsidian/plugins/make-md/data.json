@@ -84,7 +84,8 @@
     "//ToyProject",
     "//MYSQL/MYSQL/용어 정리",
     "//Spring",
-    "//Spring/Spring/05 DataSource"
+    "//Spring/Spring/06 MyBatis\\",
+    "//Spring/Spring/06 MyBatis"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
