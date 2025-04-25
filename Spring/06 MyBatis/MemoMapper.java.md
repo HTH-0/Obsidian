@@ -1,4 +1,4 @@
-# 🧾 MemoMapper.java - MyBatis Mapper 인터페이스 정리
+# 🧭 `MemoMapper.java` 분석 - MyBatis Mapper 인터페이스
 
 ## 📦 전체 코드
 
@@ -39,11 +39,11 @@ public interface MemoMapper {
 	public List<MemoDto> selectAll(); 
 
 	@Results(id="MemoResultMap", value= {
-		@Result(property = "id", column="id"),
-		@Result(property = "text", column="text")
+			@Result(property = "id",column="id"),
+			@Result(property = "text", column="text")
 	})
 	@Select("select * from tbl_memo")
-	public List<Map<String,Object>> selectAllResultMap(); 
+	public List< Map<String,Object> > selectAllResultMap(); 
 	
 	// xml 방식
 	public int insertXml(MemoDto memoDto);
@@ -52,6 +52,8 @@ public interface MemoMapper {
 	public MemoDto selectAtXml(int id);
 	public List<MemoDto> selectAllXml();
 	public List<Map<String, Object>> selectAllResultMapXml();
+	public List<Map<String,Object>> Select_if_xml(Map<String,Object> param);
+	public List<Map<String, Object>> Select_when_xml(Map<String, Object> param);
 }
 ```
 
@@ -61,84 +63,59 @@ public interface MemoMapper {
 
 ### ✅ 클래스 및 어노테이션 설명
 
-- `@Mapper`: MyBatis에서 Mapper 인터페이스로 인식하게 함 (컴포넌트 스캔 대상)
-    
-- 이 인터페이스는 DB의 `tbl_memo` 테이블과 연동
-    
-
----
-
-### ✅ 어노테이션 기반 SQL 메서드
-
-#### `insert(MemoDto memoDto)`
-
-- `@SelectKey`: insert 전에 `max(id)+1`을 조회하여 id 값을 설정
-    
-    - `before = false`: insert 후 실행되며, 결과는 DTO의 `id`에 자동 설정
-        
-- `@Insert`: SQL 직접 작성 방식
-    
-- 필드: id, text, writer, createAt
+- `@Mapper`  
+    → MyBatis가 이 인터페이스를 Mapper로 인식하게 해줌 (Spring이 자동으로 구현체 생성)
     
 
-#### `update(MemoDto dto)`
+### ✅ 어노테이션 기반 SQL 매핑 메서드
 
-- 해당 id를 가진 메모의 `text`만 수정
+- `@SelectKey` + `@Insert`
+    
+    ```java
+    @SelectKey(statement="select max(id)+1 from tbl_memo", keyProperty = "id", before = false, resultType = int.class)
+    @Insert("INSERT INTO tbl_memo VALUES (#{id}, #{text}, #{writer}, #{createAt})")
+    ```
+    
+    → `id`를 DB에서 미리 생성하지 않고, insert 이후에 `max(id)+1`로 수동 생성  
+    → `before = false`로 인해 insert 실행 후 selectKey 실행됨
+    
+- `@Update`, `@Delete`, `@Select`  
+    → 간단한 쿼리일 경우 어노테이션만으로 처리 가능  
+    → `#{}`를 통해 파라미터 바인딩
+    
+- `@Results`, `@Result`  
+    → `ResultMap` 지정, 반환 타입이 DTO가 아니라 `Map<String,Object>`일 때 명시적 매핑 필요
     
 
-#### `delete(int id)`
+### ✅ XML 기반 매핑 메서드
 
-- 특정 id의 메모 삭제
+- 다음 메서드들은 `MemoMapper.xml`에 매핑된 SQL 구문을 따로 정의해야 함
     
-
-#### `selectAt(int id)`
-
-- 단건 조회 → `MemoDto` 반환
+    ```java
+    public int insertXml(MemoDto memoDto);
+    public int updateXml(MemoDto memoDto);
+    public int deleteXml(@Param("id") int id);
+    public MemoDto selectAtXml(int id);
+    public List<MemoDto> selectAllXml();
+    public List<Map<String, Object>> selectAllResultMapXml();
+    public List<Map<String,Object>> Select_if_xml(Map<String,Object> param);
+    public List<Map<String, Object>> Select_when_xml(Map<String, Object> param);
+    ```
     
-
-#### `selectAll()`
-
-- 전체 조회 → `List<MemoDto>` 반환
-    
-
-#### `selectAllResultMap()`
-
-- `@Results`: ResultMap 지정
-    
-- `List<Map<String, Object>>` 형태로 조회 (DTO 대신 key-value 쌍으로 접근할 때 사용)
-    
-
----
-
-### ✅ XML 기반 SQL 메서드
-
-```java
-public int insertXml(MemoDto memoDto);
-public int updateXml(MemoDto memoDto);
-public int deleteXml(@Param("id") int id);
-public MemoDto selectAtXml(int id);
-public List<MemoDto> selectAllXml();
-public List<Map<String, Object>> selectAllResultMapXml();
-```
-
-- 위 메서드들은 XML 매퍼 파일에서 구현 내용을 분리하여 관리
-    
-- 각 메서드는 `<mapper>` XML의 `<insert>`, `<update>`, `<select>`와 매핑됨
-    
-- `@Param`은 파라미터가 2개 이상이거나 명시적으로 매핑할 필요가 있을 때 사용
+- 특히 `Select_if_xml`, `Select_when_xml` 은 `<if>`, `<choose>` 와 같은 동적 SQL 태그를 이용해 조건 처리 수행
     
 
 ---
 
 ## 📌 요약
 
-- 이 인터페이스는 `tbl_memo` 테이블에 대한 CRUD를 정의함
+- `MemoMapper`는 `MemoDto`와 연결된 MyBatis 매퍼 인터페이스
     
-- 어노테이션 방식과 XML 방식이 함께 존재함
+- 간단한 SQL은 어노테이션 방식으로 직접 정의 (`@Insert`, `@Select`, `@Update`, `@Delete`)
     
-- `@SelectKey`를 사용해 커스텀 방식으로 id 생성
+- 복잡한 SQL은 XML 파일에서 매핑 (동적 조건문 포함)
     
-- `ResultMap`을 이용해 `Map<String, Object>` 형태로도 조회 가능
+- `@SelectKey`는 PK를 수동으로 생성할 때 사용되며, DB의 auto_increment를 쓰지 않는 방식
     
-- 실무에서는 단순 쿼리는 어노테이션, 복잡한 쿼리는 XML로 분리하는 경우가 많음
+- `@Results`는 반환값이 Map일 때 필요한 컬럼-필드 매핑 설정
     
