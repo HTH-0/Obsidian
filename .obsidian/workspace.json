@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/06 MyBatis/MemoMapper.java.md",
+                "file": "Spring/08 RestController/Axios.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MemoMapper.java"
+              "title": "Axios"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "8e37da98f950f313",
+            "id": "6348778b3f68470e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,8 +189,24 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
-    "Spring/06 MyBatis/ MybatisTests.java.md",
+    "Spring/08 RestController/Controller, JSP 뷰 페이지.md",
+    "Spring/08 RestController/Axios.md",
+    "Spring/08 RestController/RestController.md",
+    "Spring/08 RestController/응답 포멧.md",
+    "Spring/08 RestController/CRUD.md",
+    "Spring/08 RestController/08 RestController.md",
+    "Spring/08 RestController/.md",
+    "Spring/07 Tx/무제.md",
+    "Spring/08 RestController",
+    "Spring/07 Tx/DataSourceConfig, TxTests.md",
+    "Spring/07 Tx/DTO, Mapper.md",
+    "Spring/07 Tx/Txconfig.md",
+    "Spring/07 Tx/MemoServiceImpl.md",
+    "Spring/07 Tx/07 Tx.md",
     "Spring/06 MyBatis/MemoMapper.java.md",
+    "Spring/07 Tx",
+    "Spring/무제.md",
+    "Spring/06 MyBatis/ MybatisTests.java.md",
     "Spring/06 MyBatis/MybatisConfig.md",
     "Spring/06 MyBatis/MemoMapper.xml.md",
     "Spring/06 MyBatis/pom 설정.md",
@@ -203,28 +219,12 @@
     "Spring/06 MyBatis\\",
     "Spring/05 DataSource/DataSource.md",
     "Spring/05 DataSource/root-context 갱신.md",
-    "Spring/05 DataSource/DaoImpl.md",
-    "Spring/05 DataSource/ServiceImpl.md",
-    "Spring/01 lombok/무제.md",
-    "Spring/01 lombok/01 lombok.md",
-    "Spring/Bean 등록 방식.md",
-    "Spring/04 Exception/Error.jsp.md",
     "Spring/05 DataSource",
-    "Spring/04 Exception/무제.md",
-    "Spring/04 Exception/GlobalException.md",
-    "Spring/04 Exception/Exception Controller.md",
-    "Spring/04 Exception/04 Exception.md",
-    "Spring/03 Validation/join.jsp( User ).md",
     "Spring/04 Exception",
-    "Spring/03 Validation/Memo.jsp.md",
-    "Spring/03 Validation/03 Validation.md",
-    "Spring/02 Parameter/02 Parameter.md",
     "Spring/03 Validation",
     "Spring/01 lombok",
     "Spring/02 Parameter",
     "Spring",
-    "SERVLET/MVC REPLY",
-    "SERVLET/MVC BOOK",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",

@@ -85,7 +85,8 @@
     "//MYSQL/MYSQL/용어 정리",
     "//Spring",
     "//Spring/Spring/06 MyBatis\\",
-    "//Spring/Spring/06 MyBatis"
+    "//Spring/Spring/08",
+    "//Spring/Spring/08 RestController"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
