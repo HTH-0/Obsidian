@@ -11,14 +11,12 @@
             "id": "17bf86ba2f437bdc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Spring/08 RestController/Axios.md",
-                "mode": "source",
-                "source": false
+                "path": "Spring/09 FileUpDownload"
               },
               "icon": "lucide-file",
-              "title": "Axios"
+              "title": "09 FileUpDownload"
             }
           }
         ]
@@ -75,7 +73,7 @@
             }
           },
           {
-            "id": "6348778b3f68470e",
+            "id": "ac54bcaeb31172e6",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -187,14 +185,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17bf86ba2f437bdc",
+  "active": "7c6e2a636827c043",
   "lastOpenFiles": [
-    "Spring/08 RestController/Controller, JSP 뷰 페이지.md",
+    "Spring/09 FileUpDownload/09 FileUpDownload.md",
+    "Spring/09 FileUpDownload",
+    "Spring/08 RestController/08 RestController.md",
+    "Spring/08 RestController/무제.md",
+    "Spring/08 RestController/요약.md",
     "Spring/08 RestController/Axios.md",
+    "Spring/08 RestController/Controller, JSP 뷰 페이지.md",
     "Spring/08 RestController/RestController.md",
     "Spring/08 RestController/응답 포멧.md",
     "Spring/08 RestController/CRUD.md",
-    "Spring/08 RestController/08 RestController.md",
     "Spring/08 RestController/.md",
     "Spring/07 Tx/무제.md",
     "Spring/08 RestController",
@@ -215,16 +217,12 @@
     "Spring/Spring.md",
     "Spring/06 MyBatis",
     "Spring/05 DataSource/05 DataSource.md",
-    "Spring/05 DataSource/DayaSource class.md",
     "Spring/06 MyBatis\\",
-    "Spring/05 DataSource/DataSource.md",
-    "Spring/05 DataSource/root-context 갱신.md",
     "Spring/05 DataSource",
     "Spring/04 Exception",
     "Spring/03 Validation",
     "Spring/01 lombok",
     "Spring/02 Parameter",
-    "Spring",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",
