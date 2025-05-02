@@ -86,7 +86,7 @@
     "//Spring",
     "//Spring/Spring/06 MyBatis\\",
     "//Spring/Spring/08",
-    "//Spring/Spring/09 FileUpDownload"
+    "//Spring/Spring/10 INTERCEPTOR"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

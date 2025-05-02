@@ -11,12 +11,14 @@
             "id": "17bf86ba2f437bdc",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "Spring/09 FileUpDownload"
+                "file": "Spring/10 INTERCEPTOR/무제.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "09 FileUpDownload"
+              "title": "무제"
             }
           }
         ]
@@ -185,11 +187,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c6e2a636827c043",
+  "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
+    "Spring/10 INTERCEPTOR/MVC Interceptor.md",
+    "Spring/10 INTERCEPTOR/무제.md",
+    "Spring/10 INTERCEPTOR/10 INTERCEPTOR.md",
+    "Spring/09 FileUpDownload/파일 업로드,  JSP.md",
+    "Spring/10 INTERCEPTOR",
+    "Spring/무제.md",
+    "Spring/09 FileUpDownload/FileUpDownloadController.md",
+    "Spring/09 FileUpDownload/전체 요약.md",
     "Spring/09 FileUpDownload/09 FileUpDownload.md",
-    "Spring/09 FileUpDownload",
+    "Spring/09 FileUpDownload/.md",
     "Spring/08 RestController/08 RestController.md",
+    "Spring/Spring.md",
+    "Spring/Bean 등록 방식.md",
+    "Spring/05 DataSource/05 DataSource.md",
+    "Spring/09 FileUpDownload",
     "Spring/08 RestController/무제.md",
     "Spring/08 RestController/요약.md",
     "Spring/08 RestController/Axios.md",
@@ -204,25 +218,13 @@
     "Spring/07 Tx/DTO, Mapper.md",
     "Spring/07 Tx/Txconfig.md",
     "Spring/07 Tx/MemoServiceImpl.md",
-    "Spring/07 Tx/07 Tx.md",
-    "Spring/06 MyBatis/MemoMapper.java.md",
     "Spring/07 Tx",
-    "Spring/무제.md",
-    "Spring/06 MyBatis/ MybatisTests.java.md",
-    "Spring/06 MyBatis/MybatisConfig.md",
-    "Spring/06 MyBatis/MemoMapper.xml.md",
-    "Spring/06 MyBatis/pom 설정.md",
-    "Spring/06 MyBatis/root-context 설정.md",
-    "Spring/06 MyBatis/06 MyBatis.md",
-    "Spring/Spring.md",
     "Spring/06 MyBatis",
-    "Spring/05 DataSource/05 DataSource.md",
     "Spring/06 MyBatis\\",
     "Spring/05 DataSource",
     "Spring/04 Exception",
     "Spring/03 Validation",
     "Spring/01 lombok",
-    "Spring/02 Parameter",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",
