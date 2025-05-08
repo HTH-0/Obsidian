@@ -85,7 +85,11 @@
     "//MYSQL/MYSQL/용어 정리",
     "//Spring/Spring/06 MyBatis\\",
     "//Spring/Spring/08",
-    "//Spring/Spring/10 INTERCEPTOR"
+    "//Spring/Spring/10 INTERCEPTOR",
+    "//Springboot/Springboot/INIT",
+    "//Springboot/Springboot/01INIT",
+    "//Springboot",
+    "//Springboot/Springboot/04Exception"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
