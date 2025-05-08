@@ -83,11 +83,9 @@
     "//JAVA/JAVA/33.함수형인터페이스",
     "//ToyProject",
     "//MYSQL/MYSQL/용어 정리",
-    "//Spring",
     "//Spring/Spring/06 MyBatis\\",
     "//Spring/Spring/08",
-    "//Spring/Spring/10 INTERCEPTOR",
-    "//Spring/Spring/14 SpringSecurity"
+    "//Spring/Spring/10 INTERCEPTOR"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

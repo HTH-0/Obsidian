@@ -11,14 +11,12 @@
             "id": "17bf86ba2f437bdc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Spring/14 SpringSecurity/Spring Secrity 심화.md",
-                "mode": "source",
-                "source": false
+                "path": "Spring/14 SpringSecurity"
               },
               "icon": "lucide-file",
-              "title": "Spring Secrity 심화"
+              "title": "14 SpringSecurity"
             }
           }
         ]
@@ -187,11 +185,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17bf86ba2f437bdc",
+  "active": "080b1f1edfe4c9b7",
   "lastOpenFiles": [
-    "Spring/14 SpringSecurity/SpringSecurity.md",
-    "Spring/14 SpringSecurity/Spring Secrity 심화.md",
     "Spring/14 SpringSecurity/14 SpringSecurity.md",
+    "Spring/14 SpringSecurity/Spring Secrity 심화.md",
+    "Spring/14 SpringSecurity/SpringSecurity.md",
     "Spring/14 SpringSecurity",
     "Spring/13 AOP/13 AOP.md",
     "Spring/13 AOP/@Around 예제.md",
