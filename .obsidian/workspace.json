@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Springboot/07JPA/JPA 관계 매핑.md",
+                "file": "Springboot/07JPA/편의 메서드.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JPA 관계 매핑"
+              "title": "편의 메서드"
             }
           }
         ]
@@ -189,9 +189,15 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
-    "Springboot/07JPA/구성.md",
+    "Springboot/07JPA/관계 삭제.md",
+    "Springboot/07JPA/편의 메서드.md",
+    "Springboot/07JPA/@OrderColumn.md",
+    "Springboot/07JPA/LAZY + @Transactional.md",
+    "Springboot/07JPA/@OneToMany.md",
     "Springboot/07JPA/JPA 관계 매핑.md",
     "Springboot/07JPA/JPA.md",
+    "Springboot/07JPA/구성.md",
+    "Springboot/07JPA/.md",
     "Springboot/07JPA/07JPA.md",
     "Spring/Spring.md",
     "Springboot/06MyBatis/application 정리.md",
@@ -213,13 +219,7 @@
     "Springboot/04Exception",
     "Springboot/Springboot.md",
     "Springboot/02Param/02Param.md",
-    "Springboot/03Validation/03Validation.md",
     "Springboot/03Validation",
-    "Springboot/03Validation/form 태그 global error.md",
-    "Springboot/무제.md",
-    "Springboot/03Validation/유효성검사 메세지.md",
-    "Springboot/03Validation/MVC 유효성 검사.md",
-    "Springboot/02Param/파라미터 전달 방식.md",
     "Springboot/02Param",
     "Springboot/01Init",
     "Springboot",
