@@ -76,7 +76,6 @@
     "//JAVA/JAVA/32.",
     "//JAVA/JAVA/33.",
     "//JSP/JSP/jsp 회원가입 처리",
-    "//To Do",
     "//ToyProject/ToyProject/Battle",
     "//SERVLET/SERVLET/MCV INIT",
     "//JAVA/JAVA/34.Annotation",
@@ -87,9 +86,9 @@
     "//Spring/Spring/08",
     "//Springboot/Springboot/INIT",
     "//Springboot/Springboot/01INIT",
-    "//Springboot",
     "//Springboot/Springboot/07JAP",
-    "//Springboot/Springboot/07JPA"
+    "//Springboot/Springboot/07JPA",
+    "//MYSQL"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
