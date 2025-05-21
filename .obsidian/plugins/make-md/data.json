@@ -87,8 +87,10 @@
     "//Springboot/Springboot/INIT",
     "//Springboot/Springboot/01INIT",
     "//Springboot/Springboot/07JAP",
-    "//Springboot/Springboot/07JPA",
-    "//MYSQL"
+    "//Springboot",
+    "//Springboot/Springboot/RestController",
+    "//Springboot/Springboot/11RestfulApi",
+    "//Springboot/Springboot/11RESTFULAPI"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
