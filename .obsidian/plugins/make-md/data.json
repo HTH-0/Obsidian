@@ -87,10 +87,11 @@
     "//Springboot/Springboot/INIT",
     "//Springboot/Springboot/01INIT",
     "//Springboot/Springboot/07JAP",
-    "//Springboot",
     "//Springboot/Springboot/RestController",
     "//Springboot/Springboot/11RestfulApi",
-    "//Springboot/Springboot/11RESTFULAPI"
+    "//PROJECT",
+    "//PROJECT/PROJECT/HealthMe",
+    "//PROJECT/PROJECT/HealthMe/PROJECT/HealthMe/LoginJoin"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

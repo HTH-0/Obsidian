@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Springboot/11RESTFULAPI/PortOne(아임포트) 결제 API 연동.md",
+                "file": "PROJECT/HealthMe/LoginJoin/JWT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PortOne(아임포트) 결제 API 연동"
+              "title": "JWT"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "9ed9a96ad8d500db",
+            "id": "9ff1eba65344d4e0",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,8 +189,15 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
-    "Springboot/11RESTFULAPI/Google Calendar API 연동 (풀캘린더 + 일정 등록).md",
+    "PROJECT/HealthMe/LoginJoin/JWT.md",
+    "PROJECT/HealthMe/LoginJoin/LoginJoin.md",
+    "PROJECT/HealthMe/LoginJoin",
+    "PROJECT/HealthMe/HealthMe.md",
     "Springboot/11RESTFULAPI/PortOne(아임포트) 결제 API 연동.md",
+    "PROJECT/HealthMe",
+    "PROJECT/무제.md",
+    "PROJECT/헬스미.md",
+    "Springboot/11RESTFULAPI/Google Calendar API 연동 (풀캘린더 + 일정 등록).md",
     "Springboot/11RESTFULAPI/Naver OAuth2 로그인 및 프로필 정보 조회.md",
     "Springboot/11RESTFULAPI/Kakao 로그인 및 메시지 전송 기능 구현.md",
     "Springboot/11RESTFULAPI/Leaflet.js + Spring Boot 연동.md",
@@ -214,17 +221,10 @@
     "Springboot/08TX/TX 설정.md",
     "Springboot/09RestController",
     "Springboot/08TX",
-    "MYSQL/용어 정리/정규화.md",
-    "Springboot/07JPA/편의 메서드.md",
-    "Springboot/07JPA/관계 삭제.md",
-    "Springboot/07JPA/@OrderColumn.md",
-    "Springboot/07JPA/LAZY + @Transactional.md",
     "Springboot/07JPA",
     "Springboot/06MyBatis",
     "Springboot/05DataSource",
     "Springboot/04Exception",
-    "Springboot/03Validation",
-    "Springboot/02Param",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",
