@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MYSQL/용어 정리/Null 연상.md",
+                "file": "MYSQL/용어 정리/`ORDER BY` 숫자 사용.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Null 연상"
+              "title": "`ORDER BY` 숫자 사용"
             }
           }
         ]
@@ -189,8 +189,10 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
-    "MYSQL/용어 정리/SQL 문장의 종류.md",
+    "MYSQL/용어 정리/NVL ISNULL NULLIF COALESCE.md",
+    "MYSQL/용어 정리/`ORDER BY` 숫자 사용.md",
     "MYSQL/용어 정리/Null 연상.md",
+    "MYSQL/용어 정리/SQL 문장의 종류.md",
     "MYSQL/MYSQL.md",
     "PROJECT/HealthMe/LoginJoin/Spring Security.md",
     "PROJECT/HealthMe/LoginJoin/LoginJoin.md",
@@ -217,8 +219,6 @@
     "Springboot/10ThymeLeaf/실습.md",
     "Springboot/11RESTFULAPI",
     "Springboot/10ThymeLeaf/ Spring Boot + Thymeleaf 정리.md",
-    "Springboot/10ThymeLeaf/10ThymeLeaf.md",
-    "Springboot/09RestController/09RestController.md",
     "Springboot/10ThymeLeaf",
     "Springboot/09RestController",
     "Springboot/08TX",
