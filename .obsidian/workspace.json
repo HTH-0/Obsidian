@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PROJECT/HealthMe/LoginJoin/JWT.md",
+                "file": "PROJECT/HealthMe/결과페이지/설문 점수 → 영양소 분석 결과 제공 구조 설계.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JWT"
+              "title": "설문 점수 → 영양소 분석 결과 제공 구조 설계"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "9ff1eba65344d4e0",
+            "id": "b624cc203565937d",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,6 +189,11 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
+    "PROJECT/HealthMe/결과페이지/설문 점수 → 영양소 분석 결과 제공 구조 설계.md",
+    "PROJECT/HealthMe/결과페이지/결과페이지.md",
+    "PROJECT/HealthMe/LoginJoin/userid를 PK로 쓰지 않는 이유.md",
+    "PROJECT/HealthMe/결과페이지",
+    "PROJECT/HealthMe/무제.md",
     "PROJECT/HealthMe/LoginJoin/JWT.md",
     "PROJECT/HealthMe/LoginJoin/LoginJoin.md",
     "PROJECT/HealthMe/LoginJoin",
@@ -215,16 +220,11 @@
     "Springboot/10ThymeLeaf",
     "Springboot/무제.md",
     "Springboot/08TX/속성 상세.md",
-    "Springboot/08TX/08TX.md",
-    "Springboot/07JPA/07JPA.md",
-    "Springboot/07JPA/무제.md",
-    "Springboot/08TX/TX 설정.md",
     "Springboot/09RestController",
     "Springboot/08TX",
     "Springboot/07JPA",
     "Springboot/06MyBatis",
     "Springboot/05DataSource",
-    "Springboot/04Exception",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",
