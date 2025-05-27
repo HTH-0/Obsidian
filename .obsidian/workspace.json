@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PROJECT/HealthMe/결과페이지/설문 점수 → 영양소 분석 결과 제공 구조 설계.md",
+                "file": "MYSQL/용어 정리/Null 연상.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "설문 점수 → 영양소 분석 결과 제공 구조 설계"
+              "title": "Null 연상"
             }
           }
         ]
@@ -189,13 +189,17 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
+    "MYSQL/용어 정리/SQL 문장의 종류.md",
+    "MYSQL/용어 정리/Null 연상.md",
+    "MYSQL/MYSQL.md",
+    "PROJECT/HealthMe/LoginJoin/Spring Security.md",
+    "PROJECT/HealthMe/LoginJoin/LoginJoin.md",
     "PROJECT/HealthMe/결과페이지/설문 점수 → 영양소 분석 결과 제공 구조 설계.md",
     "PROJECT/HealthMe/결과페이지/결과페이지.md",
     "PROJECT/HealthMe/LoginJoin/userid를 PK로 쓰지 않는 이유.md",
     "PROJECT/HealthMe/결과페이지",
     "PROJECT/HealthMe/무제.md",
     "PROJECT/HealthMe/LoginJoin/JWT.md",
-    "PROJECT/HealthMe/LoginJoin/LoginJoin.md",
     "PROJECT/HealthMe/LoginJoin",
     "PROJECT/HealthMe/HealthMe.md",
     "Springboot/11RESTFULAPI/PortOne(아임포트) 결제 API 연동.md",
@@ -215,11 +219,7 @@
     "Springboot/10ThymeLeaf/ Spring Boot + Thymeleaf 정리.md",
     "Springboot/10ThymeLeaf/10ThymeLeaf.md",
     "Springboot/09RestController/09RestController.md",
-    "Springboot/09RestController/@RestController.md",
-    "Springboot/09RestController/실습 예제 정리.md",
     "Springboot/10ThymeLeaf",
-    "Springboot/무제.md",
-    "Springboot/08TX/속성 상세.md",
     "Springboot/09RestController",
     "Springboot/08TX",
     "Springboot/07JPA",
