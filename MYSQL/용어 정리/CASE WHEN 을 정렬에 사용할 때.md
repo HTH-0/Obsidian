@@ -1,0 +1,7 @@
+CASE WHEN 정렬 (ORDER BY CASE)**
+
+sql
+
+복사편집
+
+`ORDER BY (CASE WHEN ID = 999 THEN 0 ELSE ID END)`
