@@ -130,4 +130,3 @@ FULL OUTER JOIN 주문 B ON A.고객ID = B.고객ID;
     
 
 ---
-필요하면 이걸 PDF나 발표용 정리로 변환해줄 수 있어. 더 도와줄까?

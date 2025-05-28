@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MYSQL/용어 정리/LEFT OUTER 와 INNER JOIN.md",
+                "file": "MYSQL/JOIN 시 ON  WHERE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LEFT OUTER 와 INNER JOIN"
+              "title": "JOIN 시 ON  WHERE"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "b624cc203565937d",
+            "id": "83c53b7c5231b5c4",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,8 +189,9 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
-    "MYSQL/용어 정리/EQUI JOIN , 옵티마이저.md",
     "MYSQL/용어 정리/LEFT OUTER 와 INNER JOIN.md",
+    "MYSQL/JOIN 시 ON  WHERE.md",
+    "MYSQL/용어 정리/EQUI JOIN , 옵티마이저.md",
     "MYSQL/용어 정리/CASE WHEN 을 정렬에 사용할 때.md",
     "MYSQL/용어 정리/SELECT 실행 순서.md",
     "MYSQL/용어 정리/NVL ISNULL NULLIF COALESCE.md",
@@ -217,7 +218,6 @@
     "Springboot/11RESTFULAPI/Kakao 로그인 및 메시지 전송 기능 구현.md",
     "Springboot/11RESTFULAPI/Leaflet.js + Spring Boot 연동.md",
     "Springboot/11RESTFULAPI/공공데이터 API 실습.md",
-    "Springboot/11RESTFULAPI/대구버스 실시간 위치 조회 API.md",
     "Springboot/11RESTFULAPI",
     "Springboot/10ThymeLeaf",
     "Springboot/09RestController",
