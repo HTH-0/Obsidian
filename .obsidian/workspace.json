@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MYSQL/용어 정리/중첩 서브쿼리.md",
+                "file": "MYSQL/용어 정리/EXISTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "중첩 서브쿼리"
+              "title": "EXISTS"
             }
           }
         ]
@@ -189,8 +189,15 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
-    "MYSQL/용어 정리/JOIN 시 ON  WHERE.md",
+    "MYSQL/용어 정리/계층형 질의.md",
+    "MYSQL/용어 정리/EXISTS.md",
+    "MYSQL/용어 정리/WINDOW 함수.md",
+    "MYSQL/용어 정리/SET OPERATOR ( 집합 연산자).md",
+    "MYSQL/용어 정리/GROUPING SETS  GROUPING.md",
+    "MYSQL/용어 정리/ROLLUP  CUBE 차이.md",
+    "MYSQL/용어 정리/그룹 함수.md",
     "MYSQL/용어 정리/중첩 서브쿼리.md",
+    "MYSQL/용어 정리/JOIN 시 ON  WHERE.md",
     "MYSQL/JOIN 시 ON  WHERE.md",
     "MYSQL/무제.md",
     "MYSQL/공부풀이/SELECT ( NULL, DISTINCT, AS).md",
@@ -209,16 +216,9 @@
     "PROJECT/HealthMe/LoginJoin/LoginJoin.md",
     "PROJECT/HealthMe/결과페이지/설문 점수 → 영양소 분석 결과 제공 구조 설계.md",
     "PROJECT/HealthMe/결과페이지/결과페이지.md",
-    "PROJECT/HealthMe/LoginJoin/userid를 PK로 쓰지 않는 이유.md",
     "PROJECT/HealthMe/결과페이지",
-    "PROJECT/HealthMe/무제.md",
-    "PROJECT/HealthMe/LoginJoin/JWT.md",
     "PROJECT/HealthMe/LoginJoin",
-    "PROJECT/HealthMe/HealthMe.md",
-    "Springboot/11RESTFULAPI/PortOne(아임포트) 결제 API 연동.md",
     "PROJECT/HealthMe",
-    "PROJECT/무제.md",
-    "PROJECT/헬스미.md",
     "Springboot/11RESTFULAPI",
     "Springboot/10ThymeLeaf",
     "Springboot/09RestController",
