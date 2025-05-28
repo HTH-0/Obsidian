@@ -1,6 +1,5 @@
 ---
-aliases:
-  - GROUPING SETS / GROUPING
+aliases: []
 ---
 
 ---

@@ -81,7 +81,6 @@
     "//JAVA/JAVA/34.Annotation",
     "//JAVA/JAVA/33.함수형인터페이스",
     "//ToyProject",
-    "//MYSQL/MYSQL/용어 정리",
     "//Spring/Spring/06 MyBatis\\",
     "//Spring/Spring/08",
     "//Springboot/Springboot/INIT",
@@ -89,7 +88,8 @@
     "//Springboot/Springboot/07JAP",
     "//Springboot/Springboot/RestController",
     "//Springboot/Springboot/11RestfulApi",
-    "//MYSQL"
+    "//MYSQL",
+    "//MYSQL/MYSQL/용어 정리"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

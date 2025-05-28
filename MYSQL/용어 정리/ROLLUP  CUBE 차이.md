@@ -1,6 +1,5 @@
 ---
-aliases:
-  - ROLLUP / CUBE 차이
+aliases: []
 ---
 
 ---
