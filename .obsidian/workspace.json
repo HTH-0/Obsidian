@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MYSQL/용어 정리/JOIN 시 ON  WHERE.md",
+                "file": "MYSQL/용어 정리/중첩 서브쿼리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JOIN 시 ON  WHERE"
+              "title": "중첩 서브쿼리"
             }
           }
         ]
@@ -189,8 +189,9 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
-    "MYSQL/JOIN 시 ON  WHERE.md",
     "MYSQL/용어 정리/JOIN 시 ON  WHERE.md",
+    "MYSQL/용어 정리/중첩 서브쿼리.md",
+    "MYSQL/JOIN 시 ON  WHERE.md",
     "MYSQL/무제.md",
     "MYSQL/공부풀이/SELECT ( NULL, DISTINCT, AS).md",
     "MYSQL/공부풀이/공부풀이.md",
@@ -218,7 +219,6 @@
     "PROJECT/HealthMe",
     "PROJECT/무제.md",
     "PROJECT/헬스미.md",
-    "Springboot/11RESTFULAPI/Google Calendar API 연동 (풀캘린더 + 일정 등록).md",
     "Springboot/11RESTFULAPI",
     "Springboot/10ThymeLeaf",
     "Springboot/09RestController",
