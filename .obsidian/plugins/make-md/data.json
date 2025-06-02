@@ -88,8 +88,7 @@
     "//Springboot/Springboot/07JAP",
     "//Springboot/Springboot/RestController",
     "//Springboot/Springboot/11RestfulApi",
-    "//MYSQL",
-    "//MYSQL/MYSQL/용어 정리"
+    "//MYSQL"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
