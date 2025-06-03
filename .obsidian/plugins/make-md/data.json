@@ -88,7 +88,9 @@
     "//Springboot/Springboot/07JAP",
     "//Springboot/Springboot/RestController",
     "//Springboot/Springboot/11RestfulApi",
-    "//MYSQL"
+    "//MYSQL",
+    "//PROJECT",
+    "//PROJECT/PROJECT/HealthMe"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

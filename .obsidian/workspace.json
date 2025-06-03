@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "1a16ac210bd0792e",
+            "id": "75a473405970a1a4",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,6 +189,7 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
+    "Tags",
     "MYSQL/용어 정리/MERGE.md",
     "MYSQL/용어 정리/데이터 독립성.md",
     "MYSQL/용어 정리/정규화.md",
@@ -214,7 +215,6 @@
     "MYSQL/용어 정리/테이블 생성 시 주의사항.md",
     "MYSQL/용어 정리/DDL 제약조건.md",
     "MYSQL/용어 정리/GRANT REVOKE  추가정리.md",
-    "MYSQL/용어 정리/GRANT  REVOKE.md",
     "MYSQL/공부풀이",
     "PROJECT/HealthMe/결과페이지",
     "PROJECT/HealthMe/LoginJoin",
