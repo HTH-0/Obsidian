@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MYSQL/용어 정리/DELETE  MODIFY ACTION.md",
+                "file": "PROJECT/HealthMe/LoginJoin/AccessTokenRefreshToken  쿠키에서 삭제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DELETE  MODIFY ACTION"
+              "title": "AccessTokenRefreshToken  쿠키에서 삭제"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "1a16ac210bd0792e",
+            "id": "5bfb560e07c90b65",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,10 +189,12 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
+    "PROJECT/HealthMe/LoginJoin/AccessTokenRefreshToken  쿠키에서 삭제.md",
+    "PROJECT/HealthMe/LoginJoin/LoginJoin.md",
+    "MYSQL/용어 정리/DELETE  MODIFY ACTION.md",
     "MYSQL/용어 정리/MERGE.md",
     "MYSQL/용어 정리/데이터 독립성.md",
     "MYSQL/용어 정리/정규화.md",
-    "MYSQL/용어 정리/DELETE  MODIFY ACTION.md",
     "MYSQL/용어 정리/무제.md",
     "MYSQL/용어 정리/CASE WHEN THEN.md",
     "MYSQL/DELETE  MODIFY ACTION` .md",
@@ -213,8 +215,6 @@
     "MYSQL/용어 정리/.md",
     "MYSQL/용어 정리/테이블 생성 시 주의사항.md",
     "MYSQL/용어 정리/DDL 제약조건.md",
-    "MYSQL/용어 정리/GRANT REVOKE  추가정리.md",
-    "MYSQL/용어 정리/GRANT  REVOKE.md",
     "MYSQL/공부풀이",
     "PROJECT/HealthMe/결과페이지",
     "PROJECT/HealthMe/LoginJoin",
