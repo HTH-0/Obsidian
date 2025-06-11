@@ -90,8 +90,7 @@
     "//Springboot/Springboot/11RestfulApi",
     "//MYSQL",
     "//PROJECT",
-    "//PROJECT/PROJECT/HealthMe",
-    "//PROJECT/PROJECT/HealthMe/PROJECT/HealthMe/LoginJoin"
+    "//PROJECT/PROJECT/HealthMe"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
