@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PROJECT/HealthMe/LoginJoin/AccessTokenRefreshToken  쿠키에서 삭제.md",
+                "file": "PROJECT/HealthMe/LoginJoin/Spring Security.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AccessTokenRefreshToken  쿠키에서 삭제"
+              "title": "Spring Security"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "8f50fd5a4743f826",
+            "id": "3254febdf2adffe8",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,9 +189,16 @@
   },
   "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "PROJECT/HealthMe/LoginJoin/AccessTokenRefreshToken  쿠키에서 삭제.md",
+    "PROJECT/HealthMe/결과페이지/추천 재료 알고리즘 .md",
+    "PROJECT/HealthMe/LoginJoin/임시 비밀번호 발급.md",
     "PROJECT/HealthMe/LoginJoin/LoginJoin.md",
+    "PROJECT/HealthMe/무제.md",
+    "PROJECT/HealthMe/LoginJoin/JWT 토큰 어디에 저장할것인가.md",
+    "PROJECT/HealthMe/LoginJoin/AccessTokenRefreshToken  쿠키에서 삭제.md",
+    "PROJECT/HealthMe/LoginJoin/JWT.md",
+    "PROJECT/HealthMe/결과페이지/설문 점수 → 영양소 분석 결과 제공 구조 설계.md",
+    "PROJECT/HealthMe/결과페이지/결과페이지.md",
+    "conflict-files-obsidian-git.md",
     "MYSQL/용어 정리/DELETE  MODIFY ACTION.md",
     "MYSQL/용어 정리/MERGE.md",
     "MYSQL/용어 정리/데이터 독립성.md",
@@ -208,13 +215,6 @@
     "MYSQL/용어 정리/파생속성.md",
     "MYSQL/용어 정리/도메인 (Domain).md",
     "MYSQL/용어 정리/엔터티 발생 시점에 따른 분류.md",
-    "MYSQL/용어 정리/관계차수  카더닐리티.md",
-    "MYSQL/용어 정리/키 종류(후보키, 기본키, 대체키, 슈퍼키, 외래키).md",
-    "MYSQL/용어 정리/ DROP  TRUNCATE  DELETE.md",
-    "MYSQL/용어 정리/트랜잭션.md",
-    "MYSQL/용어 정리/ORDER BY 숫자 사용.md",
-    "MYSQL/용어 정리/.md",
-    "MYSQL/용어 정리/테이블 생성 시 주의사항.md",
     "MYSQL/공부풀이",
     "PROJECT/HealthMe/결과페이지",
     "PROJECT/HealthMe/LoginJoin",

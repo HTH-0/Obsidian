@@ -4,7 +4,7 @@ JWT 쿠키 기반 로그인 적용하면서 발생한 문제와 해결 과정 �
 
 1. accessToken / refreshToken 저장 위치 변경  
     기존에는 localStorage에 저장했는데, XSS에 취약하다는 점 때문에 쿠키(HttpOnly)로 변경함.  
-    accessToken은 30분~~1시간, refreshToken은 3일~~1달 정도가 일반적인 만료 설정임.
+    accessToken은 30분 refreshToken은 1달 정도가 일반적인 만료 설정임.
     
 2. 로그인 후 응답이 안 오고 JSON parse 에러가 발생한 문제  
     React에서 로그인 요청을 보냈는데 빈 화면만 뜨고, 콘솔에는 JSON parse 에러가 났음.  

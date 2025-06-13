@@ -2,7 +2,6 @@
 aliases:
   - AccessToken/RefreshToken  쿠키에서 삭제
 ---
-
 ## JWT 로그아웃 처리 방식 (accessToken - 쿠키 방식)
 
 ### 목적
