@@ -8,4 +8,4 @@ TEST2_1 폴더에 SourceTree 연결
 - feature/func1 branch 를 dev 에 병합
 - feature/func2 branch 를 dev 에 병합
 - master 에 dev 병합
-- 발생하는 충돌이 있을시 적절하게 해결후 Commit merge 할 것
+- 발생하는 충돌이 있을시 적절하게 해결후 Commit merge 할 것d

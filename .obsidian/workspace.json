@@ -13,10 +13,10 @@
             "state": {
               "type": "mk-space",
               "state": {
-                "path": "정처산기이론"
+                "path": "정처산기이론/GIT"
               },
               "icon": "lucide-file",
-              "title": "정처산기이론"
+              "title": "GIT"
             }
           }
         ]
@@ -185,8 +185,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e9e829fe011056b4",
+  "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
+    "정처산기이론/GIT/01_기본문제.txt.sb-fb78045e-YedAaU",
+    "정처산기이론/GIT/GIT.md",
     "정처산기이론/정처산기이론.md",
     "PROJECT/HealthMe/LoginJoin/AccessTokenRefreshToken  쿠키에서 삭제.md",
     "Tags",
@@ -212,8 +214,6 @@
     "MYSQL/용어 정리/NVL ISNULL NULLIF COALESCE.md",
     "MYSQL/용어 정리/CASE WHEN 을 정렬에 사용할 때.md",
     "MYSQL/용어 정리/식별자  비식별자.md",
-    "MYSQL/용어 정리/주 식별자 본질 식별자.md",
-    "MYSQL/용어 정리/스키마( 내부 외부 개념).md",
     "MYSQL/공부풀이",
     "PROJECT/HealthMe/결과페이지",
     "PROJECT/HealthMe/LoginJoin",
