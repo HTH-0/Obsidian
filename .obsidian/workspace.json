@@ -11,12 +11,14 @@
             "id": "17bf86ba2f437bdc",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "정처산기이론/GIT"
+                "file": "정처기/1/무제 1.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "GIT"
+              "title": "무제 1"
             }
           }
         ]
@@ -73,7 +75,7 @@
             }
           },
           {
-            "id": "aa45d94861b2458f",
+            "id": "90552adab9b9fb49",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -185,10 +187,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b5aa349f973ba59c",
+  "active": "17bf86ba2f437bdc",
   "lastOpenFiles": [
-    "정처산기이론/GIT/01_기본문제.txt.sb-fb78045e-YedAaU",
+    "정처기/1/2과목.md",
+    "정처기/1/무제 2.md",
+    "정처기/1/무제 1.md",
+    "정처기/1/1과목.md",
+    "정처기/1/1.md",
+    "To Do/To Do.md",
+    "정처기/1",
+    "정처기/정처기.md",
+    "To Do/자격증 일정.md",
+    "정처기",
+    "To Do/은행 입출력.md",
+    "To Do/깃허브 식물.md",
     "정처산기이론/GIT/GIT.md",
+    "정처산기이론/GIT/01_기본문제.txt.sb-fb78045e-YedAaU",
     "정처산기이론/정처산기이론.md",
     "PROJECT/HealthMe/LoginJoin/AccessTokenRefreshToken  쿠키에서 삭제.md",
     "Tags",
@@ -205,24 +219,12 @@
     "conflict-files-obsidian-git.md",
     "MYSQL/용어 정리/DELETE  MODIFY ACTION.md",
     "MYSQL/용어 정리/MERGE.md",
-    "MYSQL/용어 정리/데이터 독립성.md",
-    "MYSQL/용어 정리/정규화.md",
-    "MYSQL/용어 정리/무제.md",
-    "MYSQL/용어 정리/CASE WHEN THEN.md",
-    "MYSQL/DELETE  MODIFY ACTION` .md",
-    "MYSQL/용어 정리/용어 정리.md",
-    "MYSQL/용어 정리/NVL ISNULL NULLIF COALESCE.md",
-    "MYSQL/용어 정리/CASE WHEN 을 정렬에 사용할 때.md",
-    "MYSQL/용어 정리/식별자  비식별자.md",
     "MYSQL/공부풀이",
     "PROJECT/HealthMe/결과페이지",
     "PROJECT/HealthMe/LoginJoin",
     "PROJECT/HealthMe",
     "Springboot/11RESTFULAPI",
     "Springboot/10ThymeLeaf",
-    "Springboot/09RestController",
-    "Springboot/08TX",
-    "Springboot/07JPA",
     "To Do/제목 없음.png",
     "To Do/타자 배경.png",
     "To Do/타자 참고 2.png",
